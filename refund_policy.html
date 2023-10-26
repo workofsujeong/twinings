@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinings</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <div class="policyContainer refundPolicy">
+        <aside class="policysideMenu">
+            <nav>
+                <ul>
+                    <li><a href="terms_service.html">Terms of Service</a></li>
+                    <li><a href="refund_policy.html" class="active">Refund policy</a></li>
+                    <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                    <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                    <li><a href="promotion_terms_conitions.html">Promotion T&amp;C</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div>
+            <h2>Refund policy</h2>
+            <ol>
+                <li>
+                    <h3>Cancellation</h3>
+                    <p>1. You may cancel your order within 14 days of the date on which the Products are delivered to you for any reason. Please be aware that we are unable to cancel, refund or exchange the products listed below unless they are faulty or not as described (please see Return of Faulty Products sections for further information about returning faulty goods).</p>                
+                    <div>
+                        <p>You can cancel during this 14-day cooling-off period by</p>
+                        <p>1&#41; informing us by either: <br>
+                            • emailing your cancellation to us at twinings.direct@twinings.com <br>
+                            • calling us on +44 (0)1264 313444 between the hours of 8am to 6pm Monday to Friday (except for Public Bank Holidays)
+                        </p>
+                        <p>2&#41; returning the Product(s) to us. Products should be returned to Twinings Direct, Unit 13, 15 Trench Road, Mallusk, BT36 4TY, UK without undue delay and in any case, not later than 14 days from the day on which you cancel. Please note that we will not reimburse your postage costs for returning Products. You will be responsible for the cost of returning the item(s) to us and risk remains with you until we receive the Product(s). These provisions do not affect any statutory rights that you may have.</p>
+                    </div>
+                    <p>
+                        2. Products we are unable to cancel, refund or exchange: <br>
+                        • Products which have been personalised for you. <br>
+                        • Perishable goods such as confectionery, chocolate, biscuits, cakes, crackers, marmalades and preserves. <br>
+                        • Sale items reduced due to a short best before date (this will be indicated on the product listing).
+                    </p>
+                </li>
+                <li>
+                    <h3>Effect of Cancellation & Refund Policy</h3>
+                    <p>1. If you cancel your order in accordance with these terms and conditions, we will reimburse to you all payments we have received from you in respect of the returned Products including any applicable costs of delivery to you except for the supplementary costs arising if you chose a type of delivery other than the least expensive type of standard delivery offered by us.</p>
+                    <p>2. We may make a deduction from the reimbursement for any loss in value of any Products supplied, if the loss is the result of unnecessary handling.  Unnecessary handling is any handling over and above what is necessary to establish the nature, characteristics and functionality of the products (i.e what you would do in a shop to inspect the products prior to purchase). For the avoidance of doubt, we will not refund Product(s) which have been opened or tampered with or which have been consumed in whole or in part (unless the Products are defective and such defect was only apparent on opening of the Product). It is your responsibility to ensure Products are returned in suitable packaging, we will make a deduction from the reimbursement of any items returned damaged if they are not suitably packaged.</p>
+                    <p>3. Please note that we may withhold reimbursement until we have received the Products back or you have supplied evidence of having sent the Products back, whichever is the earliest. We will then reimburse you within 14 days of the earlier of these two events using the same means of payment used for the initial transaction, unless you have agreed otherwise.</p>
+                    <p>4. We may have to cancel an order before the Products are delivered, due to an event outside our control or the unavailability of stock. We will promptly contact you if this happens. If we have to cancel an order and you have made any payment in advance for Products that have not been delivered to you, we will refund these amounts to you.</p>
+                </li>
+                <li>
+                    <h3>Return of Faulty Products</h3>
+                    <p>1. We are under a legal obligation to supply products that conform to the Contract. Therefore, if the Products delivered are not of satisfactory quality or do not conform to the description provided or any of these terms upon delivery, you may cancel the Contract and obtain a full refund (including a refund of the delivery charges for sending the item to you and the cost incurred by you in returning the item to us) by returning the faulty Products to us at Twinings Direct, Unit 13, 15 Trench Road, Mallusk, BT36 4TY, UK within 6 months from the date of purchase. On notifying Twinings of your faulty Products, please provide proof of purchase (providing your order number will be satisfactory).</p>
+                    <p>2. Please note that we may withhold reimbursement until we have received the faulty Products back or you have supplied evidence of having sent the faulty Products back, whichever is the earliest. We will then reimburse you within 14 days of the earlier of these two events using the same means of payment used for the initial transaction, unless you have agreed otherwise.</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

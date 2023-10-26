@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinings</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <div class="checkoutContainer payment">
+        <div id="paymentComplete">
+            <h2>Payment Complete</h2>
+            <p>thanks for the order!</p>
+            <a href="index.html" class="btnTwg shopnow">Close</a>
+        </div>
+        <div>
+            <ol>
+                <li class="active">Cart</li>
+                <li class="active">Information</li>
+                <li class="active">Shipping</li>
+                <li class="active">Payment</li>
+            </ol>
+            <ul>
+                <li>
+                    <span>Contact</span>
+                    <p>abb0123@gmail.com</p>
+                    <a href="checkout_Information.html">edit</a>
+                </li>
+                <li>
+                    <span>Ship to</span>
+                    <p>Sincheon 7-Gil, Siheung-Si, Na-302, 14947 Siheung-Si, Gyeonggi, South Korea</p>
+                    <a href="checkout_Information.html">edit</a>
+                </li>
+                <li>
+                    <span>Method</span>
+                    <p>UK Standard £3.95</p>
+                    <a href="checkout_shipping.html">edit</a>
+                </li>
+            </ul>
+            <form action="checkout_PaymentComplete.html">
+                <h2>Payment</h2>
+                <div>
+                    <h3>Credit card</h3>
+                    <ul>
+                        <li>
+                            <input type="number" id="checkoutCardnumber" placeholder="Card number">
+                            <input type="text" id="checkoutCardname" placeholder="Name on card">
+                            <input type="text" id="checkoutExpirationdate" class="halfwh" placeholder="Expiration date&#40;MM/YY&#41;">
+                            <input type="text" id="checkoutSecuritycode" class="halfwh" placeholder="Security code">
+                        </li>
+                    </ul>
+                </div>
+                <a href="checkout_shipping.html">Back to shipping</a>
+                <input type="submit" value="Pay now">
+            </form>
+        </div>
+        <aside>
+            <ul>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <strong>1</strong>
+                    <span>
+                        £
+                        <strong>10.50</strong>
+                    </span>  
+                </li>
+            </ul>
+            <div>
+                <input type="text" id="checkoutDiscountcode" placeholder="Gift card or discount code">
+                <input type="submit" value="Apply">
+            </div>
+            <div>
+                <div>
+                    <span>Subtotal</span>
+                    <span>
+                        £
+                        <strong>10.50</strong>
+                    </span>
+                </div>
+                <div>
+                    <span>Discount</span>
+                    <span>
+                        -£
+                        <strong>00.00</strong>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <span>Total</span>
+                <span>
+                    £
+                    <strong>10.50</strong>
+                </span>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

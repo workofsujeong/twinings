@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinings</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <section class="listContainer fruitAndherb">
+        <h2>Shop Twinings Tea</h2>
+        <p>Shop Twinings fantastic range of high-quality black teas, refreshing green teas and fruit & herbal infusions, expertly chosen by Twinings Master Blenders.</p>
+        <div>
+            <a href="list_teaAll.html">Shop All</a>
+            <a href="list_blackTea.html">Black Tea</a>
+            <a href="list_greenTea.html">Green Tea</a>
+            <a href="list_fruitandHerb.html">Fruit &amp; Herbal</a>
+            <a href="list_teaAll.html#listDecaffeinatedTea">Decaffeinated Tea</a>
+            <a href="list_teaAll.html#listHotchocoandMaltDrinks">Hot Chocolate &amp; Malt Drinks</a>
+        </div>        
+        <div>
+            <h3>Fruit &amp; Herbal</h3>
+            <ul>
+                <li>
+                    <a href="item_fruitandHerb001.html">
+                        <img src="images/Item_FruitandHerbT001_001.webp" alt="Buttermint product image">
+                        <h4>Buttermint</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Twinings Buttermint has a loyal fan base who have 
+                            inundated us with requests to bring the product back, 
+                            so we have!</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb002.html">
+                        <img src="images/Item_FruitandHerbT002_001.webp" alt="Superblends Sleep product image">
+                        <h4>Superblends Sleep</h4>
+                        <p>20 Envelopes</p>
+                        <p>A serene and warming blend, making it the perfect part of 
+                            your bedtime routine.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb003.html">
+                        <img src="images/Item_FruitandHerbT003_001.webp" alt="Superblends Immune Support product image">
+                        <h4>Superblends Immune Support</h4>
+                        <p>20 Envelopes</p>
+                        <p>A juicy, sweet layered blend of forest fruits infused with a 
+                            touch of sharpness from the hibiscus and uplifting woody 
+                            notes from the echinacea.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb004.html">
+                        <img src="images/Item_FruitandHerbT004_001.webp" alt=" Superblends Sleep Valerian & Orange Blossom product image">
+                        <h4>Superblends Sleep Valerian &amp; Orange Blossom</h4>
+                        <p>20 Envelopes</p>
+                        <p>A light, golden and well-rounded tea 
+                            with a lot of body and depth.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb005.html">
+                        <img src="images/Item_FruitandHerbT005_001.webp" alt="Mango & Strawberry product image">
+                        <h4>Mango &amp; Strawberry</h4>
+                        <p>20 Tea Bags</p>
+                        <p>An irresistible burst of tropical sunshine from exotic mango, 
+                            blended with the sweet taste of strawberry &amp; zesty lime.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb006.html">
+                        <img src="images/Item_FruitandHerbT006_001.webp" alt="Fruits Selection product image">
+                        <h4>Fruits Selection</h4>
+                        <p>20 Envelopes</p>
+                        <p>A selection box of bright colours, sweet scents 
+                            and fruity aromas.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb007.html">
+                        <img src="images/Item_FruitandHerbT007_001.webp" alt="Blood Orange & Cranberry product image">
+                        <h4>Blood Orange &amp; Cranberry</h4>
+                        <p>20 Tea Bags</p>
+                        <p>A sweet, succulent blend of Blood Orange, harmonising 
+                            perfectly with tangy Cranberry and juicy Pomegranate.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb008.html">
+                        <img src="images/Item_FruitandHerbT008_001.webp" alt="Cherry & Cinnamon product image">
+                        <h4>Cherry &amp; Cinnamon</h4>
+                        <p>20 Tea Bags</p>
+                        <p>A delicious aroma of juicy ripe cherries 
+                            with a touch of spicy cinnamon.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb009.html">
+                        <img src="images/Item_FruitandHerbT009_001.webp" alt="Raspberry & Lemon product image">
+                        <h4>Raspberry &amp; Lemon</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Our Raspberry and Lemon infusion is made 
+                            with lemon peel for a bright, zesty kick.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb010.html">
+                        <img src="images/Item_FruitandHerbT010_001.webp" alt="Superblends Focus product image">
+                        <h4>Superblends Focus</h4>
+                        <p>20 Envelopes</p>
+                        <p>A delicious combination of sweet mango, 
+                            tart pineapple and earthy ginseng root.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb011.html">
+                        <img src="images/Item_FruitandHerbT011_001.webp" alt="Superblends Boost product image">
+                        <h4>Superblends Boost</h4>
+                        <p>20 Envelopes</p>
+                        <p>A harmony of fresh green tea and guarana, 
+                            with sweet mandarin and apple flavours.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb012.html">
+                        <img src="images/Item_FruitandHerbT012_001.webp" alt="Blackcurrant & Blueberry product image">
+                        <h4>Blackcurrant &amp; Blueberry</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Bursting with the mouth-watering flavour 
+                            of blackcurrants and blueberries.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb013.html">
+                        <img src="images/Item_FruitandHerbT013_001.webp" alt="Superblends Glow product image">
+                        <h4>Superblends Glow</h4>
+                        <p>20 Envelopes</p>
+                        <p>A delicious mix of refreshing green tea, 
+                            strawberry, aloe vera and cucumber.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb014.html">
+                        <img src="images/Item_FruitandHerbT014_001.webp" alt="Superblends Vitality product image">
+                        <h4>Superblends Vitality</h4>
+                        <p>20 Envelopes</p>
+                        <p>Add a spring to your step 
+                            with cooling mint and fruity apple and pear.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb015.html">
+                        <img src="images/Item_FruitandHerbT015_001.webp" alt="Superblends Moment of Calm product image">
+                        <h4>Superblends Moment of Calm</h4>
+                        <p>20 Envelopes</p>
+                        <p>A comforting, sweet and spiced infusion 
+                            to rebalance at the end of a busy day.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb016.html">
+                        <img src="images/Item_FruitandHerbT016_001.webp" alt="Spiced Ginger product image">
+                        <h4>Spiced Ginger</h4>
+                        <p>20 Tea Bags</p>
+                        <p>This infusion is warming, slightly peppery 
+                            with a lovely gingery spice.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb017.html">
+                        <img src="images/Item_FruitandHerbT017_001.webp" alt="Blackcurrant & Blueberry with a squeeze of Lemon product image">
+                        <h4>Blackcurrant &amp; Blueberry with a squeeze of Lemon</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Blackcurrant &amp; blueberry work together as the perfect 
+                            sweet pairing, complemented by the citrus lemon flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb018.html">
+                        <img src="images/Item_FruitandHerbT018_001.webp" alt="Strawberry & Elderflower product image">
+                        <h4>Strawberry &amp; Elderflower</h4>
+                        <p>20 Tea Bags</p>
+                        <p>This blend captures the essence of an English summer 
+                            afternoon in a glass.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb019.html">
+                        <img src="images/Item_FruitandHerbT019_001.webp" alt="Superblends Defence product image">
+                        <h4>Superblends Defence</h4>
+                        <p>20 Envelopes</p>
+                        <p>A delicious combination of green tea, 
+                            juicy fruit flavours and Echinacea root.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb020.html">
+                        <img src="images/Item_FruitandHerbT020_001.webp" alt="Superblends Digest product image">
+                        <h4>Superblends Digest</h4>
+                        <p>20 Envelopes</p>
+                        <p>A refreshing blend of nature's classic 
+                            after-dinner helper, spearmint.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb021.html">
+                        <img src="images/Item_FruitandHerbT021_001.webp" alt="Peach & Orange product image">
+                        <h4>Peach &amp; Orange</h4>
+                        <p>20 Tea Bags</p>
+                        <p>A multi-sensorial blend of sweet juicy peach 
+                            and zesty orange peel.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb022.html">
+                        <img src="images/Item_FruitandHerbT022_001.webp" alt="Pure Peppermint product image">
+                        <h4>Pure Peppermint</h4>
+                        <p>80 Tea Bags</p>
+                        <p>Our soothing peppermint tea is naturally 
+                            caffeine-free with no added sugar.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb023.html">
+                        <img src="images/Item_FruitandHerbT023_001.webp" alt="Strawberry & Raspberry product image">
+                        <h4>Strawberry &amp; Raspberry</h4>
+                        <p>20 Tea Bags</p>
+                        <p>A feel-good summer blend of sweet strawberry 
+                            notes and tangy raspberry aromas.​</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb024.html">
+                        <img src="images/Item_FruitandHerbT024_001.webp" alt="Superblends Heartea product image">
+                        <h4>Superblends Heartea</h4>
+                        <p>20 Envelopes</p>
+                        <p>Juicy blackcurrant flavour and the subtle tartness 
+                            of hibiscus with rosemary.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb025.html">
+                        <img src="images/Item_FruitandHerbT025_001.webp" alt="Cranberry & Raspberry product image">
+                        <h4>Cranberry &amp; Raspberry</h4>
+                        <p>20 Tea Bags</p>
+                        <p>A crisp and refreshing infusion of zingy cranberries 
+                            and sweet raspberries.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb026.html">
+                        <img src="images/Item_FruitandHerbT026_001.webp" alt="Superblends Detox product image">
+                        <h4>Superblends Detox</h4>
+                        <p>20 Envelopes</p>
+                        <p>A herbal blend including lemon peel, ginger and fennel, 
+                            with added selenium.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb027.html">
+                        <img src="images/Item_FruitandHerbT027_001.webp" alt="Lemon & Ginger product image">
+                        <h4>Lemon &amp; Ginger</h4>
+                        <p>80 Tea Bags</p>
+                        <p>Citrus, spice and all things nice. 
+                            A warm and spicy blend with a hint of lemon.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb028.html">
+                        <img src="images/Item_FruitandHerbT028_001.webp" alt="Superblends Beetroot product image">
+                        <h4>Superblends Beetroot</h4>
+                        <p>20 Envelopes</p>
+                        <p>Beetroot with warming ginger and sweet juicy orange, 
+                            perfect any time of day.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb029.html">
+                        <img src="images/Item_FruitandHerbT029_001.webp" alt="Camomile, Honey & Vanilla product image">
+                        <h4>Camomile, Honey &amp; Vanilla</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Camomile with a touch of gorgeously rich honey flavour 
+                            and a hint of vanilla.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb030.html">
+                        <img src="images/Item_FruitandHerbT030_001.webp" alt="Peppermint & Strawberry product image">
+                        <h4>Peppermint &amp; Strawberry</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Strawberry flavoured peppermint infusion 
+                            with a hint of black pepper.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb031.html">
+                        <img src="images/Item_FruitandHerbT031_001.webp" alt="Rooibos & Honey product image">
+                        <h4>Rooibos &amp; Honey</h4>
+                        <p>20 Tea Bags</p>
+                        <p>A blend of rich rooibos with the flavours of sweet honey 
+                            and warming spiced fig.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb032.html">
+                        <img src="images/Item_FruitandHerbT032_001.webp" alt="Camomile & Orange product image">
+                        <h4>Camomile &amp; Orange</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Our camomile and orange blend is light, warming 
+                            with a hint of sweetness.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb033.html">
+                        <img src="images/Item_FruitandHerbT033_001.webp" alt="Liquorice & Spearmint product image">
+                        <h4>Liquorice &amp; Spearmint</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Satisfy that sweet craving with this natural blend 
+                            of liquorice and spearmint.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb034.html">
+                        <img src="images/Item_FruitandHerbT034_001.webp" alt="Superblends Metabolism product image">
+                        <h4>Superblends Metabolism</h4>
+                        <p>20 Envelopes</p>
+                        <p>Let your body do its thing! Our bright and breezy blend 
+                            of green tea, peppermint and nettle is inspired by 
+                            feeling confident and energised.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb035.html">
+                        <img src="images/Item_FruitandHerbT035_001.webp" alt=" Lemon & Ginger product image">
+                        <h4>Lemon &amp; Ginger</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Citrus, spice and all things nice. A warm and spicy blend 
+                            with a hint of lemon.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb036.html">
+                        <img src="images/Item_FruitandHerbT036_001.webp" alt="Superblends Unwind product image">
+                        <h4>Superblends Unwind</h4>
+                        <p>20 Envelopes</p>
+                        <p>Time to take a breath. This sweet-natured blend is 
+                            the switch-off button you sometimes need.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb037.html">
+                        <img src="images/Item_FruitandHerbT037_001.webp" alt=" Superblends Turmeric product image">
+                        <h4>Superblends Turmeric</h4>
+                        <p>20 Envelopes</p>
+                        <p>Earthy turmeric and the gentle spice of star anise 
+                            combine for a superblend.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb038.html">
+                        <img src="images/Item_FruitandHerbT038_001.webp" alt="Superblends Balance product image">
+                        <h4>Superblends Balance</h4>
+                        <p>20 Envelopes</p>
+                        <p>For women everywhere, of all ages, 
+                            this supportive blend is the perfect balancing act. 
+                            Take a moment to harmonize body and mind.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb039.html">
+                        <img src="images/Item_FruitandHerbT039_001.webp" alt="BioBlends Warming Lemon, Ginger & Turmeric product image">
+                        <h4>BioBlends Warming Lemon, Ginger &amp; Turmeric</h4>
+                        <p>18 Envelopes</p>
+                        <p>Zesty lemon, ginger and a hint of turmeric and 
+                            Bacillus Coagulans cultures.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb040.html">
+                        <img src="images/Item_FruitandHerbT040_001.webp" alt="Superblends Digest Ginger & Turmeric product image">
+                        <h4>Superblends Digest Ginger &amp; Turmeric</h4>
+                        <p>20 Envelopes</p>
+                        <p>When you've got that heavy feeling, 
+                            here's a warm-hearted blend of turmeric, ginger and fig.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb041.html">
+                        <img src="images/Item_FruitandHerbT041_001.webp" alt="Pure Camomile product image">
+                        <h4>Pure Camomile</h4>
+                        <p>80 Tea Bags</p>
+                        <p>Golden, sweet with a subtle flowery taste. 
+                            Relax with a gentle cup of camomile.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb042.html">
+                        <img src="images/Item_FruitandHerbT042_001.webp" alt="BioBlends Soothing Peppermint, Fennel & Spearmint product image">
+                        <h4>BioBlends Soothing Peppermint, Fennel &amp; Spearmint</h4>
+                        <p>18 Envelopes</p>
+                        <p>Spearmint and peppermint with aniseed and fennel 
+                            and Bacillus Coagulans cultures.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb043.html">
+                        <img src="images/Item_FruitandHerbT043_001.webp" alt="Pure Peppermint product image">
+                        <h4>Pure Peppermint</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Our soothing peppermint tea is naturally 
+                            caffeine-free with no added sugar.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb044.html">
+                        <img src="images/Item_FruitandHerbT044_001.webp" alt="Pure Fennel product image">
+                        <h4>Pure Fennel</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Sweet fennel with an invigorating aniseed-like flavour 
+                            to create a soothing cup.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb045.html">
+                        <img src="images/Item_FruitandHerbT045_001.webp" alt="Pure Camomile product image">
+                        <h4>Pure Camomile</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Golden, sweet with a subtle flowery taste. 
+                            Relax with a gentle cup of camomile.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb046.html">
+                        <img src="images/Item_FruitandHerbT046_001.webp" alt="BioBlends Camomile & Linden product image">
+                        <h4>BioBlends Camomile &amp; Linden</h4>
+                        <p>18 Envelopes</p>
+                        <p>Classic camomile with a hint of zesty mandarin 
+                            and Bacillus Coagulans cultures.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb047.html">
+                        <img src="images/Item_FruitandHerbT047.webp" alt="Superblends Balance product image">
+                        <h4>Superblends Balance</h4>
+                        <p>Single Envelope</p>
+                        <p>For women everywhere, of all ages, this supportive 
+                            blend is the perfect balancing act. Take a moment to 
+                            harmonize body and mind.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb048.html">
+                        <img src="images/Item_FruitandHerbT048.webp" alt="Organic Pure Peppermint product image">
+                        <h4>Organic Pure Peppermint</h4>
+                        <p>20 Single Tea Bags</p>
+                        <p>Cool and invigorating, we've expertly created this 
+                            peppermint infusion to help you feel refreshed and 
+                            ready for the day with each sip.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb049.html">
+                        <img src="images/Item_FruitandHerbT049_001.webp" alt="Rooibos & Peppermint product image">
+                        <h4>Rooibos &amp; Peppermint</h4>
+                        <p>100g Loose Infusion</p>
+                        <p>A warming infusion of rooibos 
+                            with a hint of mint to refresh and cool.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb050.html">
+                        <img src="images/Item_FruitandHerbT050_001.webp" alt="Moroccan Mint with Rose Flavour Green product image">
+                        <h4>Moroccan Mint with Rose Flavour Green</h4>
+                        <p>100g Loose Infusion</p>
+                        <p>For women everywhere, of all ages, this supportive 
+                            blend is the perfect balancing act. Take a moment to 
+                            harmonize body and mind.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb051.html">
+                        <img src="images/Item_FruitandHerbT051_001.webp" alt="Rooibos Flavoured with Orange and Cinnamon product image">
+                        <h4>Rooibos Flavoured with Orange and Cinnamon</h4>
+                        <p>100g Loose Infusion</p>
+                        <p>Rich Rooibus tea sweet orange flavour and hints of 
+                            warming spice.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb052.html">
+                        <img src="images/Item_FruitandHerbT052_001.webp" alt="Blackcurrant & Lavender product image">
+                        <h4>Blackcurrant &amp; Lavender</h4>
+                        <p>100g Loose Infusion</p>
+                        <p>A rich and fragrant blend of blackcurrant 
+                            and lavender that tastes like Autumn.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb053.html">
+                        <img src="images/Item_FruitandHerbT053_001.webp" alt="Lemongrass & Peppermint product image">
+                        <h4>Lemongrass &amp; Peppermint</h4>
+                        <p>75g Loose Infusion</p>
+                        <p>Sweet peppermint and the smooth citrus of 
+                            lemongrass for an uplifting blend.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb054.html">
+                        <img src="images/Item_FruitandHerbT054_001.webp" alt="Whole Camomile Flowers product image">
+                        <h4>Whole Camomile Flowers</h4>
+                        <p>50g Loose Leaf Tea</p>
+                        <p>A delightful bright yellow floral infusion 
+                            - a true taste of summer.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb55.html">
+                        <img src="images/Item_FruitandHerbT055.webp" alt="Superblends Metabolism product image">
+                        <h4>Superblends Metabolism</h4>
+                        <p>Single Envelope</p>
+                        <p>Let your body do its thing! Our bright and breezy 
+                            blend of green tea, peppermint and nettle is inspired 
+                            by feeling confident and energised.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb056.html">
+                        <img src="images/Item_FruitandHerbT056_001.webp" alt="Organic Pure Camomile product image">
+                        <h4>Organic Pure Camomile</h4>
+                        <p>20 Single Tea Bags</p>
+                        <p>Like the centre of these pretty daisy-like flowers, 
+                            this is a golden infusion which is slightly sweet and floral.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb057.html">
+                        <img src="images/Item_FruitandHerbT057.webp" alt="Superblends Sleep Valerian & Orange Blossom product image">
+                        <h4>Superblends Sleep Valerian &amp; Orange Blossom</h4>
+                        <p>Single Envelope</p>
+                        <p>A deliciously light blend with floral orange flavours 
+                            that are smooth and serene.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb058.html">
+                        <img src="images/Item_FruitandHerbT058.webp" alt="Superblends Digest Ginger & Turmeric product image">
+                        <h4>Superblends Digest Ginger &amp; Turmeric</h4>
+                        <p>Single Envelope</p>
+                        <p>When you've got that heavy feeling, 
+                            here's a warm-hearted blend of turmeric, ginger and fig.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb059.html">
+                        <img src="images/Item_FruitandHerbT059.webp" alt="Superblends Unwind product image">
+                        <h4>Superblends Unwind</h4>
+                        <p>Single Envelope</p>
+                        <p>Time to take a breath. This sweet-natured blend is the 
+                            switch-off button you sometimes need.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb060.html">
+                        <img src="images/Item_FruitandHerbT060_001.webp" alt="Unwind Spiced Apple & Camomile product image">
+                        <h4>Unwind Spiced Apple &amp; Camomile</h4>
+                        <p>40 Loose Pyramid Tea Bags</p>
+                        <p>Spiced Apple Flavour Herbal Infusion with Camomile.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb061.html">
+                        <img src="images/Item_FruitandHerbT061_001.webp" alt="Revive Raspberry & Vitamin C product image">
+                        <h4>Revive Raspberry &amp; Vitamin C</h4>
+                        <p>40 Loose Pyramid Tea Bags</p>
+                        <p>Raspberry and Hibiscus Flavoured Herbal Infusion 
+                            with Added Vitamin C.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb062.html">
+                        <img src="images/Item_FruitandHerbT062_001.webp" alt="Mango & Pineapple product image">
+                        <h4>Mango &amp; Pineapple</h4>
+                        <p>40 Loose Pyramid Tea Bags</p>
+                        <p>Mango and Pineapple Flavoured Herbal Infusion 
+                            with a Hint of Spearmint.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb063.html">
+                        <img src="images/Item_FruitandHerbT063_001.webp" alt="Honey & Rooibos product image">
+                        <h4>Honey &amp; Rooibos</h4>
+                        <p>40 Loose Pyramid Tea Bags</p>
+                        <p>A hearty and well-rounded cup of tea. 
+                            Like your normal cup of tea, but better.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb064.html">
+                        <img src="images/Item_FruitandHerbT064_001.webp" alt="Twinings Revive Raspberry & Vitamin C product image">
+                        <h4>Twinings Revive Raspberry &amp; Vitamin C</h4>
+                        <p>15 Pyramid Bags(Individual)</p>
+                        <p>Packed with a juicy raspberry punch, a hint of floral 
+                            hibiscus &amp; whole pieces of apple and beetroot.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb065.html">
+                        <img src="images/Item_FruitandHerbT065_001.webp" alt="Revive Raspberry & Vitamin C Loose Leaf Pyramid product image">
+                        <h4>Revive Raspberry &amp; Vitamin C Loose Leaf Pyramid</h4>
+                        <p>Single Envelope</p>
+                        <p>Packed with a juicy raspberry punch, a hint of floral 
+                            hibiscus &amp; whole pieces of apple and beetroot..</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb066.html">
+                        <img src="images/Item_FruitandHerbT066_001.webp" alt="Twinings Unwind Apple & Camomile product image">
+                        <h4>Twinings Unwind Apple &amp; Camomile</h4>
+                        <p>15 Pyramid Bags(Individual)</p>
+                        <p>The flavours of lightly spiced apple and sweet camomile 
+                            are perfect for when you grab a minute just for you.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb067.html">
+                        <img src="images/Item_FruitandHerbT067_001.webp" alt="Twinings Unwind Apple & Camomile Loose Leaf Pyramid product image">
+                        <h4>Twinings Unwind Apple &amp; Camomile Loose Leaf Pyramid</h4>
+                        <p>Single Envelope</p>
+                        <p>The flavours of lightly spiced apple and sweet camomile 
+                            are perfect for when you grab a minute just for you.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb068.html">
+                        <img src="images/Item_FruitandHerbT068_001.webp" alt="Honey & Rooibos product image">
+                        <h4>Honey &amp; Rooibos</h4>
+                        <p>15 Pyramid Bags(Individually Wrapped)</p>
+                        <p>A cup of peace for your soul this infusion pairs sweet 
+                            honey &amp; rooibos with hints of fig and cinnamon flavour 
+                            for a great chilled out blend.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb069.html">
+                        <img src="images/Item_FruitandHerbT069_001.webp" alt="Honey & Rooibos Loose Leaf Pyramid product image">
+                        <h4>Honey &amp; Rooibos Loose Leaf Pyramid</h4>
+                        <p>Single Envelope</p>
+                        <p>A cup of peace for your soul this infusion pairs sweet 
+                            honey &amp; rooibos with hints of fig and cinnamon flavour 
+                            for a great chilled out blend.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb070.html">
+                        <img src="images/Item_FruitandHerbT070_001.webp" alt="Mango & Pineapple product image">
+                        <h4>Mango &amp; Pineapple</h4>
+                        <p>15 Pyramid Bags(Individually Wrapped)</p>
+                        <p>A taste of holidays doesn't have to be a plane ride away. 
+                            Have your very own tropical moment 
+                            with this cup of sunshine.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb071.html">
+                        <img src="images/Item_FruitandHerbT071_001.webp" alt="Mango & Pineapple Loose Leaf Pyramid product image">
+                        <h4>Mango &amp; Pineapple Loose Leaf Pyramid</h4>
+                        <p>Single Envelope</p>
+                        <p>A taste of holidays doesn't have to be a plane ride away. 
+                            Have your very own tropical moment 
+                            with this cup of sunshine.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb072.html">
+                        <img src="images/Item_FruitandHerbT072_001.webp" alt="The Earl product image">
+                        <h4>The Earl</h4>
+                        <p>15 Pyramid Bags(Individually Wrapped)</p>
+                        <p>What’s that nose-twitching, intriguing citrusy smell? 
+                            Ahh it’s bergamot! The unique flavour that sums up Earl Grey.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb073.html">
+                        <img src="images/Item_FruitandHerbT073_001.webp" alt="The Earl Loose Leaf Pyramid product image">
+                        <h4>The Earl Loose Leaf Pyramid</h4>
+                        <p>Single Envelope</p>
+                        <p>What’s that nose-twitching, intriguing citrusy smell? 
+                            Ahh it’s bergamot! The unique flavour that sums up Earl Grey.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb074.html">
+                        <img src="images/Item_FruitandHerbT074_001.webp" alt="Superblends Wind Down Collection product image">
+                        <h4>Superblends Wind Down Collection</h4>
+                        <p>20 Envelopes</p>
+                        <p>This fabulous selection box contains five favourites from 
+                            our Superblends range to help you wind down.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb075.html">
+                        <img src="images/Item_FruitandHerbT075_001.webp" alt="Superblends Sleep product image">
+                        <h4>Superblends Sleep</h4>
+                        <p>40 Tea Bags</p>
+                        <p>A serene and warming blend, making it the perfect 
+                            part of your bedtime routine.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb076.html">
+                        <img src="images/Item_FruitandHerbT076_001.webp" alt="Pineapple & Lychee product image">
+                        <h4>Pineapple &amp; Lychee</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Spice up those weekday afternoons 
+                            with this tasty tropical infusion.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_fruitandHerb077.html">
+                        <img src="images/Item_FruitandHerbT077_001.webp" alt="Camomile & Grapefruit product image">
+                        <h4>Camomile &amp; Grapefruit</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Try this blend when you need a refreshing pick me up 
+                            throughout the day.</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

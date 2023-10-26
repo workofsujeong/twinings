@@ -1,0 +1,4588 @@
+.detailContainer > div:nth-of-type(3) h3,
+.detailContainer > div:last-of-type h3{font-family: 'Sansita Swashed';}
+.detailContainer > div:last-of-type p,
+.detailContainer > ul:last-of-type li div{font-family: 'Ysabeau';}
+
+@media screen and (max-width: 767px) {
+    .mainContainer{
+        background: url('../images/bg_01.webp') center top / 767px no-repeat;
+        padding-top: 130px;
+    }
+    .mainContainer > h2{
+        font-size: 30px; line-height: 40px; font-weight: 500; color: #fff;
+        margin: 0 0 20px 2%; max-width: 300px;
+    }
+    .mainContainer > p:first-of-type{
+        font-size: 18px; line-height: 24px; font-weight: 400; color: #fff;
+        margin: 0 0 20px 2%; max-width: 500px;
+    }
+    .mainContainer > a.btnTwg{
+        color: #001b27; background-color: #fff;
+        margin: 0 0 100px 2%; 
+    }
+
+    .mainContainer > p:nth-of-type(2){
+        text-align: center; font-size: 30px; font-weight: 500; 
+        color: #001b27; padding: 0 2%; box-sizing: border-box;
+    }
+    .mainContainer > p:nth-of-type(2) strong{
+        display: block; margin-top: 100px; font-size: 100px; overflow: hidden;
+    }
+
+    .mainContainer > div{
+        margin-bottom: 150px;
+    }
+    .mainContainer > div ul{
+        padding: 0 2%; box-sizing: border-box;
+    }
+    .mainContainer > div:first-of-type{
+        background: url('../images/bg_02.png') left top / cover no-repeat;
+        padding-top: 100px; 
+    }
+    .mainContainer > div:first-of-type h3{
+        font-size: 35px; font-weight: 500; color: #001b27;
+        text-align: center; 
+    }
+    .mainContainer > div:first-of-type h3, .mainContainer > div:first-of-type ul li:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .mainContainer > div:first-of-type ul li{
+        background-position: center -30px; background-repeat: no-repeat; background-size: contain;
+        display: block; padding-top: 230px;
+    }
+    .mainContainer > div:first-of-type ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
+    .mainContainer > div:first-of-type ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(3){background-image: url('../images/Item_FruitandHerbT002_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(4){background-image: url('../images/Item_FruitandHerbT008_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(5){background-image: url('../images/Item_FruitandHerbT013_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(6){background-image: url('../images/Item_FruitandHerbT003_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(7){background-image: url('../images/Item_BlackT079_001.webp');}
+    .mainContainer > div:first-of-type ul li figure{
+        box-sizing: border-box; text-align: center;
+    }
+    .mainContainer > div:first-of-type ul li figure figcaption dl dt{
+        font-size: 25px; font-weight: 700; color: #001b27; margin-bottom: 10px;
+    }
+    .mainContainer > div:first-of-type ul li figure figcaption dl dd{
+        font-size: 18px; line-height: 23px; font-weight: 500; color: #001b27;
+        margin-bottom: 15px;
+    }
+    .mainContainer > div:first-of-type ul li figure figcaption a{
+        font-size: 18px;  
+        background-color: #001b27; color: #fff;
+        padding: 16px 20px; max-width: 170px;
+        margin: 0 auto;
+    }
+
+    .mainContainer > div:last-of-type h3{
+        background: url('../images/bg_03.webp') left top / cover no-repeat fixed;
+        padding: 65px 2%; box-sizing: border-box;
+        color: #fff; font-size: 30px; font-weight: 500; line-height: 35px; 
+    }
+    .mainContainer > div:last-of-type ul li{
+        padding: 60px 0; box-sizing: border-box; border-bottom: 1px solid rgba(19,36,48,0.3); 
+        display: block;
+    }
+    .mainContainer > div:last-of-type ul li div{
+        position: relative;
+    }
+    .mainContainer > div:last-of-type ul li div h4{
+        font-size: 25px; font-weight: 500; color: #001b27; line-height: 40px;
+    }
+    .mainContainer > div:last-of-type ul li div button{
+        position: absolute; right: 0; top: 0; display: block; 
+        font-family: inherit; font-size: 20px; font-weight: 700; padding: 8px 0; text-indent: -9999px;
+        width: 50px; background: url('../images/btn_more.svg') center / 20px no-repeat;
+    }
+    .mainContainer > div:last-of-type ul li div button.active{
+        background-image: url('../images/btn_less.svg');
+    }
+    .mainContainer > div:last-of-type ul li figure{
+        opacity: 0; font-size: 0; display: none;
+        transition-duration: 0.5s; transition-timing-function: ease-in-out;
+    }
+    .mainContainer > div:last-of-type ul li figure.active{
+        opacity: 1; display: block; font-size: 18px;
+    }
+    .mainContainer > div:last-of-type ul li figure img{
+       display: block; width: 100%; margin-bottom: 30px;
+    }
+    .mainContainer > div:last-of-type ul li figure figcaption p{
+        line-height: 23px; font-weight: 400; color: #001b27;
+        margin-bottom: 30px;
+    }
+    .mainContainer > div:last-of-type ul li figure figcaption a.btnTwg{
+        border: 2px solid #001b27; color: #001b27;
+    }
+
+    
+    .listContainer{
+        padding-top: 150px;
+    }
+    .listContainer h2{
+        font-size: 30px; font-weight: 500; color: #001b27; margin-bottom: 30px;
+    }
+    .listContainer > p{
+        font-size: 22px; font-weight: 400; color: #7f7f7f; line-height: 27px; margin-bottom: 30px;
+    }
+    .listContainer > div:first-of-type{
+        padding: 0 2%; box-sizing: border-box; margin-bottom: 50px;
+    }
+    .listContainer > div:first-of-type a{
+        font-size: 18px; font-weight: 400; color: #001b27; 
+        background-color: #ff9eb8; padding: 12px 4%;
+        border-radius: 25px; display: inline-block;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out; 
+    }
+    .listContainer > div:first-of-type a.active{
+        background-color: #001b27; color: #fff;
+    }
+    .listContainer > div:first-of-type a:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .listContainer > div:last-of-type{
+        padding: 100px 2%; box-sizing: border-box; margin-bottom: 50px;
+    }
+    .listContainer.teaAll > div:last-of-type{
+        background-color: #fce779;
+    }
+    .listContainer.blackTea > div:last-of-type{
+        background-color: #00b1ff;
+    }
+    .listContainer.greenTea > div:last-of-type{
+        background-color: #91c788;
+    }
+    .listContainer.fruitAndherb > div:last-of-type{
+        background-color: #fd9bbb;
+    }
+    .listContainer > div:last-of-type h3{
+        font-size: 20px; font-weight: 500; color: #001b27; margin-bottom: 50px;
+    }
+    .listContainer > div:last-of-type ul{
+        display: flex; flex-flow: row wrap;
+        justify-content: flex-start; 
+    }
+    .listContainer > div:last-of-type ul li{
+        display: block; width: 100%; margin-bottom: 30px; text-align: center;
+    }
+    .listContainer > div:last-of-type ul li a img{
+        width: 100%; display: block; margin: 0 auto;
+        filter: drop-shadow(15px 15px 12px rgba(0,0,0,0.3));
+    }
+    .listContainer > div:last-of-type ul li a h4{
+        font-size: 18px; font-weight: 500; color: #001b27;
+        margin-bottom: 10px;
+    }
+    .listContainer > div:last-of-type ul li a p:first-of-type{
+        font-size: 16px; font-weight: 400; margin-bottom: 10px;
+    }
+    .listContainer.teaAll > div:last-of-type > div:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+    .listContainer.teaAll > div:last-of-type ul li a p:first-of-type{
+        color: #ab9c52;
+    }
+    .listContainer.blackTea > div:last-of-type ul li a p:first-of-type{
+        color: #0076ab;
+    }
+    .listContainer.greenTea > div:last-of-type ul li a p:first-of-type{
+        color: #26ab5b;
+    }
+    .listContainer.fruitAndherb > div:last-of-type ul li a p:first-of-type{
+        color: #ab3a58;
+    }
+    .listContainer.teaWare > div:last-of-type ul li a p:first-of-type{
+        color: #acacac;
+    }
+    .listContainer > div:last-of-type ul li a p:last-of-type{
+        font-size: 16px; font-weight: 300; line-height: 22px;
+    }
+    .listContainer.teaAll > div:last-of-type ul li a p:last-of-type{
+        color: #80753d;
+    }
+    .listContainer.blackTea > div:last-of-type ul li a p:last-of-type{
+        color: #005880;
+    }
+    .listContainer.greenTea > div:last-of-type ul li a p:last-of-type{
+        color: #1c8044;
+    }
+    .listContainer.fruitAndherb > div:last-of-type ul li a p:last-of-type{
+        color: #802c42;
+    }
+    .listContainer.teaWare > div:last-of-type ul li a p:last-of-type{
+        color: #7f7f7f; 
+    }
+    .listContainer.teaAll > div:last-of-type > div:not(#listDecaffeinatedTea, #listHotchocoandMaltDrinks) ul li:last-of-type img{
+        width: 100%; margin-bottom: 30px;
+    } 
+    .listContainer.teaAll > div:last-of-type > div:not(#listDecaffeinatedTea, #listHotchocoandMaltDrinks) ul li:last-of-type h4{
+        font-size: 30px; font-weight: 500; color: #fff; text-align: center;
+    }
+
+    
+    .detailContainer .bx-wrapper{background-color: transparent; border: none; box-shadow: none;}
+    .detailContainer .bx-wrapper .bx-pager{
+        padding-top: 50px; bottom: -60px;
+    }
+    .detailContainer .bx-wrapper .bx-controls-direction a {
+        top: 121%;
+        width: 30px;
+        height: 20px;
+        z-index: 1;
+    }
+    .detailContainer .bx-wrapper .bx-next{
+        right: 10%;
+        background: url("../images/btn_bxnext.svg") left top / contain no-repeat;
+    }
+    .detailContainer .bx-wrapper .bx-prev{
+        left: 10%;
+        background: url("../images/btn_bxprev.svg") left top / contain no-repeat;
+    }
+    .detailContainer .bx-wrapper .bx-next:hover, .bx-wrapper .bx-next:focus {
+        background-position: left 0;
+    }
+    .detailContainer .bx-wrapper .bx-pager.bx-default-pager a{
+        background: transparent;
+        border: 2px solid #001b27;
+        box-sizing: border-box;
+    }
+    .detailContainer .bx-wrapper .bx-pager.bx-default-pager a.active{
+        background: #001b27;
+    }
+    .detailContainer > div,
+    .detailContainer > div:nth-of-type(2),
+    .detailContainer > div:nth-of-type(3),
+    .detailContainer > ul,
+    .detailContainer > figure{
+        margin-bottom: 100px;
+    }
+
+    .detailContainer > div:first-of-type > div{
+        padding: 150px 0; box-sizing: border-box;
+        position: relative; background-size: cover; background-repeat: no-repeat; background-position: left top;
+    }
+    .detailContainer.blackTea > div:first-of-type > div{
+        background-image: url("../images/bg_blackTea.png");
+    }
+    .detailContainer.greenTea > div:first-of-type > div{
+        background-image: url("../images/bg_greenTea01.png");
+    }
+    .detailContainer.fruitAndherb > div:first-of-type > div{
+        background-image: url("../images/bg_fruitAndherb01.png");
+    }
+    .detailContainer.deCaffein > div:first-of-type > div,
+    .detailContainer.hotChoco > div:first-of-type > div{
+        background-image: url("../images/bg_decaffein01.png");
+    }
+    .detailContainer > div:first-of-type div > h2{
+        position: absolute; top: 300px; width: 100%; font-size: 100px; font-weight: 700; color: #fff;
+        overflow: hidden;
+    }
+    .detailContainer.teaWare > div:first-of-type div > h2{
+        color: #2b2b2b;
+    }
+    .detailContainer > div:first-of-type aside{
+        background-color: #fff; padding: 50px 2% 0; box-sizing: border-box;
+    }
+    .detailContainer > div:first-of-type aside h2,
+    .detailContainer > div:first-of-type aside p,
+    .detailContainer > div:first-of-type aside div{
+        margin-bottom: 30px;
+    }
+    .detailContainer > div:first-of-type aside h2{
+        font-size: 20px; font-weight: 600; line-height: 26px;
+    }
+    .detailContainer > div:first-of-type aside h2 span{
+        display: block; font-size: 18px; font-weight: 500; color: #7f7f7f;
+        padding-top: 20px; line-height: 24px;
+    }
+    .detailContainer > div:first-of-type aside p{
+        padding: 20px 3%; box-sizing: border-box; border: 1px solid #bdbdbd; border-radius: 15px;
+        font-size: 18px; font-weight: 400; line-height: 25px;
+    }
+    .detailContainer > div:first-of-type div .detailSlider:after,
+    .detailContainer > div:first-of-type aside div:after{
+        content: ''; display: block; clear: both;
+    }
+    .detailContainer > div:first-of-type aside div input{
+        float: left; display: block; width: 26px; height: 26px; margin: 18px 2%;
+    }
+    .detailContainer > div:first-of-type aside div label{
+        display: block; background-color: #f3f3f3; padding: 20px 5px; box-sizing: border-box; border-radius: 15px;
+        font-size: 18px; font-weight: 500; 
+    }
+    .detailContainer > div:first-of-type aside div input:checked+label{
+        background-color: #d9d9d9;
+    }
+    .detailContainer > div:first-of-type aside div label:first-of-type{
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:first-of-type aside div label strong{
+        font-weight: 500; color: #5a5a5a; 
+    }
+    .detailContainer > div:nth-of-type(2) h3{
+        font-size: 25px; font-weight: 400; padding: 30px 0;
+        border-width: 1px 0; border-color: #bdbdbd; border-style: solid none;
+        box-sizing: border-box; margin-bottom: 15px;
+    }
+    .detailContainer > div:nth-of-type(2) ul{
+        font-size: 18px; font-weight: 500; line-height: 24px;
+    }
+    .detailContainer > div:nth-of-type(2) ul li{
+        list-style: none;
+    }
+    .detailContainer > div:nth-of-type(2) ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:nth-of-type(2) ul li a{
+        color: #00a5ed; text-decoration: underline;
+    }
+    .detailContainer > ul:first-of-type{
+        background-position: left top; background-repeat: no-repeat; background-size: cover;
+        padding: 100px 4%; box-sizing: border-box;
+        display: flex; flex-flow: row wrap;
+    }
+    .detailContainer.blackTea > ul:first-of-type{
+        background-image: url("../images/bg_blackTea02.png");
+    }
+    .detailContainer.greenTea > ul:first-of-type{
+        background-image: url("../images/bg_greenTea02.png");
+    }
+    .detailContainer.fruitAndherb > ul:first-of-type{
+        background-image: url("../images/bg_fruitAndherb02.png");
+    }
+    .detailContainer.deCaffein > ul:first-of-type,
+    .detailContainer.hotChoco > ul:first-of-type{
+        background-image: url("../images/bg_decaffein02.png");
+    }
+    .detailContainer > ul:first-of-type li{
+        display: block; width: 100%; padding: 180px 2.7% 50px;
+        border-width: 5px; border-style: solid; border-radius: 50px; box-sizing: border-box; 
+        background-repeat: no-repeat; background-position: 10% 40px; background-size: 120px;
+        margin-bottom: 20px;
+    }
+    .detailContainer.blackTea > ul:first-of-type li{
+        border-color: #005880;
+    }
+    .detailContainer.greenTea > ul:first-of-type li{
+        border-color: #145930;
+    }
+    .detailContainer.fruitAndherb > ul:first-of-type li{
+        border-color: #802c42;
+    }
+    .detailContainer.deCaffein > ul:first-of-type li,
+    .detailContainer.hotChoco > ul:first-of-type li{
+        border-color: #80753d;
+    }
+    .detailContainer.teaWare > ul:first-of-type li{
+        border-color: #a6a6a6; color: #2b2b2b;
+    }
+    .detailContainer > ul:first-of-type li:nth-child(1){background-image: url("../images/icon_detailinfo01.svg");}
+    .detailContainer:not(.teaWare) > ul:first-of-type li:nth-child(2){background-image: url("../images/icon_detailinfo02.svg");}
+    .detailContainer.teaWare > ul:first-of-type li:nth-child(2){background-image: url("../images/icon_detailinfo05.svg");}
+    .detailContainer:not(.teaWare) > ul:first-of-type li:nth-child(3){background-image: url("../images/icon_detailinfo03.svg");}
+    .detailContainer.teaWare > ul:first-of-type li:nth-child(3){background-image: url("../images/icon_detailinfo06.svg");}
+    .detailContainer > ul:first-of-type li:nth-child(4){background-image: url("../images/icon_detailinfo04.svg");}
+    .detailContainer > ul:first-of-type li h3{
+        font-size: 8.8vw; font-weight: 500; line-height: 9vw; color: #fce779;
+        margin-bottom: 20px;
+    }
+    .detailContainer.fruitAndherb > ul:first-of-type li h3{
+        color: #145930;
+    }
+    .detailContainer.deCaffein > ul:first-of-type li h3,
+    .detailContainer.hotChoco > ul:first-of-type li h3{
+        color: #0073a6;
+    }
+    .detailContainer > ul:first-of-type li b{
+        display: block; text-align: right; margin-bottom: 15px; color: #fff;
+    }
+    .detailContainer > ul:first-of-type li b:first-of-type{
+        font-size: 8.8vw; font-weight: 700;
+    }
+    .detailContainer > ul:first-of-type li b:not(:first-of-type){
+        font-size: 7.1vw; font-weight: 600;
+    }
+    .detailContainer > ul:first-of-type li p{
+        font-size: 6.5vw; font-weight: 400; line-height: 7.5vw; color: #fff; margin-bottom: 10px;
+    }
+    .detailContainer.teaWare > ul:first-of-type li h3,
+    .detailContainer.teaWare > ul:first-of-type li b,
+    .detailContainer.teaWare > ul:first-of-type li p,
+    .detailContainer.teaWare > figure:first-of-type figcaption h2{
+        color: #2b2b2b;
+    }
+    .detailContainer > figure:first-of-type img{
+        width: 100%; display: block; margin-bottom: 30px;
+    }
+    .detailContainer > figure:first-of-type figcaption{
+        box-sizing: border-box;
+    }
+    .detailContainer > figure:first-of-type figcaption h2{
+        font-size: 10.7vw; font-weight: 500; line-height: 12.7vw; margin-bottom: 20px;
+    }
+    .detailContainer.blackTea > figure:first-of-type figcaption h2{
+        color: #0073a6;
+    }
+    .detailContainer.greenTea > figure:first-of-type figcaption h2{
+        color: #1c8044;
+    }
+    .detailContainer.fruitAndherb > figure:first-of-type figcaption h2{
+        color: #a63856;
+    }
+    .detailContainer.deCaffein > figure:first-of-type figcaption h2,
+    .detailContainer.hotChoco > figure:first-of-type figcaption h2{
+        color: #80753d;
+    }
+    .detailContainer > figure:first-of-type figcaption p{
+        font-size: 6.4vw; font-weight: 500; line-height: 7.4vw; color: #7f7f7f;
+        padding-left: 4%; 
+    }
+    .detailContainer > div:nth-of-type(3) h3{
+        font-size: 60px; font-weight: 300; text-align: right; margin-bottom: 20px;
+    }
+    .detailContainer > div:nth-of-type(3) img{
+        display: block; width: 100%; margin-bottom: 30px;
+    }
+    .detailContainer > div:nth-of-type(3) ul{
+        list-style: none;
+    }
+    .detailContainer > div:nth-of-type(3) ul li:not(:last-child){
+        margin-bottom: 60px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li h4{
+        font-size: 35px; font-weight: 500; margin-bottom: 30px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li:nth-child(2n) h4{
+        text-align: right;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div{
+        padding-left: 3.5%; box-sizing: border-box;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(1),
+    .detailContainer > div:nth-of-type(3) ul li:not(:nth-of-type(2)) div:nth-of-type(2){
+        margin-bottom: 30px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div h5{
+        font-size: 20px; font-weight: 500; color: #7f7f7f;
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div p{
+        font-size: 16px; font-weight: 300; 
+    }
+    .detailContainer > div:nth-of-type(3) ul li > p{
+        font-size: 16px; font-weight: 300; padding-right: 3.5%; box-sizing: border-box;
+        text-align: right; line-height: 25px;
+    }
+    .detailContainer > div:nth-of-type(4){
+        background: url("../images/bg_detail01.png") left top / cover no-repeat;
+        padding: 100px 0; box-sizing: border-box; color: #fff;
+    }
+    .detailContainer > div:nth-of-type(4) h3,
+    .detailContainer > div:last-of-type h3{
+        font-size: 30px; font-weight: 500; margin-bottom: 30px; line-height: 36px;
+    }
+    .detailContainer > div:nth-of-type(4) p{
+        padding-left: 5%; box-sizing: border-box;
+        font-size: 25px; font-weight: 400; line-height: 30px;
+    }
+    .detailContainer > figure:nth-of-type(2){
+        position: relative;
+    }
+    .detailContainer > figure:nth-of-type(2) img{
+        width: 100%; display: block; margin-bottom: 30px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption h3{
+        font-size: 35px; font-weight: 500; margin-bottom: 30px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li{
+        list-style: none; box-sizing: border-box;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li:not(:last-child){
+        margin-bottom: 25px; 
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li h4{
+        font-size: 25px; font-weight: 400; color: #092b17; margin-bottom: 15px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li p{
+        font-size: 16px; font-weight: 300; line-height: 26px; color: #7f7f7f;
+        padding-left: 3%; 
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li:last-child p{
+        margin-bottom: 25px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li button{
+        font-size: 16px; font-weight: 300; color: #145930; text-decoration: underline;
+        background-color: transparent;
+    }
+    .detailContainer #teaProcessText{
+        display: none;
+    }
+    .detailContainer #teaProcessText.active{
+        display: block; width: 100%;
+    }
+    .detailContainer #teaProcessText input[value="Close"]{
+        font-size: 18px; font-weight: 400; text-decoration: underline;
+        display: block; margin-left: auto; margin-bottom: 20px;
+    }
+    .detailContainer #teaProcessText ul{
+        padding-top: 40vw; background: url("../images/detail_madeTea.png") left top / 100% no-repeat;
+    }
+    .detailContainer #teaProcessText ul li{
+        display: block; text-align: center;
+    }
+    .detailContainer #teaProcessText ul li:first-child{
+        margin-bottom: 30px;
+    }
+    .detailContainer #teaProcessText ul li h4{
+        font-size: 7.1vw; font-weight: 600; color: #1c8044; 
+        margin-bottom: 15px; 
+    }
+    .detailContainer #teaProcessText ul li p{
+        font-size: 6.4vw; line-height: 7.4vw; font-weight: 400; color: #7f7f7f;
+    }
+    .detailContainer > div:last-of-type{
+        background: url("../images/bg_detail02.png") left top / cover no-repeat;
+        padding: 100px 0; box-sizing: border-box; color: #fff;
+    }
+    .detailContainer > div:last-of-type p{
+        padding-left: 7%;
+        font-size: 18px; font-weight: 400; line-height: 28px;
+    }
+    .detailContainer > ul:last-of-type{
+        width: 96%; margin: 0 auto 100px;
+    }
+    .detailContainer > ul:last-of-type li{
+        display: block; border-radius: 50px; padding: 50px 3.5%; box-sizing: border-box;
+        background-position: center top; background-size: cover; background-repeat: no-repeat;
+
+    }
+    .detailContainer > ul:last-of-type li:first-child{
+        background-image: url("../images/bg_detail03.png");
+        margin-bottom: 100px;
+    }
+    .detailContainer > ul:last-of-type li:last-child{
+        background-image: url("../images/bg_detail04.png");
+    }
+    .detailContainer > ul:last-of-type li h3{
+        font-size: 30px; font-weight: 500; line-height: 40px;
+        text-align: center;
+    }
+    .detailContainer > ul:last-of-type li h3:after{
+        content: '▼'; display: block;   
+    }
+    .detailContainer > ul:last-of-type li h3.active:after{
+        content: '▲'; margin-bottom: 30px;
+    }
+    .detailContainer > ul:last-of-type li h3+div{
+        font-size: 0px; font-weight: 500; line-height: 0px;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .detailContainer > ul:last-of-type li h3.active+div{
+        font-size: 18px; font-weight: 500; line-height: 26px;
+    }
+    .detailContainer > ul:last-of-type li:first-child h3.active+div p:first-of-type{
+        margin-bottom: 30px;
+    }
+    
+    .cartContainer > h2{
+        text-align: center; font-size: 35px; font-weight: 500; color: #001b27;
+        background: url("../images/bg_02.png") left top / cover no-repeat;
+        padding: 200px 0 100px; box-sizing: border-box;
+    }
+    .cartContainer > div{
+        padding: 100px 2%; box-sizing: border-box;
+    }
+    .cartContainer > div:first-of-type{
+        margin-bottom: 50px; padding-bottom: 0;
+    }
+    .cartContainer > div:first-of-type ul li{
+        box-sizing: border-box;
+        display: flex; flex-flow: row wrap;
+        padding: 10px 0; border: 1px solid #d9d9d9; border-radius: 15px;
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    .cartContainer strong{
+        font-weight: inherit;
+    }
+    .cartContainer > div:first-of-type ul li:first-of-type{
+        display: none;
+    }
+    .cartContainer > div:first-of-type ul li > div:first-of-type{
+        width: 100%;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(2){
+        display: none;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(3){
+        width: 70%;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(4){
+        width: 30%; 
+    }
+    .cartContainer > div:first-of-type ul li > div:first-of-type img{
+        display: block; width: 30%; float: left;
+    }
+    .cartContainer > div:first-of-type ul li > div:first-of-type h3{
+        font-size: 18px; font-weight: 400; color: #001b27; line-height: 24px;
+    }
+    .cartContainer > div:first-of-type ul li:not(:first-of-type) > div:nth-of-type(2),
+    .cartContainer > div:first-of-type ul li:not(:first-of-type) > div:nth-of-type(4){
+        font-size: 7.3vw; font-weight: 400; color: #001b27;
+        padding: 20px 0; text-align: center;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(3) .countnumb{
+        margin: 10px 0;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(3) .btnDelete{
+        display: block; margin: 0 auto;
+    }
+    .cartContainer > div:last-of-type{
+        padding-top: 0;
+    }
+    .cartContainer > div:last-of-type ul{
+        background-color: #f3f3f3; border-radius: 15px;
+        padding: 30px 10%; box-sizing: border-box; list-style: none;
+        margin-bottom: 30px;
+    }
+    .cartContainer > div:last-of-type ul li::after{
+         content: ''; display: block; clear: both;
+    }
+    .cartContainer > div:last-of-type ul li:first-of-type{
+        margin-bottom: 15px;
+    }
+    .cartContainer > div:last-of-type ul li:nth-of-type(2){
+        margin-bottom: 35px;
+    }
+    .cartContainer > div:last-of-type ul li span{
+        display: block; float: left;
+    }
+    .cartContainer > div:last-of-type ul li span:first-of-type{
+        width: 50%; font-size: 7.14vw; font-weight: 600;
+    }
+    .cartContainer > div:last-of-type ul li span:last-of-type{
+        width: 48%; margin-left: 2%; text-align: right;
+        font-size: 6.42vw; font-weight: 400;
+    }
+    .cartContainer > div:last-of-type a{
+        display: block; 
+    }
+
+    .checkoutContainer{
+        background-color: #f3f3f3;
+    }
+    .checkoutContainer h2:not(#paymentComplete > h2){
+        font-size: 20px; font-weight: 500; 
+    }
+    .checkoutContainer:not(.information) h2{
+        margin-bottom: 25px;
+    }
+    .checkoutContainer input[type='submit']{
+        background-color: #001b27; color: #fff;
+    }
+    .checkoutContainer input:not([type='checkbox'],[type='submit'],[type='radio']){
+        display: block; border: 1px solid #d9d9d9; border-radius: 15px; padding: 14px 2.5%;
+        font-size: 16px; background-color: #fff;
+    }
+    .checkoutContainer > div:not(#paymentComplete){
+        padding: 150px 2% 100px; background-color: #fff; box-sizing: border-box;
+    }
+    .checkoutContainer > div:not(#paymentComplete):after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > div ol{
+        margin-bottom: 15px; display: flex;
+        flex-flow: row wrap;
+    }
+    .checkoutContainer > div ol li{
+        list-style: none; font-size: 4.8vw; font-weight: 400; 
+        display: block; color: #d9d9d9;
+    }
+    .checkoutContainer > div ol li.active{
+        color: #000;
+    }
+    .checkoutContainer > div ol li:not(:first-of-type):before{
+        content: '>'; padding: 0 5px;
+    }
+    .checkoutContainer > div ul,
+    .checkoutContainer.shipping > div form > div{
+        border: 1px solid #d9d9d9; box-sizing: border-box; border-radius: 15px;
+        margin-bottom: 50px;
+    }
+    .checkoutContainer > div ul li{
+        padding: 20px 3.5%; box-sizing: border-box;
+    }
+    .checkoutContainer > div ul li{
+        display: block;
+    }
+    .checkoutContainer > div ul li:not(:last-of-type){
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .checkoutContainer > div ul li::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > div ul li > *{
+        float: left;
+    }
+    .checkoutContainer > div ul li > span{
+        display: block; width: 25%; 
+        font-size: 16px; font-weight: 400; color: #7f7f7f;
+    }
+    .checkoutContainer > div ul li > p{
+        width: 72%; margin-left: 3%;
+        font-size: 16px; font-weight: 400; color: #2b2b2b; line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .checkoutContainer > div ul li > a{
+        display: block; width: 100%;
+        font-size: 16px; font-weight: 400; color: #2b2b2b;
+        text-align: right;
+    }
+    .checkoutContainer > div > form > div{
+        margin-bottom: 50px;
+    }
+    .checkoutContainer > div > form > div:first-of-type label{
+        font-size: 16px; font-weight: 400;
+    }
+    .checkoutContainer > div > form > a{
+        display: block; padding: 3.5vw 0 3.5vw 13.5vw; box-sizing: border-box;
+        font-size: 7.14vw; font-weight: 600; 
+        color: #000; background: url('../images/icon_back.svg') left top / contain no-repeat;
+        margin-bottom: 20px;
+    }
+    .checkoutContainer > div > form > input[type='submit']{
+        width: 80%; margin-left: auto; font-size: 6.4vw; padding: 3.5vw;
+    }
+    .checkoutContainer > aside{
+        padding: 100px 2%; box-sizing: border-box;
+    }
+    .checkoutContainer > aside ul li{
+        list-style: none;
+    }
+    .checkoutContainer > aside ul li:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > aside ul li > *{
+        display: block; float: left;
+    }
+    .checkoutContainer > aside ul li img{
+        width: 35%; margin-bottom: 10px;
+    }
+    .checkoutContainer > aside ul li dl{
+        width: 65%; padding: 10px 0 0; box-sizing: border-box;
+    }
+    .checkoutContainer > aside ul li > strong{
+        clear: left; width: 49%; font-size: 18px; font-weight: 700;
+        padding: 25px 0; box-sizing: border-box; text-align: center;
+    }
+    .checkoutContainer > aside ul li span{
+        width: 49%; margin-left: 2%; font-size: 16px; font-weight: 400;
+        padding: 26px 0; box-sizing: border-box; text-align: center;
+    }
+    .checkoutContainer > aside > div{
+        padding: 30px 0; box-sizing: border-box;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .checkoutContainer > aside div:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > aside div input[type='text']{
+        float: left; width: 75%; 
+    }
+    .checkoutContainer > aside div input[type='submit']{
+        float: left; width: 22%; margin-left: 3%;
+        font-size: 18px; padding: 15px 2%; 
+    }
+    .checkoutContainer > aside div span{
+        display: block; float: left; width: 49%;
+    }
+    .checkoutContainer > aside div span:first-of-type{
+        font-size: 20px; font-weight: 600; color: #7f7f7f;
+    }
+    .checkoutContainer > aside div span:nth-of-type(2){
+        margin-left: 2%; font-size: 18px; font-weight: 400; text-align: right;
+    }
+    .checkoutContainer > aside div span strong{
+        font-weight: inherit;
+    }
+    .checkoutContainer > aside div > div:first-of-type{
+        margin-bottom: 25px;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type h2{
+        width: 40%; margin-bottom: 10px;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div,
+    .checkoutContainer.information > div > form input:not([type='checkbox'], [type='submit']){
+        margin-bottom: 15px;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div p{
+        float: left; width: 75%;
+        font-size: 16px; font-weight: 400;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div a{
+        display: block; float: left; width: 23%; margin-left: 2%;
+        font-size: 18px; font-weight: 700; text-decoration: underline; 
+        color: #000;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type input[type='email']{
+        clear: left; width: 100%; margin-bottom: 20px;
+    }
+    .checkoutContainer.information > div > form > div:last-of-type,
+    .checkoutContainer.payment > div > form div ul li{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    .checkoutContainer.information > div > form > div:last-of-type h2{
+        width: 100%; margin-bottom: 25px;
+    }
+    .checkoutContainer.information > div > form input[type='text']:not(.halfwh),
+    .checkoutContainer.payment > div > form div ul li input{
+        width: 100%;
+    }
+    .checkoutContainer.information > div > form input[type='text'].halfwh{
+        width: 48.5%;
+    }
+    .checkoutContainer.information > div > form > div:last-of-type label{
+        color: #7f7f7f;
+    }
+    .checkoutContainer.shipping > div > form > ul li:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer.shipping > div > form > ul li input[type='radio']{
+        float: left; display: block; width: 5%; height: 16px; margin: 0;
+    }
+    .checkoutContainer.shipping > div > form > ul li label{
+        display: block; width: 92%; margin-left: 3%;
+        font-size: 16px; font-weight: 400; color: #2b2b2b;
+    }
+    .checkoutContainer.shipping > div > form > ul li label:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span{
+        display: block; float: left; 
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span:first-of-type{
+        width: 75%;
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span:first-of-type > span{
+        display: block; margin-top: 15px;
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span:last-of-type{
+        width: 22%; margin-left: 3%; text-align: right;
+    }
+    .checkoutContainer.payment{
+        position: relative;
+    }
+    .checkoutContainer.payment > div > form div{
+        background-color: #f3f3f3; border-radius: 15px;
+    }
+    .checkoutContainer.payment > div > form div h3{
+        width: 100%; font-size: 18px; font-weight: 700; padding: 20px 3.5%; box-sizing: border-box;
+        background-color: #fff; 
+        border: 1px solid #d9d9d9; border-radius: 15px;
+    }
+    .checkoutContainer.payment > div > form div ul{
+        border-width: 0px; 
+    }
+    .checkoutContainer.payment > div > form div ul li input:not(:last-of-type){
+        margin-bottom: 15px;
+    }
+    .checkoutContainer #paymentComplete{
+        position: absolute; width: 90%; left: 5%; top: 200px;
+        padding: 50px 5%; border: 1px solid #7f7f7f; background-color: #fff; box-sizing: border-box;
+        border-radius: 15px; text-align: center;
+    }
+    .checkoutContainer #paymentComplete h2{
+        font-size: 30px; font-weight: 500; color: #145930; margin-bottom: 30px;
+        padding-top: 80px; box-sizing: border-box;
+        background: url('../images/icon_check.svg') center top / 80px no-repeat;
+    }
+    .checkoutContainer #paymentComplete p{
+        font-size: 25px; font-weight: 400; color: #7f7f7f;
+        margin-bottom: 30px;
+    }
+    .checkoutContainer #paymentComplete a{
+        margin: 0 auto; background-color: #001b27; color: #fff;
+    }
+
+    .accountContainer{
+        background: url('../images/bg_02.png') left top / cover no-repeat;
+        margin-bottom: 100px; padding: 150px 0 100px; box-sizing: border-box;
+    }
+    .accountContainer > div{
+        width: 96%; margin: 0 auto; box-sizing: border-box; text-align: center;
+    }
+    .accountContainer:not(.signIn) > div form fieldset{
+        margin-bottom: 30px;
+    }
+    .accountContainer.signIn > div form fieldset{
+        margin-bottom: 15px;
+    }
+    .accountContainer > div form fieldset legend{
+        font-size: 30px; font-weight: 500; color: #001b27; line-height: 40px;
+        margin-bottom: 25px; 
+    }
+    .accountContainer > div form fieldset input{
+        display: block; width: 100%; padding: 20px 3%; box-sizing: border-box;
+        font-size: 20px; border-radius: 15px;
+    }    
+    .accountContainer > div form fieldset input::placeholder{
+        color: #001b27;
+    }
+    .accountContainer > div form fieldset input:not([type='submit']){
+        background-color: #fff; margin-bottom: 15px;
+    }
+    .accountContainer > div form fieldset input[type='submit']{
+        background-color: #001b27; color: #fff; font-weight: 600;
+    }
+    .accountContainer > div a,
+    .accountContainer > div > div span{
+        font-weight: 400; color: #7f7f7f; display: block;
+    }
+    .accountContainer.signIn > div > a{
+        font-size: 18px; text-decoration: underline; margin-bottom: 30px;
+    }
+    .accountContainer > div > div{
+        width: 65%; margin: 0 auto;
+    }
+    .accountContainer > div > div:after{
+        content: ''; display: block; clear: both;
+    }
+    .accountContainer > div > div a,
+    .accountContainer > div > div span{
+        font-size: 18px; float: left; 
+    }
+    .accountContainer > div > div a{
+        width: 44%;
+    }
+    .accountContainer > div > div a:first-of-type{
+        text-align: right;
+    }
+    .accountContainer > div > div a:last-of-type{
+        text-align: left;
+    }
+    .accountContainer > div > div span{
+        width: 4%; margin: 0 4%;
+    }
+    .accountContainer.findPassword > div form fieldset p{
+        font-size: 16px; font-weight: 400; color: #001b27; margin-bottom: 25px;
+        line-height: 22px;
+    }
+
+    .mypageContainer{
+        margin-bottom: 100px;
+    }
+    .mypageContainer > h2{
+        padding: 150px 2% 100px; box-sizing: border-box;
+        background: url('../images/bg_02.png') left -200px / cover no-repeat;
+        text-align: center; font-size: 45px; font-weight: 400; color: #001b27;
+        margin-bottom: 100px;
+    }
+    .mypageContainer aside{
+       padding: 0 2%; box-sizing: border-box;
+       margin-bottom: 25px;
+    }
+    .mypageContainer aside:after{
+        content: ''; display: block; clear: both;
+    }
+    .mypageContainer aside ul li{
+        width: 49%; float: left; margin-bottom: 15px;
+    }
+    .mypageContainer aside ul li:not(:nth-child(2n+1)){
+        margin-left: 2%;
+    }
+    .mypageContainer aside ul li a{
+        display: block; font-size: 7.14vw; font-weight: 500; color: #7f7f7f;
+    }
+    .mypageContainer aside ul li a.active{
+        color: #001b27; text-decoration: underline;
+    }
+    .mypageContainer > div{
+        padding: 0 2%; box-sizing: border-box;
+    }
+    .mypageContainer > div h3{
+        font-size: 25px; font-weight: 500; color: #001b27;
+    }
+    .mypageContainer.myOrder > div h3{
+        margin-bottom: 15px;
+    }
+    .mypageContainer.myOrder > div ul{
+        border-top: 1px solid #d9d9d9; 
+    }
+    .mypageContainer.myOrder > div ul li{
+        display: flex; flex-flow: row nowrap;
+        text-align: center;
+        border-bottom: 1px solid #d9d9d9;
+        box-sizing: border-box;
+    }
+    .mypageContainer.myOrder > div ul li div{
+        box-sizing: border-box; border-left: 1px solid #d9d9d9;
+
+    }
+    .mypageContainer.myOrder > div ul li:first-of-type div{
+        font-size: 16px; font-weight: 700; line-height: 20px;
+        color: #001b27;
+    }
+    .mypageContainer.myOrder > div ul li div:first-of-type{
+        width: 40%; padding: 10px 0;
+    }
+    .mypageContainer.myOrder > div ul li div:nth-of-type(2){
+        width: 60%; padding: 18px 0;
+        border-right: 1px solid #d9d9d9;
+    }
+    .mypageContainer.myOrder > div ul li div:nth-of-type(3),
+    .mypageContainer.myOrder > div ul li div:last-of-type{
+        display: none;
+    }
+    .mypageContainer.myOrder > div ul li p{
+        font-size: 30px; font-weight: 500; color: #d9d9d9;
+        width: 100%; padding: 25px 0; box-sizing: border-box;
+    }
+    .mypageContainer:not(.myOrder) > div h3{
+        margin-bottom: 15px;
+    }
+    .mypageContainer:not(.myOrder, .editInfo) > div a{
+        font-size: 20px; font-weight: 600;
+        padding: 15px 3%; color: #fff; background-color: #001b27;
+    }
+    .mypageContainer:not(.myOrder) > div ul li{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    .mypageContainer.myAddress > div{
+        position: relative;
+    }
+    .mypageContainer.myAddress > div a,
+    .mypageContainer.editInfo > div a{
+        display: block; margin-left: auto;
+        margin-bottom: 25px;
+    }
+    .mypageContainer.myAddress > div a{
+        width: 70%;
+    }
+    .mypageContainer.myAddress > div ul li{
+        border-width: 1px 0; border-style: solid; border-color: #d9d9d9;
+        padding: 30px 3%; box-sizing: border-box;
+    }
+    .mypageContainer.myAddress > div ul li div{
+        width: 100%; margin-bottom: 15px;
+    }
+    .mypageContainer.myAddress > div ul li div::after{
+        content: ''; display: block; clear: both;
+    }
+    .mypageContainer.myAddress > div ul li div h4{
+        float: left; width: 40%; font-size: 18px; font-weight: 700; color: #001b27;
+    }
+    .mypageContainer.myAddress > div ul li div p{
+        float: left; width: 56%; margin-left: 4%;
+        font-size: 16px; font-weight: 400;
+    }
+    .mypageContainer.myAddress > div ul li button{
+        font-size: 18px; font-weight: 400; color: #7f7f7f; text-decoration: underline;
+        font-family: inherit; background-color: transparent;
+    }
+    .mypageContainer.myAddress #addressDelete{
+        display: none;
+    }
+    .mypageContainer.myAddress #addressDelete.active{
+        position: absolute; width: 90%; left: 5%; top: 0; display: block;
+        padding: 50px 2%; border: 1px solid #7f7f7f; background-color: #fff; box-sizing: border-box;
+        border-radius: 15px; text-align: center; z-index: 100;
+    }
+    .mypageContainer.myAddress #addressDelete.active h2{
+        font-size: 20px; font-weight: 500; margin-bottom: 15px;
+        padding-top: 100px; box-sizing: border-box;
+        background: url('../images/icon_Delete.svg') center top / 100px no-repeat;
+    }
+    .mypageContainer.myAddress #addressDelete.active p{
+        font-size: 18px; font-weight: 400; color: #7f7f7f; line-height: 24px;
+        margin-bottom: 25px;
+    }
+    .mypageContainer.myAddress #addressDelete.active > div{
+        display: flex; flex-flow: row nowrap; justify-content: space-evenly;
+    }
+    .mypageContainer.myAddress #addressDelete.active > div button{
+        font-size: 18px; color: #fff; padding: 20px 5%; box-sizing: border-box;
+        width: 47%;
+    }
+    .mypageContainer.myAddress #addressDelete.active > div button.btnClose{
+        background-color: #001b27; 
+    }
+    .mypageContainer.myAddress #addressDelete.active > div button.deleteData{
+        background-color: #990000; 
+    } 
+    .mypageContainer.myDetail > div ul{
+        margin-bottom: 50px;
+    }
+    .mypageContainer.myDetail > div ul li:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+    .mypageContainer.myDetail > div ul li h4{
+        width: 40%; font-size: 20px; font-weight: 600; color: #7f7f7f;
+    }
+    .mypageContainer.myDetail > div ul li span{
+        width: 55%; font-size: 18px; font-weight: 500; color: #001b27;
+    }
+    .mypageContainer.myDetail > div a:first-of-type{
+        margin-bottom: 15px;
+    }
+    .mypageContainer.editInfo > div a{
+        font-size: 16px; font-weight: 400; color: #000;
+        width: 40%; padding-left: 8%; box-sizing: border-box;
+        background: url('../images/icon_back.svg') left top no-repeat;
+    }
+    .mypageContainer.editInfo > div form fieldset legend{
+        font-size: 25px; font-weight: 400; color: #001b27;
+        margin-bottom: 30px;
+    }
+    .mypageContainer.editInfo > div form fieldset input[type='text']{
+        width: 100%; background-color: #f3f3f3; border-radius: 15px;
+        font-size: 20px; font-weight: 400;
+        padding: 20px 3%; box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+    .mypageContainer.editInfo > div form fieldset input[type='submit']{
+        width: 100%; background-color: #001b27; color: #fff;
+        font-size: 20px; font-weight: 600;
+        padding: 20px 3%; box-sizing: border-box;
+    }
+
+    
+    .AboutsideMenu{
+        margin-bottom: 50px; 
+        padding-bottom: 50px; box-sizing: border-box; border-bottom: 2px solid #bdbdbd;
+    }    
+    .AboutsideMenu nav ul li:not(:last-child, ol li),
+    .policysideMenu nav ul li:not(:last-child){
+        margin-bottom: 25px;
+    }
+    .AboutsideMenu nav > ul li a:not(ol li a),
+    .AboutsideMenu nav > ul li span{
+        display: block; font-size: 30px; font-weight: 400; color: #7f7f7f;
+    }
+    .AboutsideMenu nav > ul li a:not(ol li a).active,
+    .AboutsideMenu nav > ul li span.active,
+    .AboutsideMenu nav > ul li span.active+ol li a.active,
+    .policysideMenu nav > ul li a.active{
+        color: #001b27; text-decoration: underline; font-weight: 500;
+    }
+    .AboutsideMenu nav > ul li span{
+        background: url('../images/btn_more.svg') right top no-repeat;
+    }
+    .AboutsideMenu nav > ul li span.active{
+        margin-bottom: 15px; background-image: url('../images/btn_less.svg');
+    }   
+    .AboutsideMenu nav > ul li span+ol{
+        padding: 0; margin: 0; font-size: 0; overflow: hidden;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .AboutsideMenu nav > ul li span.active+ol{
+        list-style: none; padding-left: 6%; box-sizing: border-box;
+    }
+    .AboutsideMenu nav > ul li span.active+ol li{
+        margin-bottom: 10px;
+    }
+    .AboutsideMenu nav > ul li span.active+ol li a{
+        display: block; width: 90%;
+        font-size: 25px; font-weight: 400; color: #7f7f7f;
+    }
+    .contactUsContainer,
+    .faqsContainer,
+    .shippingPolicyContainer{
+        padding: 150px 0 100px;
+    }
+    .contactUsContainer div > h2,
+    .contactUsContainer div h3,
+    .shippingPolicyContainer div h2{
+        font-size: 25px; font-weight: 500; color: #001b27;
+    }
+    .contactUsContainer div > h2,
+    .shippingPolicyContainer div h2,
+    .faqsContainer div > nav{
+        margin-bottom: 50px;
+    }
+    .contactUsContainer h3,
+    .contactUsContainer div ul,
+    .contactUsContainer div > p:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    .contactUsContainer div ul{
+        padding-left: 6%; box-sizing: border-box;
+    }
+    .contactUsContainer div ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .contactUsContainer div ul li p{
+        font-size: 16px; font-weight: 300; color: #2b2b2b;
+    }
+    .contactUsContainer div > p{
+        font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 24px;
+    }
+    .contactUsContainer div > p:last-of-type{
+        margin-bottom: 55px;
+    }
+    .contactUsContainer div > p a{
+        color: #2b2b2b; text-decoration: underline;
+    }
+    .contactUsContainer div form fieldset{
+        position: relative;
+    }
+    .contactUsContainer div form fieldset legend{
+        font-size: 25px; font-weight: 500; color: #001b27; margin-bottom: 30px;
+    } 
+    .contactUsContainer div form fieldset input:not([type='submit']){
+        margin-bottom: 20px; display: block;
+    }
+    .contactUsContainer div form fieldset label{
+        font-size: 18px; font-weight: 500; color: #2b2b2b;
+        margin-bottom: 10px; display: block;
+    }
+    .contactUsContainer div form fieldset input:not([type='submit']){
+        width: 100%; padding: 10px 3%;
+        font-size: 18px; font-weight: 400;
+        border: 2px solid #bdbdbd; box-sizing: border-box;
+    }
+    .contactUsContainer div form fieldset button{
+        font-size: 18px; color: #fff; background-color: #001b27;
+        padding: 10px 3%;
+    }
+    .contactUsContainer div form fieldset input+p{
+        font-size: 16px; font-weight: 300; color: #bdad5b; margin-bottom: 20px;
+        line-height: 22px;
+    }
+    .contactUsContainer div form fieldset select{
+        margin-bottom: 30px; font-size: 18px; font-weight: 400;
+        padding: 10px 3%; box-sizing: border-box;
+    }
+    .contactUsContainer div form fieldset textarea{
+        width: 100%; height: 200px; font-size: 18px; font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .contactUsContainer div form fieldset > #completePopup{
+        display: none;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active{
+        display: block;
+        position: absolute; width: 90%; left: 5%; bottom: 100px;
+        padding: 50px 5%; border: 1px solid #7f7f7f; background-color: #fff; box-sizing: border-box;
+        border-radius: 15px; text-align: center;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active h2{
+        font-size: 20px; font-weight: 500; margin-bottom: 15px; color: #145930;
+        padding-top: 100px; box-sizing: border-box;
+        background: url('../images/icon_check.svg') center top / 100px no-repeat;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active p{
+        font-size: 18px; font-weight: 400; color: #7f7f7f; line-height: 24px;
+        margin-bottom: 50px;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active input[type='button']{
+        font-size: 18px; padding: 20px 5%;
+        width: 50%; border-radius: 15px; margin: 0 auto; background-color: #001b27; color: #fff;
+        border-width: 0;
+    }
+    .shippingPolicyContainer div > ul,
+    .faqsContainer div > ul{
+        border-top: 1px solid #bdbdbd; box-sizing: border-box;
+    }
+    .shippingPolicyContainer div > ul > li,
+    .faqsContainer div > ul > li{
+        display: block; padding: 25px 3% 0; box-sizing: border-box;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .shippingPolicyContainer div > ul li h3,
+    .faqsContainer div > ul li h2{
+        font-size: 22px; font-weight: 500; color: #001b27;
+        padding-right: 17%; box-sizing: border-box;
+        background: url('../images/btn_more.svg') right top no-repeat;
+        margin-bottom: 30px; line-height: 30px;
+    }
+    .shippingPolicyContainer div > ul li h3.active,
+    .faqsContainer div > ul li h2.active{
+        background-image: url('../images/btn_less.svg');
+    }
+    .shippingPolicyContainer div > ul li h3+ul,
+    .faqsContainer div > ul li h2+p,
+    .faqsContainer div > ul li h2+div{
+        font-size: 0; line-height: 0; padding: 0; opacity: 0;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul,
+    .faqsContainer div > ul li h2.active+p,
+    .faqsContainer div > ul li h2.active+div{
+        padding: 0 3% 30px; box-sizing: border-box; opacity: 1;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul li:not(:last-child),
+    .faqsContainer div > ul li h2.active+div p:first-of-type{
+        margin-bottom: 25px;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul li p,
+    .faqsContainer div > ul li h2.active+p,
+    .faqsContainer div > ul li h2.active+div p{
+        font-size: 16px; font-weight: 300; color: #2b2b2b; line-height: 24px;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul li p+span{
+        display: block; margin-top: 30px; color: #acacac;
+    }
+    .faqsContainer div > nav ol:after{
+        content: ''; display: block; clear: both;
+    }
+    .faqsContainer div > nav ol li{
+        float: left; display: block;
+        font-size: 22px; font-weight: 500;
+    }
+    .faqsContainer div > nav ol li:first-child{
+        width: 20%; color: #7f7f7f; margin-right: 2%;
+    }
+    .faqsContainer div > nav ol li:not(:first-child):before{
+        content: '>'; padding-right: 2%;
+    }
+    .faqsContainer div > nav ol li:last-child{
+        width: 78%; color: #001b27;
+    }
+    .faqsContainer div > ul li h2.active+p span{
+        display: block; padding: 5px 0; box-sizing: border-box;
+    } 
+    .faqsContainer:after{
+        content: ''; display: block; clear: both;
+    }
+
+    .policyContainer{
+        padding: 150px 0 100px; box-sizing: border-box;
+    }
+    .policyContainer .policysideMenu{
+        margin-bottom: 100px;
+    }
+    .policysideMenu nav > ul li a{
+        display: block; font-size: 30px; font-weight: 400; color: #7f7f7f;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .policyContainer > div h2,
+    .policyContainer > div > div h3,
+    .policyContainer > div > ol > li h3{
+        font-size: 22px; font-weight: 500; color: #001b27; line-height: 28px;
+    }
+    .policyContainer > div h2{
+        margin-bottom: 45px;
+    }
+    .policyContainer > div p{
+        word-break: break-all;
+    }    
+    .policyContainer > div p,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li h4{
+        font-size: 16px; font-weight: 400; color: #2b2b2b; line-height: 26px;
+    }
+    .policyContainer > div > p,
+    .policyContainer:not(.cookiePolicy) > div > div,
+    .policyContainer > div > ol > li,
+    .policyContainer.cookiePolicy > div > ul{
+        margin-bottom: 25px;
+    }
+    .policyContainer > div > div,
+    .policyContainer > div > ol,
+    .policyContainer > div > div > *:not(h3),
+    .policyContainer > div > ol > li > *:not(h3),
+    .policyContainer > div > ol > li div > p:not(:first-of-type),
+    .policyContainer.privacyPolicy > div > ol li > div > ul,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li p,
+    .policyContainer.termsService > div > ol > li > div > ul,
+    .policyContainer.termsService > div > ol > li > div > ul li p{
+        padding-left: 5%; box-sizing: border-box;
+    }
+    .policyContainer > div > div h3,
+    .policyContainer > div > div p:not(:last-of-type),
+    .policyContainer > div > ol li h3,
+    .policyContainer > div > ol li :not(:last-child),
+    .policyContainer > div > ol li div,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li,
+    .policyContainer.cookiePolicy > div > div{
+        margin-bottom: 10px;
+    }
+    .policyContainer > div > ol > li,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li,
+    .policyContainer.termsService > div > ol > li > div > ul{
+        list-style: none;
+    }  
+    .policyContainer.privacyPolicy > div > ol li > div > ul li h4{
+        margin-bottom: 15px;
+    }
+    .policyContainer.cookiePolicy > div > ul{
+        border-width: 1px 1px 0; border-style: solid; border-color: #bdbdbd; box-sizing: border-box;
+    }
+    .policyContainer.cookiePolicy > div > ul > li{
+        border-bottom: 1px solid #bdbdbd; display: flex; flex-flow: row wrap; box-sizing: border-box; word-break: break-all;
+    }
+    .policyContainer.cookiePolicy > div > ul > li:first-of-type > span{
+        padding: 14px 2%; box-sizing: border-box; 
+        font-size: 16px; font-weight: 400; color: #2b2b2b; line-height: 26px;
+    }
+    .policyContainer.cookiePolicy > div > ul > li:not(:first-of-type) > span{
+        font-size: 14px; font-weight: 400; color: #2b2b2b; line-height: 24px;
+        padding: 15px 2%; box-sizing: border-box; 
+    }
+    .policyContainer.cookiePolicy > div > ul > li > span:first-of-type{
+        width: 26%;
+    }
+    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(2){
+        width: 34%; border-left: 1px solid #bdbdbd;
+    }
+    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(3),
+    .policyContainer.cookiePolicy > div > ul > li > span:last-of-type{
+        width: 20%; border-left: 1px solid #bdbdbd;
+    }
+}
+/* mobile */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .mainContainer{
+        background: url('../images/bg_01.webp') center top / 1279px no-repeat;
+        padding-top: 200px;
+    }
+    .mainContainer > h2{
+        font-size: 65px; line-height: 80px; font-weight: 500; color: #fff;
+        margin: 0 0 45px 2%; max-width: 740px;
+    }
+    .mainContainer > p:first-of-type{
+        font-size: 30px; line-height: 40px; font-weight: 400; color: #fff;
+        margin: 0 0 60px 2%; max-width: 835px;
+    }
+    .mainContainer > a.btnTwg{
+        color: #001b27; background-color: #fff;
+        margin: 0 0 250px 2%; 
+    }
+
+    .mainContainer > p:nth-of-type(2){
+        text-align: center; font-size: 50px; font-weight: 500; 
+        color: #001b27; padding: 0 2%; box-sizing: border-box;
+    }
+    .mainContainer > p:nth-of-type(2) strong{
+        display: block; margin-top: 150px; font-size: 200px; overflow: hidden;
+    }
+
+    .mainContainer > div{
+        margin-bottom: 150px;
+    }
+    .mainContainer > div ul{
+        padding: 0 2%; box-sizing: border-box;
+    }
+    .mainContainer > div:first-of-type{
+        background: url('../images/bg_02.png') left top / cover no-repeat;
+        padding-top: 100px; 
+    }
+    .mainContainer > div:first-of-type h3{
+        font-size: 80px; font-weight: 500; color: #001b27;
+        text-align: center; 
+    }
+    .mainContainer > div:first-of-type h3, .mainContainer > div:first-of-type ul li:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .mainContainer > div:first-of-type ul li{
+        background-position: center -30px; background-repeat: no-repeat; background-size: contain;
+        min-height: 300px; display: block;
+    }
+    .mainContainer > div:first-of-type ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
+    .mainContainer > div:first-of-type ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(3){background-image: url('../images/Item_FruitandHerbT002_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(4){background-image: url('../images/Item_FruitandHerbT008_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(5){background-image: url('../images/Item_FruitandHerbT013_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(6){background-image: url('../images/Item_FruitandHerbT003_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(7){background-image: url('../images/Item_BlackT079_001.webp');}
+    .mainContainer > div:first-of-type ul li figure{
+        width: 58%; box-sizing: border-box;
+    }    
+    .mainContainer > div:first-of-type ul li:nth-child(2n+1) figure{
+        margin-left: auto; padding-left: 180px;
+    }
+    .mainContainer > div:first-of-type ul li:nth-child(2n) figure{
+        text-align: right; padding-right: 180px;
+    }
+    .mainContainer > div:first-of-type ul li figure figcaption dl dt{
+        font-size: 30px; font-weight: 700; color: #001b27; margin-bottom: 20px;
+    }
+    .mainContainer > div:first-of-type ul li figure figcaption dl dd{
+        font-size: 20px; line-height: 25px; font-weight: 500; color: #001b27;
+        margin-bottom: 35px;
+    }
+    .mainContainer > div:first-of-type ul li figure figcaption a{
+        font-size: 20px;  
+        background-color: #001b27; color: #fff;
+        padding: 15px 20px; max-width: 170px;
+    }
+    .mainContainer > div:first-of-type ul li:nth-child(2n) figure figcaption a{
+        margin-left: auto;
+    }
+    .mainContainer > div:last-of-type h3{
+        background: url('../images/bg_03.webp') center top / cover no-repeat fixed;
+        padding-left: 2%; box-sizing: border-box;
+        color: #fff; font-size: 65px; font-weight: 500; line-height: 300px;
+    }
+    .mainContainer > div:last-of-type ul li{
+        padding: 80px 0; box-sizing: border-box; border-bottom: 1px solid rgba(19,36,48,0.3); 
+        display: block;
+    }
+    .mainContainer > div:last-of-type ul li div{
+        position: relative;
+    }
+    .mainContainer > div:last-of-type ul li div h4{
+        font-size: 35px; font-weight: 500; color: #001b27; line-height: 65px;
+        padding-left: 100px; 
+        background-position: left top; background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .mainContainer > div:last-of-type ul li:nth-child(1) div h4{
+        background-image: url('../images/icon_blacktea.png');
+    }
+    .mainContainer > div:last-of-type ul li:nth-child(2) div h4{
+        background-image: url('../images/Icon_GreenT.png');
+    }
+    .mainContainer > div:last-of-type ul li:nth-child(3) div h4{
+        background-image: url('../images/Icon_FruitandHerb.png');
+    }
+    .mainContainer > div:last-of-type ul li:nth-child(4) div h4{
+        background-image: url('../images/Icon_Decaffein.png');
+    }
+    .mainContainer > div:last-of-type ul li div button{
+        position: absolute; right: 0; top: 0; display: block;
+        font-family: inherit; font-size: 20px; font-weight: 700; padding: 22px 0;text-indent: -9999px;
+        width: 170px; background: url('../images/Button_learnmore.png') left top / contain no-repeat;
+    }
+    .mainContainer > div:last-of-type ul li div button.active{
+        background-image: url('../images/Button_learnless.png');
+    }
+    .mainContainer > div:last-of-type ul li figure{
+        opacity: 0; margin-top: 0; font-size: 0; display: none;
+        transition-duration: 0.5s; transition-timing-function: ease-in-out;
+    }
+    .mainContainer > div:last-of-type ul li figure.active{
+        opacity: 1; margin-top: 80px; display: block; font-size: 25px;
+    }
+    .mainContainer > div:last-of-type ul li figure:after{
+        content: ''; display: block; clear: both;
+    }
+    .mainContainer > div:last-of-type ul li figure > *{
+        float: right;
+    }
+    .mainContainer > div:last-of-type ul li figure img{
+        width: 31.5%; margin-left: 6.5%;
+    }
+    .mainContainer > div:last-of-type ul li figure figcaption{
+        width: 62%;
+    }
+    .mainContainer > div:last-of-type ul li figure figcaption p{
+        line-height: 35px; font-weight: 400; color: #001b27;
+        margin-bottom: 60px;
+    }
+    .mainContainer > div:last-of-type ul li figure figcaption a.btnTwg{
+        border: 2px solid #001b27; color: #001b27;
+    }
+
+    .listContainer{
+        padding-top: 200px;
+    }
+    .listContainer h2{
+        font-size: 65px; font-weight: 500; color: #001b27; margin-bottom: 55px;
+    }
+    .listContainer > p{
+        font-size: 30px; font-weight: 400; color: #7f7f7f; line-height: 40px; margin-bottom: 55px;
+    }
+    .listContainer > div:first-of-type{
+        padding: 0 2%; box-sizing: border-box; margin-bottom: 100px;
+    }
+    .listContainer > div:first-of-type a{
+        font-size: 30px; font-weight: 400; color: #001b27; 
+        background-color: #ff9eb8; padding: 22px 2.5%;
+        border-radius: 40px; display: inline-block;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out; 
+    }
+    .listContainer > div:first-of-type a::after{
+        content: ' '; width: 30px; height: 30px;
+        background: url('../images/icon_rightArrow.svg') center / cover no-repeat; display: inline-block; margin-left: 10px;
+        vertical-align: bottom;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .listContainer > div:first-of-type a:hover,
+    .listContainer > div:first-of-type a.active{
+        background-color: #001b27; color: #fff;
+    }
+    .listContainer > div:first-of-type a:hover::after,
+    .listContainer > div:first-of-type a.active::after{
+        background-image: url("../images/icon_rightArrowActive.svg");
+    }
+    .listContainer > div:first-of-type a:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .listContainer > div:last-of-type{
+        padding: 150px 2%; box-sizing: border-box; margin-bottom: 100px;
+    }
+    .listContainer.teaAll > div:last-of-type{
+        background-color: #fce779;
+    }
+    .listContainer.blackTea > div:last-of-type{
+        background-color: #00b1ff;
+    }
+    .listContainer.greenTea > div:last-of-type{
+        background-color: #91c788;
+    }
+    .listContainer.fruitAndherb > div:last-of-type{
+        background-color: #fd9bbb;
+    }
+    .listContainer > div:last-of-type h3{
+        font-size: 35px; font-weight: 500; color: #001b27; margin-bottom: 65px;
+    }
+    .listContainer > div:last-of-type ul{
+        display: flex; flex-flow: row wrap;
+        justify-content: flex-start; 
+    }
+    .listContainer > div:last-of-type ul li{
+        display: block; width: 49%; text-align: center; margin-bottom: 100px;
+    }
+    .listContainer > div:last-of-type ul li:not(:nth-child(2n+1)){
+        margin-left: 2%;
+    }
+    .listContainer > div:last-of-type ul li a img{
+        max-height: 330px; display: block; margin: 0 auto;
+        filter: drop-shadow(15px 15px 12px rgba(0,0,0,0.3));
+    }
+    .listContainer > div:last-of-type ul li a h4{
+        font-size: 25px; font-weight: 500; color: #001b27;
+        margin-bottom: 10px;
+    }
+    .listContainer > div:last-of-type ul li a p:first-of-type{
+        font-size: 16px; font-weight: 400; margin-bottom: 10px;
+    }
+    .listContainer.teaAll > div:last-of-type > div:not(:last-of-type){
+        margin-bottom: 150px;
+    }
+    .listContainer.teaAll > div:last-of-type ul li a p:first-of-type{
+        color: #ab9c52;
+    }
+    .listContainer.blackTea > div:last-of-type ul li a p:first-of-type{
+        color: #0076ab;
+    }
+    .listContainer.greenTea > div:last-of-type ul li a p:first-of-type{
+        color: #26ab5b;
+    }
+    .listContainer.fruitAndherb > div:last-of-type ul li a p:first-of-type{
+        color: #ab3a58;
+    }
+    .listContainer.teaWare > div:last-of-type ul li a p:first-of-type{
+        color: #acacac;
+    }
+    .listContainer > div:last-of-type ul li a p:last-of-type{
+        font-size: 18px; font-weight: 300; line-height: 25px;
+    }
+    .listContainer.teaAll > div:last-of-type ul li a p:last-of-type{
+        color: #80753d;
+    }
+    .listContainer.blackTea > div:last-of-type ul li a p:last-of-type{
+        color: #005880;
+    }
+    .listContainer.greenTea > div:last-of-type ul li a p:last-of-type{
+        color: #1c8044;
+    }
+    .listContainer.fruitAndherb > div:last-of-type ul li a p:last-of-type{
+        color: #802c42;
+    }
+    .listContainer.teaWare > div:last-of-type ul li a p:last-of-type{
+        color: #7f7f7f; 
+    }
+    .listContainer.teaAll > div:last-of-type > div:not(#listDecaffeinatedTea, #listHotchocoandMaltDrinks) ul li:last-of-type img{
+        width: 100%; margin-bottom: 50px;
+    } 
+    .listContainer.teaAll > div:last-of-type > div:not(#listDecaffeinatedTea, #listHotchocoandMaltDrinks) ul li:last-of-type h4{
+        font-size: 65px; font-weight: 500; color: #fff; text-align: center;
+    }
+
+    .detailContainer .bx-wrapper{background-color: transparent; border: none; box-shadow: none;}
+    .detailContainer .bx-wrapper .bx-pager{
+        padding-top: 50px; bottom: -60px;
+    }
+    .detailContainer .bx-wrapper .bx-controls-direction a {
+        top: 112%;
+        width: 30px;
+        height: 30px;
+    }
+    .detailContainer .bx-wrapper .bx-next{
+        right: 25%;
+        background: url("../images/btn_bxnext.svg") left top / cover no-repeat;
+    }
+    .detailContainer .bx-wrapper .bx-prev{
+        left: 25%;
+        background: url("../images/btn_bxprev.svg") left top / cover no-repeat;
+    }
+    .detailContainer .bx-wrapper .bx-next:hover, .bx-wrapper .bx-next:focus {
+        background-position: left 0;
+    }
+    .detailContainer .bx-wrapper .bx-pager.bx-default-pager a{
+        background: transparent;
+        border: 2px solid #001b27;
+        box-sizing: border-box;
+    }
+    .detailContainer .bx-wrapper .bx-pager.bx-default-pager a.active{
+        background: #001b27;
+    }
+    .detailContainer > div,
+    .detailContainer > div:nth-of-type(2),
+    .detailContainer > div:nth-of-type(3),
+    .detailContainer > ul,
+    .detailContainer > figure{
+        margin-bottom: 150px;
+    }
+
+    .detailContainer > div:first-of-type::after{
+        content: ''; display: block; clear: both;
+    }
+    .detailContainer > div:first-of-type > div,
+    .detailContainer > div:first-of-type aside{
+        float: left;
+    }
+    .detailContainer > div:first-of-type > div{
+        width: 60%; padding: 200px 0 150px; box-sizing: border-box;
+        position: relative; background-size: cover; background-repeat: no-repeat; background-position: left top;
+    }
+    .detailContainer.blackTea > div:first-of-type > div{
+        background-image: url("../images/bg_blackTea.png");
+    }
+    .detailContainer.greenTea > div:first-of-type > div{
+        background-image: url("../images/bg_greenTea01.png");
+    }
+    .detailContainer.fruitAndherb > div:first-of-type > div{
+        background-image: url("../images/bg_fruitAndherb01.png");
+    }
+    .detailContainer.deCaffein > div:first-of-type > div,
+    .detailContainer.hotChoco > div:first-of-type > div{
+        background-image: url("../images/bg_decaffein01.png");
+    }
+    .detailContainer > div:first-of-type div > h2{
+        position: absolute; top: 300px; width: 100%; font-size: 200px; font-weight: 700; color: #fff;
+        overflow: hidden;
+    }
+    .detailContainer.teaWare > div:first-of-type div > h2{
+        color: #2b2b2b;
+    }
+    .detailContainer > div:first-of-type aside{
+        width: 40%; background-color: #fff; padding: 150px 2% 0; box-sizing: border-box;
+    }
+    .detailContainer > div:first-of-type aside h2,
+    .detailContainer > div:first-of-type aside p,
+    .detailContainer > div:first-of-type aside div{
+        margin-bottom: 30px;
+    }
+    .detailContainer > div:first-of-type aside h2{
+        font-size: 25px; font-weight: 600; line-height: 35px;
+    }
+    .detailContainer > div:first-of-type aside h2 span{
+        display: block; font-size: 18px; font-weight: 500; color: #7f7f7f;
+        padding-top: 20px; line-height: 24px;
+    }
+    .detailContainer > div:first-of-type aside p{
+        padding: 30px 3%; box-sizing: border-box; border: 1px solid #bdbdbd; border-radius: 15px;
+        font-size: 18px; font-weight: 400; line-height: 25px;
+    }
+    .detailContainer > div:first-of-type div .detailSlider:after,
+    .detailContainer > div:first-of-type aside div:after,
+    .detailContainer > div:nth-of-type(2):after,
+    .detailContainer > ul:first-of-type,
+    .detailContainer > figure:first-of-type:after,
+    .detailContainer > div:nth-of-type(3) ul li:nth-child(2):after,
+    .detailContainer > figure:nth-of-type(2):after,
+    .detailContainer > ul:last-of-type li:after,
+    .detailContainer #teaProcessText ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .detailContainer > div:first-of-type aside div input{
+        float: left; display: block; width: 26px; height: 26px; margin: 23px 3%;
+    }
+    .detailContainer > div:first-of-type aside div label{
+        display: block; background-color: #f3f3f3; padding: 26px 20px; box-sizing: border-box; border-radius: 15px;
+        font-size: 18px; font-weight: 500; 
+    }
+    .detailContainer > div:first-of-type aside div input:checked+label{
+        background-color: #d9d9d9;
+    }
+    .detailContainer > div:first-of-type aside div label:first-of-type{
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:first-of-type aside div label strong{
+        font-weight: 500; color: #5a5a5a; 
+    }
+    .detailContainer > div:nth-of-type(2) h3,
+    .detailContainer > div:nth-of-type(2) ul{
+        float: left;
+    }
+    .detailContainer > div:nth-of-type(2) h3{
+        width: 30%; font-size: 30px; font-weight: 400; padding: 32px 0;
+        border-width: 1px 0; border-color: #bdbdbd; border-style: solid none;
+        box-sizing: border-box; margin-top: 15px;
+    }
+    .detailContainer > div:nth-of-type(2) ul{
+        width: 65%; margin-left: 5%; font-size: 20px; font-weight: 500;
+    }
+    .detailContainer > div:nth-of-type(2) ul li{
+        list-style: none;
+    }
+    .detailContainer > div:nth-of-type(2) ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:nth-of-type(2) ul li a{
+        color: #00a5ed; text-decoration: underline;
+    }
+    .detailContainer > ul:first-of-type{
+        background-position: left top; background-repeat: no-repeat; background-size: cover;
+        padding: 150px 4%; box-sizing: border-box;
+        display: flex; flex-flow: row wrap;
+    }
+    .detailContainer.blackTea > ul:first-of-type{
+        background-image: url("../images/bg_blackTea02.png");
+    }
+    .detailContainer.greenTea > ul:first-of-type{
+        background-image: url("../images/bg_greenTea02.png");
+    }
+    .detailContainer.fruitAndherb > ul:first-of-type{
+        background-image: url("../images/bg_fruitAndherb02.png");
+    }
+    .detailContainer.deCaffein > ul:first-of-type,
+    .detailContainer.hotChoco > ul:first-of-type{
+        background-image: url("../images/bg_decaffein02.png");
+    }
+    .detailContainer > ul:first-of-type li{
+        display: block; width: 49%; padding: 180px 2.7% 50px;
+        border-width: 5px; border-style: solid; border-radius: 50px; box-sizing: border-box; 
+        background-repeat: no-repeat; background-position: 10% 40px; background-size: 120px;
+        margin-bottom: 20px;
+    }
+    .detailContainer.blackTea > ul:first-of-type li{
+        border-color: #005880;
+    }
+    .detailContainer.greenTea > ul:first-of-type li{
+        border-color: #145930;
+    }
+    .detailContainer.fruitAndherb > ul:first-of-type li{
+        border-color: #802c42;
+    }
+    .detailContainer.deCaffein > ul:first-of-type li,
+    .detailContainer.hotChoco > ul:first-of-type li{
+        border-color: #80753d;
+    }
+    .detailContainer.teaWare > ul:first-of-type li{
+        border-color: #a6a6a6; color: #2b2b2b;
+    }
+    .detailContainer > ul:first-of-type li:not(:nth-child(2n+1)){
+        margin-left: 2%;
+    }
+    .detailContainer > ul:first-of-type li:nth-child(1){background-image: url("../images/icon_detailinfo01.svg");}
+    .detailContainer:not(.teaWare) > ul:first-of-type li:nth-child(2){background-image: url("../images/icon_detailinfo02.svg");}
+    .detailContainer.teaWare > ul:first-of-type li:nth-child(2){background-image: url("../images/icon_detailinfo05.svg");}
+    .detailContainer:not(.teaWare) > ul:first-of-type li:nth-child(3){background-image: url("../images/icon_detailinfo03.svg");}
+    .detailContainer.teaWare > ul:first-of-type li:nth-child(3){background-image: url("../images/icon_detailinfo06.svg");}
+    .detailContainer > ul:first-of-type li:nth-child(4){background-image: url("../images/icon_detailinfo04.svg");}
+    .detailContainer > ul:first-of-type li h3{
+        font-size: 4vw; font-weight: 500; line-height: 4.5vw; color: #fce779;
+        margin-bottom: 30px;
+    }
+    .detailContainer.fruitAndherb > ul:first-of-type li h3{
+        color: #145930;
+    }
+    .detailContainer.deCaffein > ul:first-of-type li h3,
+    .detailContainer.hotChoco > ul:first-of-type li h3{
+        color: #0073a6;
+    }
+    .detailContainer > ul:first-of-type li b{
+        display: block; text-align: right; margin-bottom: 15px; color: #fff;
+    }
+    .detailContainer > ul:first-of-type li b:first-of-type{
+        font-size: 4vw; font-weight: 700;
+    }
+    .detailContainer > ul:first-of-type li b:not(:first-of-type){
+        font-size: 3.2vw; font-weight: 600;
+    }
+    .detailContainer > ul:first-of-type li p{
+        font-size: 2.3vw; font-weight: 400; line-height: 3.12vw; color: #fff; margin-bottom: 10px;
+    }
+    .detailContainer.teaWare > ul:first-of-type li h3,
+    .detailContainer.teaWare > ul:first-of-type li b,
+    .detailContainer.teaWare > ul:first-of-type li p,
+    .detailContainer.teaWare > figure:first-of-type figcaption h2{
+        color: #2b2b2b;
+    }
+    .detailContainer > figure:first-of-type img,
+    .detailContainer > figure:first-of-type figcaption{
+        display: block; float: left;
+    }
+    .detailContainer > figure:first-of-type img{
+        width: 59%;
+    }
+    .detailContainer > figure:first-of-type figcaption{
+        width: 37.5%; margin-left: 3.5%; box-sizing: border-box;
+    }
+    .detailContainer > figure:first-of-type figcaption h2{
+        font-size: 3.64vw; font-weight: 500; line-height: 4.16vw; margin-bottom: 20px;
+    }
+    .detailContainer.blackTea > figure:first-of-type figcaption h2{
+        color: #0073a6;
+    }
+    .detailContainer.greenTea > figure:first-of-type figcaption h2{
+        color: #1c8044;
+    }
+    .detailContainer.fruitAndherb > figure:first-of-type figcaption h2{
+        color: #a63856;
+    }
+    .detailContainer.deCaffein > figure:first-of-type figcaption h2,
+    .detailContainer.hotChoco > figure:first-of-type figcaption h2{
+        color: #80753d;
+    }
+    .detailContainer > figure:first-of-type figcaption p{
+        font-size: 2.6vw; font-weight: 500; line-height: 3vw; color: #7f7f7f;
+        padding-left: 5%; 
+    }
+    .detailContainer > div:nth-of-type(3) h3{
+        font-size: 100px; font-weight: 300; text-align: right; margin-bottom: 80px;
+    }
+    .detailContainer > div:nth-of-type(3) img{
+        display: block; max-width: 550px; margin: 0 auto;
+    }
+    .detailContainer > div:nth-of-type(3) ul{
+        width: 85%; list-style: none;
+    }
+    .detailContainer > div:nth-of-type(3) ul li:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li h4{
+        font-size: 80px; font-weight: 500; margin-bottom: 30px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li:nth-child(2n) h4{
+        text-align: right;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div{
+        padding-left: 3.5%; box-sizing: border-box;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(1),
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(2){
+        float: left;
+    }
+    .detailContainer > div:nth-of-type(3) ul li:not(:nth-of-type(2)) div:nth-of-type(1),
+    .detailContainer > div:nth-of-type(3) ul li:not(:nth-of-type(2)) div:nth-of-type(2){
+        margin-bottom: 30px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(1){
+        width: 45%;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(2){
+        width: 55%; 
+    }
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(3){
+        clear: both;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div h5{
+        font-size: 25px; font-weight: 500; color: #7f7f7f;
+        display: inline-block; margin-bottom: 10px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div p{
+        display: inline-block; margin-left: 2%;
+        font-size: 18px; font-weight: 300; 
+    }
+    .detailContainer > div:nth-of-type(3) ul li > p{
+        font-size: 18px; font-weight: 300; padding-right: 3.5%; box-sizing: border-box;
+        text-align: right; line-height: 25px;
+    }
+    .detailContainer > div:nth-of-type(4){
+        background: url("../images/bg_detail01.png") left top / cover no-repeat;
+        padding: 100px 0; box-sizing: border-box; color: #fff;
+    }
+    .detailContainer > div:nth-of-type(4) h3,
+    .detailContainer > div:last-of-type h3{
+        font-size: 65px; font-weight: 500; margin-bottom: 30px; 
+    }
+    .detailContainer > div:nth-of-type(4) p{
+        padding-left: 5%; box-sizing: border-box;
+        font-size: 30px; font-weight: 400; line-height: 40px;
+    }
+    .detailContainer > figure:nth-of-type(2){
+        position: relative;
+    }
+    .detailContainer > figure:nth-of-type(2) img{
+        float: right; 
+    }
+    .detailContainer > figure:nth-of-type(2) img{
+        width: 57%; margin-left: 3%; display: block;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption h3{
+        font-size: 80px; font-weight: 500; margin-bottom: 50px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li{
+        list-style: none; box-sizing: border-box;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li:not(:last-child){
+        margin-bottom: 55px; 
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li h4{
+        font-size: 30px; font-weight: 400; color: #092b17; margin-bottom: 30px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li p{
+        font-size: 18px; font-weight: 300; line-height: 30px; color: #7f7f7f;
+        padding-left: 3%; 
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li:last-child p{
+        margin-bottom: 45px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li button{
+        font-size: 16px; font-weight: 300; color: #145930; text-decoration: underline;
+        background-color: transparent;
+    }
+    .detailContainer #teaProcessText{
+        display: none;
+    }
+    .detailContainer #teaProcessText.active{
+        display: block; width: 100%; background-color: #fff; border-radius: 50px;
+        position: absolute; top: 0; padding: 50px 3% 100px; box-sizing: border-box;
+        box-shadow: 0px 10px 15px 7px rgba(0, 0, 0, 0.30);
+    }
+    .detailContainer #teaProcessText input[value="Close"]{
+        font-size: 20px; font-weight: 400; text-decoration: underline;
+        display: block; margin-left: auto; margin-bottom: 30px;
+    }
+    .detailContainer #teaProcessText ul{
+        padding-bottom: 35vw; background: url("../images/detail_madeTea.png") left bottom / 100% no-repeat;
+    }
+    .detailContainer #teaProcessText ul li{
+        display: block; text-align: center;
+    }
+    .detailContainer #teaProcessText ul li:first-child{
+        margin-bottom: 30px;
+    }
+    .detailContainer #teaProcessText ul li h4{
+        font-size: 3.25vw; font-weight: 600; color: #1c8044; 
+        margin-bottom: 20px; 
+    }
+    .detailContainer #teaProcessText ul li p{
+        font-size: 2.6vw; line-height: 3vw; font-weight: 400; color: #7f7f7f;
+    }
+    .detailContainer > div:last-of-type{
+        background: url("../images/bg_detail02.png") left top / cover no-repeat;
+        padding: 150px 0; box-sizing: border-box; color: #fff;
+    }
+    .detailContainer > div:last-of-type p{
+        padding-left: 7%;
+        font-size: 25px; font-weight: 400; line-height: 36px;
+    }
+    .detailContainer > ul:last-of-type{
+        width: 96%; margin: 0 auto 150px;
+    }
+    .detailContainer > ul:last-of-type li{
+        display: block; 
+    }
+    .detailContainer > ul:last-of-type li:first-child{
+        margin-bottom: 150px;
+    }
+    .detailContainer > ul:last-of-type li:first-child h3,
+    .detailContainer > ul:last-of-type li:first-child div{
+        float: right;
+    }
+    .detailContainer > ul:last-of-type li:last-child h3,
+    .detailContainer > ul:last-of-type li:last-child div{
+        float: left;
+    }
+    .detailContainer > ul:last-of-type li h3{
+        width: 49%; padding: 200px 3.5%; box-sizing: border-box; border-radius: 50px;
+        font-size: 65px; font-weight: 500; line-height: 80px; color: #fff;
+        background-position: center top; background-size: cover; background-repeat: no-repeat;
+    }
+    .detailContainer > ul:last-of-type li:first-child h3{
+        background-image: url("../images/bg_crafted.png"); margin-left: 2%;
+    }
+    .detailContainer > ul:last-of-type li:last-child h3{
+        background-image: url("../images/bg_sourced.png");
+    }
+    .detailContainer > ul:last-of-type li div{
+        width: 49%; box-sizing: border-box; border-radius: 50px;
+        font-size: 18px; font-weight: 500; line-height: 26px;
+        background-position: center top; background-size: cover; background-repeat: no-repeat;
+    }
+    .detailContainer > ul:last-of-type li:first-child div{
+        background-image: url("../images/bg_detail03.png"); padding: 132px 3.5%;
+    }
+    .detailContainer > ul:last-of-type li:first-child div p:first-of-type{
+        margin-bottom: 75px;
+    }
+    .detailContainer > ul:last-of-type li:last-child div{
+        background-image: url("../images/bg_detail04.png"); margin-left: 2%;
+        padding: 170px 3.5%;
+    }
+
+    .cartContainer > h2{
+        text-align: center; font-size: 80px; font-weight: 500; color: #001b27;
+        background: url("../images/bg_02.png") left -500px / cover no-repeat;
+        padding: 200px 0 150px; box-sizing: border-box;
+    }
+    .cartContainer > div{
+        padding: 150px 2% 0; box-sizing: border-box;
+    }
+    .cartContainer > div:first-of-type{
+        margin-bottom: 50px;
+    }    
+    .cartContainer > div:first-of-type ul{
+        box-sizing: border-box;
+        border: 1px solid #d9d9d9;
+    }
+    .cartContainer > div:first-of-type ul li{
+        border-bottom: 1px solid #d9d9d9;
+        box-sizing: border-box;
+        display: flex; flex-flow: row nowrap;
+        list-style: none;
+    }
+    .cartContainer strong{
+        font-weight: inherit;
+    }
+    .cartContainer > div:first-of-type ul li > div:first-of-type{
+        width: 50%;
+    }
+    .cartContainer > div:first-of-type ul li:first-of-type div{
+        font-size: 25px; font-weight: 600; color: #001b27; text-align: center;
+        padding: 27px 0;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(2){
+        width: 20%; border-left: 1px solid #d9d9d9;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(3){
+        width: 10%; border-left: 1px solid #d9d9d9;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(4){
+        width: 20%;
+        border-left: 1px solid #d9d9d9;
+    }
+    .cartContainer > div:first-of-type ul li > div:first-of-type img{
+        display: block; width: 30%; float: left;
+    }
+    .cartContainer > div:first-of-type ul li > div:first-of-type h3{
+        font-size: 18px; font-weight: 400; color: #001b27; line-height: 24px;
+        margin: 20px 0;
+    }
+    .cartContainer > div:first-of-type ul li:not(:first-of-type) > div:nth-of-type(2),
+    .cartContainer > div:first-of-type ul li:not(:first-of-type) > div:nth-of-type(4){
+        font-size: 3.9vw; font-weight: 400; color: #001b27;
+        padding: 30px 0; text-align: center;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(3) .countnumb{
+        margin: 20px 0 10px;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(3) .btnDelete{
+        display: block; margin: 0 auto;
+    }
+    .cartContainer > div:last-of-type{
+        padding-top: 0; margin-bottom: 150px;
+    }
+    .cartContainer > div:last-of-type ul{
+        background-color: #f3f3f3; border-radius: 15px;
+        padding: 50px 10%; box-sizing: border-box; list-style: none;
+        margin-bottom: 30px;
+    }
+    .cartContainer > div:last-of-type ul li::after{
+         content: ''; display: block; clear: both;
+    }
+    .cartContainer > div:last-of-type ul li:first-of-type{
+        margin-bottom: 25px;
+    }
+    .cartContainer > div:last-of-type ul li:nth-of-type(2){
+        margin-bottom: 55px;
+    }
+    .cartContainer > div:last-of-type ul li span{
+        display: block; float: left;
+    }
+    .cartContainer > div:last-of-type ul li span:first-of-type{
+        width: 50%; font-size: 3.25vw; font-weight: 600;
+    }
+    .cartContainer > div:last-of-type ul li span:last-of-type{
+        width: 48%; margin-left: 2%; text-align: right;
+        font-size: 3.25vw; font-weight: 400;
+    }
+    .cartContainer > div:last-of-type a{
+        display: block; 
+    }
+
+    .checkoutContainer{
+        background-color: #f3f3f3;
+    }
+    .checkoutContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > div:not(#paymentComplete),
+    .checkoutContainer aside{
+        float: left; width: 50%; padding: 200px 2% 150px; box-sizing: border-box;
+    }
+    .checkoutContainer h2:not(#paymentComplete > h2){
+        font-size: 35px; font-weight: 500; 
+    }
+    .checkoutContainer:not(.information) h2{
+        margin-bottom: 30px;
+    }
+    .checkoutContainer input[type='submit']{
+        background-color: #001b27; color: #fff;
+    }
+    .checkoutContainer input:not([type='checkbox'],[type='submit'],[type='radio']){
+        display: block; border: 1px solid #d9d9d9; border-radius: 15px; padding: 20px 2.5%;
+        font-size: 16px; background-color: #fff;
+    }
+    .checkoutContainer > div{
+        background-color: #fff;
+    }
+    .checkoutContainer > div:not(#paymentComplete):after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > div ol{
+        margin-bottom: 25px; display: flex;
+        flex-flow: row nowrap;
+    }
+    .checkoutContainer > div ol li{
+        list-style: none; font-size: 2.35vw; font-weight: 400; 
+        display: block; color: #d9d9d9;
+    }
+    .checkoutContainer > div ol li.active{
+        color: #000;
+    }
+    .checkoutContainer > div ol li:not(:first-of-type):before{
+        content: '>'; padding: 0 5px;
+    }
+    .checkoutContainer > div ul,
+    .checkoutContainer.shipping > div form > div{
+        border: 1px solid #d9d9d9; box-sizing: border-box; border-radius: 15px;
+        margin-bottom: 100px;
+    }
+    .checkoutContainer > div ul li{
+        padding: 30px 3.5%; box-sizing: border-box;
+    }
+    .checkoutContainer > div ul li{
+        display: block;
+    }
+    .checkoutContainer > div ul li:not(:last-of-type){
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .checkoutContainer > div ul li::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > div ul li > *{
+        float: left;
+    }
+    .checkoutContainer > div ul li > span{
+        display: block; width: 20%; 
+        font-size: 16px; font-weight: 400; color: #7f7f7f;
+    }
+    .checkoutContainer > div ul li > p{
+        width: 60%; margin-left: 6%;
+        font-size: 16px; font-weight: 400; color: #2b2b2b; line-height: 24px;
+    }
+    .checkoutContainer > div ul li > a{
+        display: block; width: 8%; margin-left: 6%;
+        font-size: 16px; font-weight: 400; color: #2b2b2b;
+        text-align: right;
+    }
+    .checkoutContainer > div > form > div{
+        margin-bottom: 100px;
+    }
+    .checkoutContainer > div > form > div:first-of-type label{
+        font-size: 16px; font-weight: 400;
+    }
+    .checkoutContainer > div > form > a{
+        display: block; width: 80%; padding: 0.78vw 0 0.78vw 4.23vw; box-sizing: border-box;
+        font-size: 3.25vw; font-weight: 600; 
+        color: #000; background: url('../images/icon_back.svg') left top / contain no-repeat;
+        margin-bottom: 20px;
+    }
+    .checkoutContainer > div > form > input[type='submit']{
+        width: 70%; margin-left: auto; font-size: 2.6vw; padding: 0.91vw 1.56vw;
+    }
+    .checkoutContainer > aside ul li{
+        list-style: none;
+    }
+    .checkoutContainer > aside ul li:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > aside ul li > *{
+        display: block; float: left;
+    }
+    .checkoutContainer > aside ul li img{
+        width: 35%; margin-bottom: 10px;
+    }
+    .checkoutContainer > aside ul li dl{
+        width: 65%; padding: 10px 0 0; box-sizing: border-box;
+    }
+    .checkoutContainer > aside ul li > strong{
+        clear: left; width: 49%; font-size: 20px; font-weight: 700;
+        padding: 25px 0; box-sizing: border-box; text-align: center;
+    }
+    .checkoutContainer > aside ul li span{
+        width: 49%; margin-left: 2%; font-size: 18px; font-weight: 400;
+        padding: 26px 0; box-sizing: border-box; text-align: center;
+    }
+    .checkoutContainer > aside > div{
+        padding: 60px 0; box-sizing: border-box;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .checkoutContainer > aside div:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > aside div input[type='text']{
+        float: left; width: 70%; 
+    }
+    .checkoutContainer > aside div input[type='submit']{
+        float: left; width: 25%; margin-left: 5%;
+        font-size: 20px; padding: 18px 4%; 
+    }
+    .checkoutContainer > aside div span{
+        display: block; float: left; width: 49%;
+    }
+    .checkoutContainer > aside div span:first-of-type{
+        font-size: 25px; font-weight: 600; color: #7f7f7f;
+    }
+    .checkoutContainer > aside div span:nth-of-type(2){
+        margin-left: 2%; font-size: 20px; font-weight: 400; text-align: right;
+    }
+    .checkoutContainer > aside div span strong{
+        font-weight: inherit;
+    }
+    .checkoutContainer > aside div > div:first-of-type{
+        margin-bottom: 25px;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type h2{
+        width: 40%; margin-bottom: 10px;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div,
+    .checkoutContainer.information > div > form input:not([type='checkbox'], [type='submit']){
+        margin-bottom: 30px;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div p{
+        float: left; width: 60%;
+        font-size: 16px; font-weight: 400;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div a{
+        display: block; float: left; width: 38%; margin-left: 2%;
+        font-size: 18px; font-weight: 700; text-decoration: underline; 
+        color: #000;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type input[type='email']{
+        clear: left; width: 100%; margin-bottom: 20px;
+    }
+    .checkoutContainer.information > div > form > div:last-of-type,
+    .checkoutContainer.payment > div > form div ul li{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    .checkoutContainer.information > div > form > div:last-of-type h2{
+        width: 100%; margin-bottom: 30px;
+    }
+    .checkoutContainer.information > div > form input[type='text']:not(.halfwh),
+    .checkoutContainer.payment > div > form div ul li input:not(.halfwh){
+        width: 100%;
+    }
+    .checkoutContainer.information > div > form input[type='text'].halfwh,
+    .checkoutContainer.payment > div > form div ul li input.halfwh{
+        width: 48.5%;
+    }
+    .checkoutContainer.information > div > form > div:last-of-type label{
+        color: #7f7f7f;
+    }
+    .checkoutContainer.shipping > div > form > ul li:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer.shipping > div > form > ul li input[type='radio']{
+        float: left; display: block; width: 7%; height: 26px; margin: 0;
+    }
+    .checkoutContainer.shipping > div > form > ul li label{
+        display: block; width: 90%; margin-left: 3%;
+        font-size: 16px; font-weight: 400; color: #2b2b2b;
+    }
+    .checkoutContainer.shipping > div > form > ul li label:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span{
+        display: block; float: left; 
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span:first-of-type{
+        width: 80%;
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span:first-of-type > span{
+        display: block; margin-top: 25px;
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span:last-of-type{
+        width: 17%; margin-left: 3%; text-align: right;
+    }
+    .checkoutContainer.payment{
+        position: relative;
+    }
+    .checkoutContainer.payment > div > form div{
+        background-color: #f3f3f3; border-radius: 15px;
+    }
+    .checkoutContainer.payment > div > form div h3{
+        width: 100%; font-size: 20px; font-weight: 700; padding: 20px 3.5%; box-sizing: border-box;
+        background-color: #fff; 
+        border: 1px solid #d9d9d9; border-radius: 15px;
+    }
+    .checkoutContainer.payment > div > form div ul{
+        border-width: 0px; 
+    }
+    .checkoutContainer.payment > div > form div ul li input:not(.halfwh){
+        margin-bottom: 30px;
+    }
+    .checkoutContainer #paymentComplete{
+        position: absolute; width: 70%; left: 15%; top: 300px;
+        padding: 100px 5%; border: 1px solid #7f7f7f; background-color: #fff; box-sizing: border-box;
+        border-radius: 15px; text-align: center;
+    }
+    .checkoutContainer #paymentComplete h2{
+        font-size: 50px; font-weight: 500; color: #145930; margin-bottom: 60px;
+        padding-top: 100px; box-sizing: border-box;
+        background: url('../images/icon_check.svg') center top / 100px no-repeat;
+    }
+    .checkoutContainer #paymentComplete p{
+        font-size: 30px; font-weight: 400; color: #7f7f7f;
+        margin-bottom: 60px;
+    }
+    .checkoutContainer #paymentComplete a{
+        margin: 0 auto; background-color: #001b27; color: #fff;
+    }
+
+    .accountContainer{
+        background: url('../images/bg_02.png') left top / cover no-repeat;
+        margin-bottom: 150px; padding: 200px 0 150px; box-sizing: border-box;
+    }
+    .accountContainer > div{
+        width: 80%; margin: 0 auto; padding: 100px 7%; box-sizing: border-box;
+        background-color: #f3f3f3; text-align: center;
+    }
+    .accountContainer:not(.signIn) > div form fieldset{
+        margin-bottom: 60px;
+    }
+    .accountContainer.signIn > div form fieldset{
+        margin-bottom: 30px;
+    }
+    .accountContainer > div form fieldset legend{
+        font-size: 50px; font-weight: 500; color: #001b27; line-height: 60px;
+        margin-bottom: 60px; 
+    }
+    .accountContainer > div form fieldset input{
+        display: block; width: 100%; padding: 25px 3%; box-sizing: border-box;
+        font-size: 25px; border-radius: 15px;
+    }    
+    .accountContainer > div form fieldset input::placeholder{
+        color: #001b27;
+    }
+    .accountContainer > div form fieldset input:not([type='submit']){
+        background-color: #fff; margin-bottom: 30px;
+    }
+    .accountContainer > div form fieldset input[type='submit']{
+        background-color: #001b27; color: #fff; font-weight: 600;
+    }
+    .accountContainer > div a,
+    .accountContainer > div > div span{
+        font-weight: 400; color: #7f7f7f; display: block;
+    }
+    .accountContainer.signIn > div > a{
+        font-size: 18px; text-decoration: underline; margin-bottom: 60px;
+    }
+    .accountContainer > div > div{
+        width: 65%; margin: 0 auto;
+    }
+    .accountContainer > div > div:after{
+        content: ''; display: block; clear: both;
+    }
+    .accountContainer > div > div a,
+    .accountContainer > div > div span{
+        font-size: 25px; float: left; 
+    }
+    .accountContainer > div > div a{
+        width: 44%;
+    }
+    .accountContainer > div > div a:first-of-type{
+        text-align: right;
+    }
+    .accountContainer > div > div a:last-of-type{
+        text-align: left;
+    }
+    .accountContainer > div > div span{
+        width: 4%; margin: 0 4%;
+    }
+    .accountContainer.findPassword > div form fieldset p{
+        font-size: 18px; font-weight: 400; color: #001b27; margin-bottom: 60px;
+        line-height: 26px;
+    }
+
+    .mypageContainer{
+        margin-bottom: 150px;
+    }
+    .mypageContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .mypageContainer > h2{
+        padding: 200px 0 150px; box-sizing: border-box;
+        background: url('../images/bg_02.png') left -300px / cover no-repeat;
+        text-align: center; font-size: 100px; font-weight: 400; color: #001b27;
+        margin-bottom: 150px;
+    }
+    .mypageContainer aside,
+    .mypageContainer > div{
+        float: left;
+    }
+    .mypageContainer aside{
+        width: 26%; padding-left: 2%; box-sizing: border-box;
+    }
+    .mypageContainer aside ul li:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .mypageContainer aside ul li a{
+        display: block; font-size: 4.2vw; font-weight: 500; color: #7f7f7f;
+    }
+    .mypageContainer aside ul li a.active{
+        color: #001b27; text-decoration: underline;
+    }
+    .mypageContainer > div{
+        width: 70%; margin-left: 4%; padding-right: 2%; box-sizing: border-box;
+    }
+    .mypageContainer > div h3{
+        font-size: 35px; font-weight: 500; color: #001b27;
+    }
+    .mypageContainer.myOrder > div h3{
+        margin-bottom: 30px;
+    }
+    .mypageContainer.myOrder > div ul{
+        border-top: 1px solid #d9d9d9; 
+    }
+    .mypageContainer.myOrder > div ul li{
+        display: flex; flex-flow: row nowrap;
+        text-align: center;
+        border-bottom: 1px solid #d9d9d9;
+        box-sizing: border-box;
+    }
+    .mypageContainer.myOrder > div ul li div{
+        box-sizing: border-box; border-left: 1px solid #d9d9d9;
+
+    }
+    .mypageContainer.myOrder > div ul li:first-of-type div{
+        font-size: 20px; font-weight: 700; line-height: 25px;
+        color: #001b27;
+    }
+    .mypageContainer.myOrder > div ul li div:first-of-type{
+        width: 22%; padding: 10px 0;
+    }
+    .mypageContainer.myOrder > div ul li div:nth-of-type(2){
+        width: 38%; padding: 28px 0;
+    }
+    .mypageContainer.myOrder > div ul li div:nth-of-type(3),
+    .mypageContainer.myOrder > div ul li div:last-of-type{
+        width: 20%; padding: 28px 0;
+    }
+    .mypageContainer.myOrder > div ul li div:last-of-type{
+        border-right: 1px solid #d9d9d9;
+    }
+    .mypageContainer.myOrder > div ul li p{
+        font-size: 65px; font-weight: 500; color: #d9d9d9;
+        width: 100%; padding: 50px 0; box-sizing: border-box;
+    }
+    .mypageContainer:not(.myOrder) > div h3{
+        margin-bottom: 100px;
+    }
+    .mypageContainer:not(.myOrder, .editInfo) > div a{
+        font-size: 25px; font-weight: 600;
+        padding: 20px 3%; color: #fff; background-color: #001b27;
+    }
+    .mypageContainer:not(.myOrder) > div ul li{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    .mypageContainer.myAddress > div,
+    .mypageContainer.editInfo > div{
+        position: relative;
+    }
+    .mypageContainer.myAddress > div a,
+    .mypageContainer.editInfo > div a{
+        position: absolute; right: 4%; top: 0;
+    }
+    .mypageContainer.myAddress > div a{
+        width: 46%;
+    }
+    .mypageContainer.myAddress > div ul li{
+        border-width: 1px 0; border-style: solid; border-color: #d9d9d9;
+        padding: 30px 3%; box-sizing: border-box;
+    }
+    .mypageContainer.myAddress > div ul li div{
+        width: 100%; margin-bottom: 30px;
+    }
+    .mypageContainer.myAddress > div ul li div::after{
+        content: ''; display: block; clear: both;
+    }
+    .mypageContainer.myAddress > div ul li div h4{
+        float: left; width: 40%; font-size: 25px; font-weight: 700; color: #001b27;
+    }
+    .mypageContainer.myAddress > div ul li div p{
+        float: left; width: 56%; margin-left: 4%;
+        font-size: 18px; font-weight: 400;
+    }
+    .mypageContainer.myAddress > div ul li button{
+        font-size: 18px; font-weight: 400; color: #7f7f7f; text-decoration: underline;
+        font-family: inherit; background-color: transparent;
+    }
+    .mypageContainer.myAddress #addressDelete{
+        display: none;
+    }
+    .mypageContainer.myAddress #addressDelete.active{
+        position: absolute; width: 70%; left: 10%; top: 0; display: block;
+        padding: 50px 5%; border: 1px solid #7f7f7f; background-color: #fff; box-sizing: border-box;
+        border-radius: 15px; text-align: center; z-index: 100;
+    }
+    .mypageContainer.myAddress #addressDelete.active h2{
+        font-size: 35px; font-weight: 500; margin-bottom: 30px;
+        padding-top: 100px; box-sizing: border-box;
+        background: url('../images/icon_Delete.svg') center top / 100px no-repeat;
+    }
+    .mypageContainer.myAddress #addressDelete.active p{
+        font-size: 20px; font-weight: 400; color: #7f7f7f; line-height: 26px;
+        margin-bottom: 50px;
+    }
+    .mypageContainer.myAddress #addressDelete.active > div{
+        display: flex; flex-flow: row nowrap; justify-content: space-evenly;
+    }
+    .mypageContainer.myAddress #addressDelete.active > div button{
+        font-size: 20px; color: #fff; padding: 20px 5%; box-sizing: border-box;
+        width: 30%;
+    }
+    .mypageContainer.myAddress #addressDelete.active > div button.btnClose{
+        background-color: #001b27; 
+    }
+    .mypageContainer.myAddress #addressDelete.active > div button.deleteData{
+        background-color: #990000; 
+    }
+    .mypageContainer.myDetail > div:after{
+        content: ''; display: block; clear: both;
+    }
+    .mypageContainer.myDetail > div ul{
+        margin-bottom: 100px;
+    }
+    .mypageContainer.myDetail > div ul li:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+    .mypageContainer.myDetail > div ul li h4{
+        width: 35%; font-size: 25px; font-weight: 600; color: #7f7f7f;
+    }
+    .mypageContainer.myDetail > div ul li span{
+        width: 60%; font-size: 20px; font-weight: 500; color: #001b27;
+    }
+    .mypageContainer.myDetail > div a{
+        float: left; width: 47%; 
+    }
+    .mypageContainer.myDetail > div a:last-of-type{
+        margin-left: 6%;
+    }
+    .mypageContainer.editInfo > div a{
+        font-size: 20px; font-weight: 400; color: #000;
+        padding-left: 6%; box-sizing: border-box;
+        background: url('../images/icon_back.svg') left top no-repeat;
+    }
+    .mypageContainer.editInfo > div form fieldset{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    .mypageContainer.editInfo > div form fieldset legend{
+        font-size: 30px; font-weight: 400; color: #001b27;
+        width: 100%; margin-bottom: 60px;
+    }
+    .mypageContainer.editInfo > div form fieldset input[type='text']{
+        width: 49%; background-color: #f3f3f3; border-radius: 15px;
+        font-size: 25px; font-weight: 400;
+        padding: 25px 3%; box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    .mypageContainer.editInfo > div form fieldset input[type='submit']{
+        width: 100%; background-color: #001b27; color: #fff;
+        font-size: 25px; font-weight: 600;
+        padding: 25px 3%; box-sizing: border-box;
+    }
+
+    .AboutsideMenu,
+    .AboutsideMenu+div{
+        float: left;
+    }
+    .AboutsideMenu{
+        width: 43%;
+    }
+    .AboutsideMenu nav ul li:not(:last-child, ol li),
+    .policysideMenu nav ul li:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .AboutsideMenu nav > ul li a:not(ol li a),
+    .AboutsideMenu nav > ul li span{
+        display: block; font-size: 6.3vw; font-weight: 400; color: #7f7f7f;
+    }
+    .AboutsideMenu nav > ul li a:not(ol li a).active,
+    .AboutsideMenu nav > ul li span.active,
+    .policysideMenu nav > ul li a.active{
+        color: #001b27; text-decoration: underline; font-weight: 500;
+    }    
+    .AboutsideMenu nav > ul li span{
+        margin-bottom: 35px;
+    }
+    .AboutsideMenu nav > ul li span+ol{
+        list-style: none; padding-left: 6%; box-sizing: border-box;
+    }
+    .AboutsideMenu nav > ul li span+ol li{
+        margin-bottom: 50px;
+    }
+    .AboutsideMenu nav > ul li span+ol li a{
+        display: block; width: 90%;
+        font-size: 2.9vw; font-weight: 400; color: #7f7f7f;
+    }
+    .AboutsideMenu nav > ul li span+ol li a.active{
+        color: #001b27; font-weight: 500; padding-right: 5%; box-sizing: border-box;
+        background: url('../images/icon_asideArrow.svg') right -10px no-repeat;
+    }
+    .AboutsideMenu+div{
+        width: 55%; margin-left: 2%;
+    }
+    .contactUsContainer,
+    .faqsContainer,
+    .shippingPolicyContainer{
+        padding: 230px 0 150px;
+    }
+    .contactUsContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .contactUsContainer div > h2,
+    .contactUsContainer div h3,
+    .shippingPolicyContainer div h2{
+        font-size: 30px; font-weight: 500; color: #001b27;
+    }
+    .contactUsContainer div > h2,
+    .shippingPolicyContainer div h2,
+    .faqsContainer div > nav{
+        margin-bottom: 100px;
+    }
+    .contactUsContainer h3,
+    .contactUsContainer div ul,
+    .contactUsContainer div > p:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    .contactUsContainer div ul{
+        padding-left: 6%; box-sizing: border-box;
+    }
+    .contactUsContainer div ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .contactUsContainer div ul li p{
+        font-size: 16px; font-weight: 300; color: #2b2b2b;
+    }
+    .contactUsContainer div > p{
+        font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 24px;
+    }
+    .contactUsContainer div > p:last-of-type{
+        margin-bottom: 55px;
+    }
+    .contactUsContainer div > p a{
+        color: #2b2b2b; text-decoration: underline;
+    }
+    .contactUsContainer div form fieldset{
+        position: relative;
+    }
+    .contactUsContainer div form fieldset legend{
+        font-size: 30px; font-weight: 500; color: #001b27; margin-bottom: 30px;
+    }
+    .contactUsContainer div form fieldset label, 
+    .contactUsContainer div form fieldset input{
+        margin-bottom: 20px; display: block;
+    }
+    .contactUsContainer div form fieldset label{
+        font-size: 20px; font-weight: 500; color: #2b2b2b;     
+    }
+    .contactUsContainer div form fieldset input{
+        width: 100%; padding: 15px 3%;
+        font-size: 20px; font-weight: 400;
+        border: 2px solid #bdbdbd; box-sizing: border-box;
+    }
+    .contactUsContainer div form fieldset button{
+        font-size: 20px; color: #fff; background-color: #001b27;
+        padding: 15px 3%;
+    }
+    .contactUsContainer div form fieldset input+p{
+        font-size: 18px; font-weight: 300; color: #bdad5b; margin-bottom: 30px;
+        line-height: 24px;
+    }
+    .contactUsContainer div form fieldset select{
+        margin-bottom: 30px; font-size: 20px; font-weight: 400;
+        padding: 15px 3%; box-sizing: border-box;
+    }
+    .contactUsContainer div form fieldset textarea{
+        width: 100%; height: 300px; font-size: 20px; font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .contactUsContainer div form fieldset > #completePopup{
+        display: none;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active{
+        display: block;
+        position: absolute; width: 90%; left: 5%; bottom: 100px;
+        padding: 50px 5%; border: 1px solid #7f7f7f; background-color: #fff; box-sizing: border-box;
+        border-radius: 15px; text-align: center;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active h2{
+        font-size: 35px; font-weight: 500; margin-bottom: 30px; color: #145930;
+        padding-top: 100px; box-sizing: border-box;
+        background: url('../images/icon_check.svg') center top / 100px no-repeat;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active p{
+        font-size: 20px; font-weight: 400; color: #7f7f7f; line-height: 26px;
+        margin-bottom: 50px;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active input[type='button']{
+        font-size: 20px; padding: 20px 5%;
+        width: 50%; border-radius: 15px; margin: 0 auto; background-color: #001b27; color: #fff;
+        border-width: 0;
+    }
+    .shippingPolicyContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .shippingPolicyContainer div > ul,
+    .faqsContainer div > ul{
+        border-top: 1px solid #bdbdbd; box-sizing: border-box;
+    }
+    .shippingPolicyContainer div > ul > li,
+    .faqsContainer div > ul > li{
+        display: block; padding: 50px 3% 0; box-sizing: border-box;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .shippingPolicyContainer div > ul li h3,
+    .faqsContainer div > ul li h2{
+        font-size: 2.94vw; font-weight: 500; color: #001b27;
+        padding-right: 12%; box-sizing: border-box;
+        background: url('../images/btn_more.svg') right top no-repeat;
+        margin-bottom: 60px; line-height: 3.9vw;
+    }
+    .shippingPolicyContainer div > ul li h3.active,
+    .faqsContainer div > ul li h2.active{
+        background-image: url('../images/btn_less.svg');
+    }
+    .shippingPolicyContainer div > ul li h3+ul,
+    .faqsContainer div > ul li h2+p,
+    .faqsContainer div > ul li h2+div{
+        font-size: 0; line-height: 0; padding: 0; opacity: 0;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul,
+    .faqsContainer div > ul li h2.active+p,
+    .faqsContainer div > ul li h2.active+div{
+        padding: 0 3% 60px; box-sizing: border-box; opacity: 1;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul li:not(:last-child),
+    .faqsContainer div > ul li h2.active+div p:first-of-type{
+        margin-bottom: 25px;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul li p,
+    .faqsContainer div > ul li h2.active+p,
+    .faqsContainer div > ul li h2.active+div p{
+        font-size: 16px; font-weight: 300; color: #2b2b2b; line-height: 24px;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul li p+span{
+        display: block; margin-top: 30px; color: #acacac;
+    }
+    .faqsContainer div > nav{
+        width: 70%;
+    }
+    .faqsContainer div > nav ol:after{
+        content: ''; display: block; clear: both;
+    }
+    .faqsContainer div > nav ol li{
+        float: left; display: block;
+        font-size: 2.94vw; font-weight: 500;
+    }
+    .faqsContainer div > nav ol li:first-child{
+        width: 20%; color: #7f7f7f; margin-right: 5%;
+    }
+    .faqsContainer div > nav ol li:not(:first-child):before{
+        content: '>'; padding-right: 5%;
+    }
+    .faqsContainer div > nav ol li:last-child{
+        width: 75%; color: #001b27;
+    }
+    .faqsContainer div > ul li h2.active+p span{
+        display: block; padding: 5px 0; box-sizing: border-box;
+    } 
+    .faqsContainer:after{
+        content: ''; display: block; clear: both;
+    }
+
+    .policyContainer{
+        padding: 230px 0 150px; box-sizing: border-box;
+        position: relative;
+    }
+    .policyContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .policyContainer .policysideMenu{
+        position: sticky; left: 0; top: 60px; width: 45%; float: left; margin-right: 5%;
+    }
+    .policysideMenu nav > ul li a{
+        display: block; font-size: 6.37vw; font-weight: 400; color: #7f7f7f;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .policyContainer > div{
+        width: 50%; float: left;
+    }
+    .policyContainer > div p{
+        word-break: break-all;
+    } 
+    .policyContainer > div h2,
+    .policyContainer > div > div h3,
+    .policyContainer > div > ol > li h3{
+        font-size: 2.94vw; font-weight: 500; color: #001b27; line-height: 3.52vw;
+    }
+    .policyContainer > div h2{
+        margin-bottom: 95px;
+    }
+    .policyContainer > div p,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li h4{
+        font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 28px;
+    }
+    .policyContainer > div > p,
+    .policyContainer:not(.cookiePolicy) > div > div,
+    .policyContainer > div > ol > li,
+    .policyContainer.cookiePolicy > div > ul{
+        margin-bottom: 55px;
+    }
+    .policyContainer > div > div,
+    .policyContainer > div > ol,
+    .policyContainer > div > div > *:not(h3),
+    .policyContainer > div > ol > li > *:not(h3),
+    .policyContainer > div > ol > li div > p:not(:first-of-type),
+    .policyContainer.privacyPolicy > div > ol li > div > ul,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li p,
+    .policyContainer.termsService > div > ol > li > div > ul,
+    .policyContainer.termsService > div > ol > li > div > ul li p{
+        padding-left: 5%; box-sizing: border-box;
+    }
+    .policyContainer > div > div h3,
+    .policyContainer > div > div p:not(:last-of-type),
+    .policyContainer > div > ol li h3,
+    .policyContainer > div > ol li :not(:last-child),
+    .policyContainer > div > ol li div,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li,
+    .policyContainer.cookiePolicy > div > div{
+        margin-bottom: 25px;
+    }
+    .policyContainer > div > ol > li,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li,
+    .policyContainer.termsService > div > ol > li > div > ul{
+        list-style: none;
+    }  
+    .policyContainer.privacyPolicy > div > ol li > div > ul li h4{
+        margin-bottom: 15px;
+    }
+    .policyContainer.cookiePolicy > div > ul{
+        border-width: 1px 1px 0; border-style: solid; border-color: #bdbdbd; box-sizing: border-box;
+    }
+    .policyContainer.cookiePolicy > div > ul > li{
+        border-bottom: 1px solid #bdbdbd; display: flex; flex-flow: row wrap; box-sizing: border-box; word-break: break-all;
+    }
+    .policyContainer.cookiePolicy > div > ul > li:first-of-type > span{
+        padding: 14px 2%; box-sizing: border-box; 
+        font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 26px;
+    }
+    .policyContainer.cookiePolicy > div > ul > li:not(:first-of-type) > span{
+        font-size: 16px; font-weight: 400; color: #2b2b2b; line-height: 24px;
+        padding: 15px 2%; box-sizing: border-box; 
+    }
+    .policyContainer.cookiePolicy > div > ul > li > span:first-of-type{
+        width: 26%;
+    }
+    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(2){
+        width: 34%; border-left: 1px solid #bdbdbd;
+    }
+    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(3),
+    .policyContainer.cookiePolicy > div > ul > li > span:last-of-type{
+        width: 20%; border-left: 1px solid #bdbdbd;
+    }
+}
+/* tablet */
+
+@media screen and (min-width: 1280px) {
+    .mainContainer{
+        background: url('../images/bg_01.webp') center top / 1920px no-repeat;
+        padding-top: 300px;
+    }
+    .mainContainer > h2{
+        font-size: 85px; line-height: 95px; font-weight: 500; color: #fff;
+        margin: 0 0 45px 4%; max-width: 740px;
+    }
+    .mainContainer > p:first-of-type{
+        font-size: 40px; line-height: 50px; font-weight: 400; color: #fff;
+        margin: 0 0 80px 4%; max-width: 835px;
+    }
+    .mainContainer > a.btnTwg{
+        color: #001b27; background-color: #fff;
+        margin: 0 0 350px 4%; 
+    }
+    .mainContainer > a.btnTwg:hover{
+        background-color: #001b27; color: #fff;
+    }
+
+    .mainContainer > p:nth-of-type(2){
+        text-align: center; font-size: 70px; font-weight: 500; 
+        color: #001b27;
+    }
+    .mainContainer > p:nth-of-type(2) strong{
+        display: block; margin-top: 150px; font-size: 300px; overflow: hidden;
+    }
+
+    .mainContainer > div{
+        margin-bottom: 150px;
+    }
+    .mainContainer > div ul{
+        max-width: 1250px; margin: 0 auto;
+    }
+    .mainContainer > div:first-of-type{
+        background: url('../images/bg_02.png') left top / cover no-repeat;
+        padding-top: 100px; 
+    }
+    .mainContainer > div:first-of-type h3{
+        font-size: 100px; font-weight: 500; color: #001b27;
+        text-align: center; 
+    }
+    .mainContainer > div:first-of-type h3, .mainContainer > div:first-of-type ul li:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .mainContainer > div:first-of-type ul li{
+        background-position: center -30px; background-repeat: no-repeat; background-size: contain;
+        min-height: 330px; display: block;
+    }
+    .mainContainer > div:first-of-type ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
+    .mainContainer > div:first-of-type ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(3){background-image: url('../images/Item_FruitandHerbT002_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(4){background-image: url('../images/Item_FruitandHerbT008_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(5){background-image: url('../images/Item_FruitandHerbT013_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(6){background-image: url('../images/Item_FruitandHerbT003_001.webp');}
+    .mainContainer > div:first-of-type ul li:nth-child(7){background-image: url('../images/Item_BlackT079_001.webp');}
+    .mainContainer > div:first-of-type ul li figure{
+        width: 58%; box-sizing: border-box;
+    }    
+    .mainContainer > div:first-of-type ul li:nth-child(2n+1) figure{
+        margin-left: auto; padding-left: 220px;
+    }
+    .mainContainer > div:first-of-type ul li:nth-child(2n) figure{
+        text-align: right; padding-right: 220px;
+    }
+    .mainContainer > div:first-of-type ul li figure figcaption dl dt{
+        font-size: 40px; font-weight: 700; color: #001b27; margin-bottom: 20px;
+    }
+    .mainContainer > div:first-of-type ul li figure figcaption dl dd{
+        font-size: 25px; line-height: 35px; font-weight: 500; color: #001b27;
+        margin-bottom: 35px;
+    }
+    .mainContainer > div:first-of-type ul li figure figcaption a{
+        font-size: 20px;
+        background-color: #001b27; color: #fff;
+        padding: 15px 25px; max-width: 170px;
+    }
+    .mainContainer > div:first-of-type ul li:nth-child(2n) figure figcaption a{
+        margin-left: auto;
+    }
+    .mainContainer > div:last-of-type h3{
+        background: url('../images/bg_03.webp') left top / cover no-repeat fixed;
+        padding-left: 4%; box-sizing: border-box;
+        color: #fff; font-size: 85px; font-weight: 500; line-height: 400px;
+    }
+    .mainContainer > div:last-of-type ul li{
+        padding: 100px 0; box-sizing: border-box; border-bottom: 1px solid rgba(19,36,48,0.3); 
+        display: block;
+    }
+    .mainContainer > div:last-of-type ul li div{
+        position: relative;
+    }
+    .mainContainer > div:last-of-type ul li div h4{
+        font-size: 50px; font-weight: 500; color: #001b27; line-height: 80px;
+        padding-left: 100px; 
+        background-position: left top; background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .mainContainer > div:last-of-type ul li:nth-child(1) div h4{
+        background-image: url('../images/icon_blacktea.png');
+    }
+    .mainContainer > div:last-of-type ul li:nth-child(2) div h4{
+        background-image: url('../images/Icon_GreenT.png');
+    }
+    .mainContainer > div:last-of-type ul li:nth-child(3) div h4{
+        background-image: url('../images/Icon_FruitandHerb.png');
+    }
+    .mainContainer > div:last-of-type ul li:nth-child(4) div h4{
+        background-image: url('../images/Icon_Decaffein.png');
+    }
+    .mainContainer > div:last-of-type ul li div button{
+        position: absolute; right: 0; top: 0; display: block;
+        font-family: inherit; font-size: 20px; font-weight: 700; padding: 26px 0; text-indent: -9999px;
+        width: 221px; background: url('../images/Button_learnmore.png') left top / contain no-repeat;
+    }
+    .mainContainer > div:last-of-type ul li div button.active{
+        background-image: url('../images/Button_learnless.png');
+    }
+    .mainContainer > div:last-of-type ul li figure{
+        opacity: 0; margin-top: 0; font-size: 0; display: none;
+        transition-duration: 0.5s; transition-timing-function: ease-in-out;
+    }
+    .mainContainer > div:last-of-type ul li figure.active{
+        opacity: 1; margin-top: 80px; display: block; font-size: 25px;
+    }
+    .mainContainer > div:last-of-type ul li figure:after{
+        content: ''; display: block; clear: both; 
+    }
+    .mainContainer > div:last-of-type ul li figure > *{
+        float: right;
+    }
+    .mainContainer > div:last-of-type ul li figure img{
+        width: 31.5%; margin-left: 6.5%;
+    }
+    .mainContainer > div:last-of-type ul li figure figcaption{
+        width: 62%;
+    }
+    .mainContainer > div:last-of-type ul li figure figcaption p{
+        line-height: 35px; font-weight: 400; color: #001b27;
+        margin-bottom: 80px;
+    }
+    .mainContainer > div:last-of-type ul li figure figcaption a.btnTwg{
+        border: 2px solid #001b27; color: #001b27;
+    }
+    .mainContainer > div:last-of-type ul li figure figcaption a.btnTwg:hover{
+        background-color: #001b27; color: #fff;
+    }
+    /* main index */
+
+    .listContainer{
+        padding-top: 250px;
+    }
+    .listContainer h2{
+        font-size: 85px; font-weight: 500; color: #001b27; margin-bottom: 55px;
+    }
+    .listContainer > p{
+        font-size: 40px; font-weight: 400; color: #7f7f7f; line-height: 50px; margin-bottom: 55px;
+    }
+    .listContainer > div:first-of-type{
+        width: 70%; margin-left: 4%; margin-bottom: 100px;
+    }
+    .listContainer > div:first-of-type a{
+        font-size: 40px; font-weight: 400; color: #001b27; 
+        background-color: #ff9eb8; padding: 22px 2.5%;
+        border-radius: 40px; display: inline-block;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out; 
+    }
+    .listContainer > div:first-of-type a::after{
+        content: ' '; width: 30px; height: 40px;
+        background: url('../images/icon_rightArrow.svg') center / cover no-repeat; display: inline-block; margin-left: 10px;
+        vertical-align: bottom;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .listContainer > div:first-of-type a:hover,
+    .listContainer > div:first-of-type a.active{
+        background-color: #001b27; color: #fff;
+    }
+    .listContainer > div:first-of-type a:hover::after,
+    .listContainer > div:first-of-type a.active::after{
+        background-image: url("../images/icon_rightArrowActive.svg");
+    }
+    .listContainer > div:first-of-type a:nth-child(n):nth-child(-n+4){
+        margin-bottom: 10px;
+    }
+    .listContainer > div:last-of-type{
+        padding: 150px 4%; box-sizing: border-box; margin-bottom: 100px;
+    }
+    .listContainer > div:last-of-type h3{
+        font-size: 50px; font-weight: 500; color: #001b27; margin-bottom: 65px;
+    }
+    .listContainer > div:last-of-type ul{
+        display: flex; flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+    .listContainer > div:last-of-type ul li{
+        display: block; width: 32%; text-align: center; margin-bottom: 100px;
+    }
+    .listContainer > div:last-of-type ul li:not(:nth-child(3n+1)){
+        margin-left: 2%;
+    }
+    .listContainer > div:last-of-type ul li a img{
+        max-height: 415px; display: block; margin: 0 auto 40px;
+        filter: drop-shadow(15px 15px 12px rgba(0,0,0,0.3));
+    }
+    .listContainer > div:last-of-type ul li a h4{
+        font-size: 30px; font-weight: 500; color: #001b27;
+        margin-bottom: 10px;
+    }
+    .listContainer > div:last-of-type ul li a p:first-of-type{
+        font-size: 18px; font-weight: 400; margin-bottom: 10px;
+    }
+    .listContainer.teaAll > div:last-of-type{
+        background-color: #fce779;
+    }
+    .listContainer.blackTea > div:last-of-type{
+        background-color: #00b1ff;
+    }
+    .listContainer.greenTea > div:last-of-type{
+        background-color: #91c788;
+    }
+    .listContainer.fruitAndherb > div:last-of-type{
+        background-color: #fd9bbb;
+    }
+    .listContainer.teaAll > div:last-of-type > div:not(:last-of-type),
+    .listContainer.teaWare > div:last-of-type > div:not(:last-of-type){
+        margin-bottom: 150px;
+    }
+    .listContainer.teaAll > div:last-of-type ul li a p:first-of-type{
+        color: #ab9c52;
+    }
+    .listContainer.blackTea > div:last-of-type ul li a p:first-of-type{
+        color: #0076ab;
+    }
+    .listContainer.greenTea > div:last-of-type ul li a p:first-of-type{
+        color: #26ab5b;
+    }
+    .listContainer.fruitAndherb > div:last-of-type ul li a p:first-of-type{
+        color: #ab3a58;
+    }
+    .listContainer.teaWare > div:last-of-type ul li a p:first-of-type{
+        color: #acacac;
+    }
+    .listContainer > div:last-of-type ul li a p:last-of-type{
+        font-size: 20px; font-weight: 300; line-height: 25px;
+    }
+    .listContainer.teaAll > div:last-of-type ul li a p:last-of-type{
+        color: #80753d;
+    }
+    .listContainer.blackTea > div:last-of-type ul li a p:last-of-type{
+        color: #005880;
+    }
+    .listContainer.greenTea > div:last-of-type ul li a p:last-of-type{
+        color: #1c8044;
+    }
+    .listContainer.fruitAndherb > div:last-of-type ul li a p:last-of-type{
+        color: #802c42;
+    }
+    .listContainer.teaWare > div:last-of-type ul li a p:last-of-type{
+        color: #7f7f7f; 
+    }
+    .listContainer.teaAll > div:last-of-type > div:not(#listDecaffeinatedTea, #listHotchocoandMaltDrinks) ul li:last-of-type img{
+        width: 100%; margin-bottom: 50px;
+    } 
+    .listContainer.teaAll > div:last-of-type > div:not(#listDecaffeinatedTea, #listHotchocoandMaltDrinks) ul li:last-of-type h4{
+        font-size: 85px; font-weight: 500; color: #fff; text-align: center;
+    }
+
+    .detailContainer .bx-wrapper{background-color: transparent; border: none; box-shadow: none;}
+    .detailContainer .bx-wrapper .bx-pager{
+        padding-top: 50px; bottom: -60px;
+    }
+    .detailContainer .bx-wrapper .bx-controls-direction a {
+        top: 109%;
+        width: 30px;
+        height: 30px;
+    }
+    .detailContainer .bx-wrapper .bx-next{
+        right: 30%;
+        background: url("../images/btn_bxnext.svg") left top / cover no-repeat;
+    }
+    .detailContainer .bx-wrapper .bx-prev{
+        left: 30%;
+        background: url("../images/btn_bxprev.svg") left top / cover no-repeat;
+    }
+    .detailContainer .bx-wrapper .bx-next:hover, .bx-wrapper .bx-next:focus {
+        background-position: left 0;
+    }
+    .detailContainer .bx-wrapper .bx-pager.bx-default-pager a{
+        background: transparent;
+        border: 2px solid #001b27;
+        box-sizing: border-box;
+    }
+    .detailContainer .bx-wrapper .bx-pager.bx-default-pager a.active{
+        background: #001b27;
+    }
+    .detailContainer > div,
+    .detailContainer > div:nth-of-type(2),
+    .detailContainer > div:nth-of-type(3),
+    .detailContainer > ul,
+    .detailContainer > figure{
+        margin-bottom: 150px;
+    }
+
+    .detailContainer > div:first-of-type::after{
+        content: ''; display: block; clear: both;
+    }
+    .detailContainer > div:first-of-type > div,
+    .detailContainer > div:first-of-type aside{
+        float: left;
+    }
+    .detailContainer > div:first-of-type > div{
+        width: 60%; padding: 200px 0 150px; box-sizing: border-box;
+        position: relative; background-size: cover; background-repeat: no-repeat; background-position: left top;
+    }
+    .detailContainer.blackTea > div:first-of-type > div{
+        background-image: url("../images/bg_blackTea.png");
+    }
+    .detailContainer.greenTea > div:first-of-type > div{
+        background-image: url("../images/bg_greenTea01.png");
+    }
+    .detailContainer.fruitAndherb > div:first-of-type > div{
+        background-image: url("../images/bg_fruitAndherb01.png");
+    }
+    .detailContainer.deCaffein > div:first-of-type > div,
+    .detailContainer.hotChoco > div:first-of-type > div{
+        background-image: url("../images/bg_decaffein01.png");
+    }
+    .detailContainer > div:first-of-type div > h2{
+        position: absolute; top: 300px; width: 100%; font-size: 300px; font-weight: 700; color: #fff;
+        overflow: hidden;
+    }
+    .detailContainer.teaWare > div:first-of-type div > h2{
+        color: #2b2b2b;
+    }
+    .detailContainer > div:first-of-type div .detailSlider li img{
+        max-width: 620px; margin: 0 auto;
+    }
+    .detailContainer > div:first-of-type aside{
+        width: 40%; background-color: #fff; padding: 210px 4%; box-sizing: border-box;
+    }
+    .detailContainer > div:first-of-type aside h2,
+    .detailContainer > div:first-of-type aside p,
+    .detailContainer > div:first-of-type aside div{
+        margin-bottom: 30px;
+    }
+    .detailContainer > div:first-of-type aside h2{
+        font-size: 30px; font-weight: 600; line-height: 35px;
+    }
+    .detailContainer > div:first-of-type aside h2 span{
+        display: block; font-size: 20px; font-weight: 500; color: #7f7f7f;
+        padding-top: 25px;
+    }
+    .detailContainer > div:first-of-type aside p{
+        padding: 30px 3%; box-sizing: border-box; border: 1px solid #bdbdbd; border-radius: 15px;
+        font-size: 20px; font-weight: 400; line-height: 25px;
+    }
+    .detailContainer > div:first-of-type div .detailSlider:after,
+    .detailContainer > div:first-of-type aside div:after,
+    .detailContainer > div:nth-of-type(2):after,
+    .detailContainer > ul:first-of-type,
+    .detailContainer > figure:first-of-type:after,
+    .detailContainer > div:nth-of-type(3) ul li:nth-child(2):after,
+    .detailContainer > figure:nth-of-type(2):after,
+    .detailContainer > ul:last-of-type li:after,
+    .detailContainer #teaProcessText ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .detailContainer > div:first-of-type aside div input{
+        float: left; display: block; width: 26px; height: 26px; margin: 29px 3%;
+    }
+    .detailContainer > div:first-of-type aside div label{
+        display: block; background-color: #f3f3f3; padding: 0 30px; box-sizing: border-box; border-radius: 15px;
+        font-size: 20px; font-weight: 500; line-height: 85px;
+    }
+    .detailContainer > div:first-of-type aside div input:checked+label{
+        background-color: #d9d9d9;
+    }
+    .detailContainer > div:first-of-type aside div label:first-of-type{
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:first-of-type aside div label strong{
+        font-weight: 500; color: #5a5a5a; 
+    }
+    .detailContainer > div:nth-of-type(2){
+        padding: 0 6.77%; box-sizing: border-box;
+    }
+    .detailContainer > div:nth-of-type(2) h3,
+    .detailContainer > div:nth-of-type(2) ul{
+        float: left;
+    }
+    .detailContainer > div:nth-of-type(2) h3{
+        width: 27%; font-size: 40px; font-weight: 400; padding: 32px 0;
+        border-width: 1px 0; border-color: #bdbdbd; border-style: solid none;
+        box-sizing: border-box; margin-top: 30px;
+    }
+    .detailContainer > div:nth-of-type(2) ul{
+        width: 63%; margin-left: 10%; font-size: 25px; font-weight: 500;
+    }
+    .detailContainer > div:nth-of-type(2) ul li{
+        list-style: none;
+    }
+    .detailContainer > div:nth-of-type(2) ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .detailContainer > div:nth-of-type(2) ul li a{
+        color: #00a5ed; text-decoration: underline;
+    }
+    .detailContainer > ul:first-of-type{
+        background-position: left top; background-repeat: no-repeat; background-size: cover;
+        padding: 150px 4%; box-sizing: border-box;
+        display: flex; flex-flow: row wrap;
+    }
+    .detailContainer.blackTea > ul:first-of-type{
+        background-image: url("../images/bg_blackTea02.png");
+    }
+    .detailContainer.greenTea > ul:first-of-type{
+        background-image: url("../images/bg_greenTea02.png");
+    }
+    .detailContainer.fruitAndherb > ul:first-of-type{
+        background-image: url("../images/bg_fruitAndherb02.png");
+    }
+    .detailContainer.deCaffein > ul:first-of-type,
+    .detailContainer.hotChoco > ul:first-of-type{
+        background-image: url("../images/bg_decaffein02.png");
+    }
+    .detailContainer > ul:first-of-type li{
+        display: block; width: 23.5%; padding: 210px 2.7% 50px;
+        border-width: 5px; border-style: solid; border-radius: 50px; box-sizing: border-box; 
+        background-repeat: no-repeat; background-position: 10% 40px; background-size: 120px;
+    }
+    .detailContainer.blackTea > ul:first-of-type li{
+        border-color: #005880;
+    }
+    .detailContainer.greenTea > ul:first-of-type li{
+        border-color: #145930;
+    }
+    .detailContainer.fruitAndherb > ul:first-of-type li{
+        border-color: #802c42;
+    }
+    .detailContainer.deCaffein > ul:first-of-type li,
+    .detailContainer.hotChoco > ul:first-of-type li{
+        border-color: #80753d;
+    }
+    .detailContainer.teaWare > ul:first-of-type li{
+        border-color: #a6a6a6; color: #2b2b2b;
+    }
+    .detailContainer > ul:first-of-type li:not(:first-child){
+        margin-left: 2%;
+    }
+    .detailContainer > ul:first-of-type li:nth-child(1){background-image: url("../images/icon_detailinfo01.svg");}
+    .detailContainer:not(.teaWare) > ul:first-of-type li:nth-child(2){background-image: url("../images/icon_detailinfo02.svg");}
+    .detailContainer.teaWare > ul:first-of-type li:nth-child(2){background-image: url("../images/icon_detailinfo05.svg");}
+    .detailContainer:not(.teaWare) > ul:first-of-type li:nth-child(3){background-image: url("../images/icon_detailinfo03.svg");}
+    .detailContainer.teaWare > ul:first-of-type li:nth-child(3){background-image: url("../images/icon_detailinfo06.svg");}
+    .detailContainer > ul:first-of-type li:nth-child(4){background-image: url("../images/icon_detailinfo04.svg");}
+    .detailContainer > ul:first-of-type li h3{
+        font-size: 2vw; font-weight: 500; line-height: 2.6vw; color: #fce779;
+        margin-bottom: 30px;
+    }
+    .detailContainer.fruitAndherb > ul:first-of-type li h3{
+        color: #145930;
+    }
+    .detailContainer.deCaffein > ul:first-of-type li h3,
+    .detailContainer.hotChoco > ul:first-of-type li h3{
+        color: #0073a6;
+    }
+    .detailContainer > ul:first-of-type li b{
+        display: block; text-align: right; margin-bottom: 15px; color: #fff;
+    }
+    .detailContainer > ul:first-of-type li b:first-of-type{
+        font-size: 2vw; font-weight: 700;
+    }
+    .detailContainer > ul:first-of-type li b:not(:first-of-type){
+        font-size: 1.56vw; font-weight: 600;
+    }
+    .detailContainer > ul:first-of-type li p{
+        font-size: 1.04vw; font-weight: 400; line-height: 1.35vw; color: #fff; margin-bottom: 10px;
+    }
+    .detailContainer.teaWare > ul:first-of-type li h3,
+    .detailContainer.teaWare > ul:first-of-type li b,
+    .detailContainer.teaWare > ul:first-of-type li p,
+    .detailContainer.teaWare > figure:first-of-type figcaption h2{
+        color: #2b2b2b;
+    }
+    .detailContainer > figure:first-of-type img,
+    .detailContainer > figure:first-of-type figcaption{
+        display: block; float: left;
+    }
+    .detailContainer > figure:first-of-type img{
+        width: 59%; max-width: 1040px;
+    }
+    .detailContainer > figure:first-of-type figcaption{
+        width: 37.5%; margin-left: 3.5%; box-sizing: border-box;
+    }
+    .detailContainer > figure:first-of-type figcaption h2{
+        font-size: 3.64vw; font-weight: 500; line-height: 4.16vw; margin-bottom: 55px;
+    }
+    .detailContainer.blackTea > figure:first-of-type figcaption h2{
+        color: #0073a6;
+    }
+    .detailContainer.greenTea > figure:first-of-type figcaption h2{
+        color: #1c8044;
+    }
+    .detailContainer.fruitAndherb > figure:first-of-type figcaption h2{
+        color: #a63856;
+    }
+    .detailContainer.deCaffein > figure:first-of-type figcaption h2,
+    .detailContainer.hotChoco > figure:first-of-type figcaption h2{
+        color: #80753d;
+    }
+    .detailContainer > figure:first-of-type figcaption p{
+        font-size: 1.3vw; font-weight: 500; line-height: 1.87vw; color: #7f7f7f;
+        padding-left: 5%; 
+    }
+    .detailContainer > div:nth-of-type(3) h3{
+        font-size: 150px; font-weight: 300; text-align: right; margin-bottom: 100px;
+    }
+    .detailContainer > div:nth-of-type(3) img{
+        display: block; max-width: 550px; margin: 0 auto;
+    }
+    .detailContainer > div:nth-of-type(3) ul{
+        width: 85%; list-style: none;
+    }
+    .detailContainer > div:nth-of-type(3) ul li:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li h4{
+        font-size: 100px; font-weight: 500; margin-bottom: 45px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li:nth-child(2n) h4{
+        text-align: right;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div{
+        padding-left: 3.5%; box-sizing: border-box;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(1),
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(2){
+        float: left;
+    }
+    .detailContainer > div:nth-of-type(3) ul li:not(:nth-of-type(2)) div:nth-of-type(1),
+    .detailContainer > div:nth-of-type(3) ul li:not(:nth-of-type(2)) div:nth-of-type(2){
+        margin-bottom: 50px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(1){
+        width: 45%;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(2){
+        width: 55%; 
+    }
+    .detailContainer > div:nth-of-type(3) ul li div:nth-of-type(3){
+        clear: both;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div h5{
+        font-size: 30px; font-weight: 500; color: #7f7f7f;
+        display: inline-block; margin-bottom: 10px;
+    }
+    .detailContainer > div:nth-of-type(3) ul li div p{
+        display: inline-block; margin-left: 2%;
+        font-size: 18px; font-weight: 300; 
+    }
+    .detailContainer > div:nth-of-type(3) ul li > p{
+        font-size: 18px; font-weight: 300; padding-right: 3.5%; box-sizing: border-box;
+        text-align: right; line-height: 25px;
+    }
+    .detailContainer > div:nth-of-type(4){
+        background: url("../images/bg_detail01.png") left top / cover no-repeat;
+        padding: 150px 0; box-sizing: border-box; color: #fff;
+    }
+    .detailContainer > div:nth-of-type(4) h3,
+    .detailContainer > div:last-of-type h3{
+        font-size: 85px; font-weight: 500; margin-bottom: 45px; 
+    }
+    .detailContainer > div:nth-of-type(4) p{
+        width: 58%; padding-left: 7%; box-sizing: border-box;
+        font-size: 40px; font-weight: 400; line-height: 50px;
+    }
+    .detailContainer > figure:nth-of-type(2){
+        position: relative;
+    }
+    .detailContainer > figure:nth-of-type(2) img{
+        float: right; 
+    }
+    .detailContainer > figure:nth-of-type(2) img{
+        width: 47%; margin-left: 3%; display: block;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption h3{
+        font-size: 100px; font-weight: 500; margin-bottom: 70px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li{
+        list-style: none; box-sizing: border-box;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li:not(:last-child){
+        margin-bottom: 55px; 
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li h4{
+        font-size: 40px; font-weight: 400; color: #092b17; margin-bottom: 30px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li p{
+        font-size: 20px; font-weight: 300; line-height: 30px; color: #7f7f7f;
+        padding-left: 3%; 
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li:last-child p{
+        margin-bottom: 45px;
+    }
+    .detailContainer > figure:nth-of-type(2) figcaption > ul li button{
+        font-size: 18px; font-weight: 300; color: #145930; text-decoration: underline;
+        background-color: transparent;
+    }
+    .detailContainer #teaProcessText{
+        display: none;
+    }
+    .detailContainer #teaProcessText.active{
+        display: block; width: 60%; background-color: #fff; border-radius: 50px;
+        position: absolute; top: 0; left: 20%; padding: 50px 3% 100px;
+        box-shadow: 0px 10px 15px 7px rgba(0, 0, 0, 0.30);
+    }
+    .detailContainer #teaProcessText input[value="Close"]{
+        font-size: 20px; font-weight: 400; text-decoration: underline;
+        display: block; margin-left: auto; margin-bottom: 70px;
+    }
+    .detailContainer #teaProcessText ul{
+        padding-bottom: 23.43vw; background: url("../images/detail_madeTea.png") left bottom / 100% no-repeat;
+    }
+    .detailContainer #teaProcessText ul li{
+        display: block; float: left; width: 49%; text-align: center;
+    }
+    .detailContainer #teaProcessText ul li:last-child{
+        margin-left: 2%;
+    }
+    .detailContainer #teaProcessText ul li h4{
+        font-size: 2.08vw; font-weight: 600; color: #1c8044; 
+        margin-bottom: 45px; 
+    }
+    .detailContainer #teaProcessText ul li p{
+        font-size: 1.3vw; line-height: 1.87vw; font-weight: 400; color: #7f7f7f;
+    }
+    .detailContainer > div:last-of-type{
+        background: url("../images/bg_detail02.png") left top / cover no-repeat;
+        padding: 150px 0; box-sizing: border-box; color: #fff;
+    }
+    .detailContainer > div:last-of-type p{
+        padding-left: 7%;
+        font-size: 25px; font-weight: 400; line-height: 36px;
+    }
+    .detailContainer > ul:last-of-type{
+        width: 75%; margin: 0 auto 150px;
+    }
+    .detailContainer > ul:last-of-type li{
+        display: block; 
+    }
+    .detailContainer > ul:last-of-type li:first-child{
+        margin-bottom: 150px;
+    }
+    .detailContainer > ul:last-of-type li:first-child h3,
+    .detailContainer > ul:last-of-type li:first-child div{
+        float: right;
+    }
+    .detailContainer > ul:last-of-type li:last-child h3,
+    .detailContainer > ul:last-of-type li:last-child div{
+        float: left;
+    }
+    .detailContainer > ul:last-of-type li h3{
+        width: 49%; padding: 250px 3.5%; box-sizing: border-box; border-radius: 50px;
+        font-size: 85px; font-weight: 500; line-height: 100px; color: #fff;
+        background-position: center top; background-size: cover; background-repeat: no-repeat;
+    }
+    .detailContainer > ul:last-of-type li:first-child h3{
+        background-image: url("../images/bg_crafted.png"); margin-left: 2%;
+    }
+    .detailContainer > ul:last-of-type li:last-child h3{
+        background-image: url("../images/bg_sourced.png");
+    }
+    .detailContainer > ul:last-of-type li div{
+        width: 49%; box-sizing: border-box; border-radius: 50px;
+        font-size: 20px; font-weight: 500; line-height: 30px;
+        background-position: center top; background-size: cover; background-repeat: no-repeat;
+    }
+    .detailContainer > ul:last-of-type li:first-child div{
+        background-image: url("../images/bg_detail03.png"); padding: 207px 3.5%;
+    }
+    .detailContainer > ul:last-of-type li:first-child div p:first-of-type{
+        margin-bottom: 75px;
+    }
+    .detailContainer > ul:last-of-type li:last-child div{
+        background-image: url("../images/bg_detail04.png"); margin-left: 2%;
+        padding: 245px 3.5%;
+    }
+
+    .cartContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .cartContainer > h2{
+        text-align: center; font-size: 100px; font-weight: 500; color: #001b27;
+        background: url("../images/bg_02.png") left -500px / cover no-repeat;
+        padding: 300px 0 150px; box-sizing: border-box;
+    }
+    .cartContainer > div{
+        padding: 150px 0; box-sizing: border-box;
+        float: left;
+    }
+    .cartContainer > div:first-of-type{
+        width: 70%; padding-left: 4%;
+    }
+    .cartContainer > div:first-of-type ul{
+        
+        box-sizing: border-box;
+        border: 1px solid #d9d9d9;
+    }
+    .cartContainer > div:first-of-type ul li{
+        border-bottom: 1px solid #d9d9d9;
+        box-sizing: border-box;
+        display: flex; flex-flow: row nowrap;
+        list-style: none;
+    }
+    .cartContainer strong{
+        font-weight: inherit;
+    }
+    .cartContainer > div:first-of-type ul li > div:first-of-type{
+        width: 50%;
+    }
+    .cartContainer > div:first-of-type ul li:first-of-type div{
+        font-size: 30px; font-weight: 600; color: #001b27; text-align: center;
+        line-height: 90px;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(2){
+        width: 20%; border-left: 1px solid #d9d9d9;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(3){
+        width: 10%; border-left: 1px solid #d9d9d9;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(4){
+        width: 20%;
+        border-left: 1px solid #d9d9d9;
+    }
+    .cartContainer > div:first-of-type ul li > div:first-of-type img{
+        display: block; width: 25%; float: left;
+    }
+    .cartContainer > div:first-of-type ul li > div:first-of-type h3{
+        font-size: 20px; font-weight: 400; color: #001b27; line-height: 26px;
+        margin: 25px 0;
+    }
+    .cartContainer > div:first-of-type ul li:not(:first-of-type) > div:nth-of-type(2),
+    .cartContainer > div:first-of-type ul li:not(:first-of-type) > div:nth-of-type(4){
+        font-size: 2.08vw; font-weight: 400; color: #001b27;
+        padding: 30px 0; text-align: center;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(3) .countnumb{
+        margin: 20px 0 10px;
+    }
+    .cartContainer > div:first-of-type ul li > div:nth-of-type(3) .btnDelete{
+        display: block; margin: 0 auto;
+    }
+    .cartContainer > div:last-of-type{
+        width: 25%; margin-left: 5%; padding-right: 4%;
+    }
+    .cartContainer > div:last-of-type ul{
+        background-color: #f3f3f3; border-radius: 15px;
+        padding: 50px 10%; box-sizing: border-box; list-style: none;
+        margin-bottom: 30px;
+    }
+    .cartContainer > div:last-of-type ul li::after{
+         content: ''; display: block; clear: both;
+    }
+    .cartContainer > div:last-of-type ul li:first-of-type{
+        margin-bottom: 25px;
+    }
+    .cartContainer > div:last-of-type ul li:nth-of-type(2){
+        margin-bottom: 55px;
+    }
+    .cartContainer > div:last-of-type ul li span{
+        display: block; float: left;
+    }
+    .cartContainer > div:last-of-type ul li span:first-of-type{
+        width: 50%; font-size: 1.56vw; font-weight: 600;
+    }
+    .cartContainer > div:last-of-type ul li span:last-of-type{
+        width: 48%; margin-left: 2%; text-align: right;
+        font-size: 1.3vw; font-weight: 400;
+    }
+    .cartContainer > div:last-of-type a{
+        display: block; 
+    }
+
+    .checkoutContainer{
+        background-color: #f3f3f3;
+    }
+    .checkoutContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > div:not(#paymentComplete),
+    .checkoutContainer aside{
+        float: left; width: 50%; padding: 300px 4% 150px; box-sizing: border-box;
+    }
+    .checkoutContainer h2:not(#paymentComplete > h2){
+        font-size: 50px; font-weight: 500; margin-bottom: 30px;
+    }
+    .checkoutContainer input:not([type='checkbox'],[type='submit'],[type='radio']){
+        display: block; border: 1px solid #d9d9d9; border-radius: 15px; padding: 25px 2.5%;
+        font-size: 18px; background-color: #fff;
+    }
+    .checkoutContainer > div:not(#paymentComplete){
+        background-color: #fff;
+    }
+    .checkoutContainer > div:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > div ol{
+        margin-bottom: 25px; display: flex;
+        flex-flow: row wrap;
+    }
+    .checkoutContainer > div ol li{
+        list-style: none; font-size: 1.05vw; font-weight: 400; 
+        color: #d9d9d9;
+    }
+    .checkoutContainer > div ol li.active{
+        color: #000;
+    }
+    .checkoutContainer > div ol li:not(:first-of-type):before{
+        content: '>'; padding: 0 20px;
+    }
+    .checkoutContainer > div ul,
+    .checkoutContainer.shipping > div form > div{
+        border: 1px solid #d9d9d9; box-sizing: border-box; border-radius: 15px;
+        margin-bottom: 100px;
+    }
+    .checkoutContainer > div ul li{
+        padding: 30px 3.5%; box-sizing: border-box;
+    }
+    .checkoutContainer > div ul li{
+        display: block;
+    }
+    .checkoutContainer > div ul li:not(:last-of-type){
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .checkoutContainer > div ul li::after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > div ul li > *{
+        float: left;
+    }
+    .checkoutContainer > div ul li > span{
+        display: block; width: 20%; 
+        font-size: 18px; font-weight: 400; color: #7f7f7f;
+    }
+    .checkoutContainer > div ul li > p{
+        width: 60%; margin-left: 6%;
+        font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 24px;
+    }
+    .checkoutContainer > div ul li > a{
+        display: block; width: 8%; margin-left: 6%;
+        font-size: 18px; font-weight: 400; color: #2b2b2b;
+        text-align: right;
+    }
+    .checkoutContainer > div > form > div{
+        margin-bottom: 100px;
+    }
+    .checkoutContainer > div > form > div:first-of-type label{
+        font-size: 18px; font-weight: 400;
+    }
+    .checkoutContainer > div > form > a,
+    .checkoutContainer > div > form > input[type='submit']{
+        float: left;
+    }
+    .checkoutContainer > div > form > a{
+        display: block; width: 58%; padding: 0.78vw 0 0.78vw 4.23vw; box-sizing: border-box;
+        font-size: 1.56vw; font-weight: 600; 
+        color: #000; background: url('../images/icon_back.svg') left top / contain no-repeat;
+    }
+    .checkoutContainer input[type='submit']{
+        background-color: #001b27; color: #fff;
+    }
+    .checkoutContainer > div > form > input[type='submit']{
+        width: 40%; margin-left: 2%; font-size: 1.3vw; padding: 0.91vw 1.56vw;
+    }
+    .checkoutContainer > aside ul li{
+        list-style: none;
+    }
+    .checkoutContainer > aside ul li:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > aside ul li > *{
+        display: block; float: left;
+    }
+    .checkoutContainer > aside ul li img{
+        width: 22%;
+    }
+    .checkoutContainer > aside ul li dl{
+        width: 44%; padding: 15px 0 10px; box-sizing: border-box;
+    }
+    .checkoutContainer > aside ul li > strong{
+        margin-left: 6%; width: 8%; font-size: 20px; font-weight: 700;
+        padding: 56px 0; box-sizing: border-box;
+    }
+    .checkoutContainer > aside ul li span{
+        width: 17%; margin-left: 3%; font-size: 20px; font-weight: 400;
+        padding: 56px 0; box-sizing: border-box;
+    }
+    .checkoutContainer > aside > div{
+        padding: 60px 0; box-sizing: border-box;
+        border-bottom: 1px solid #d9d9d9;
+    }
+    .checkoutContainer > aside div:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer > aside div input[type='text']{
+        float: left; background-color: #fff; width: 70%; 
+    }
+    .checkoutContainer > aside div input[type='submit']{
+        float: left; width: 25%; margin-left: 5%;
+        font-size: 25px; padding: 22px 4%; 
+    }
+    .checkoutContainer > aside div span{
+        display: block; float: left; width: 49%;
+    }
+    .checkoutContainer > aside div span:first-of-type{
+        font-size: 30px; font-weight: 600; color: #7f7f7f;
+    }
+    .checkoutContainer > aside div span:nth-of-type(2){
+        margin-left: 2%; font-size: 25px; font-weight: 400; text-align: right;
+    }
+    .checkoutContainer > aside div span strong{
+        font-weight: inherit;
+    }
+    .checkoutContainer > aside div > div:first-of-type{
+        margin-bottom: 25px;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type h2,
+    .checkoutContainer.information > div > form > div:first-of-type div{
+        float: left;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type h2{
+        width: 45%;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div{
+        width: 53%; margin: 30px 0 0 2%;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div p{
+        float: left; width: 78%; text-align: right;
+        font-size: 18px; font-weight: 400;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type div a{
+        display: block; float: left; width: 20%; margin-left: 2%;
+        font-size: 20px; font-weight: 700; text-decoration: underline; 
+        color: #000;
+    }
+    .checkoutContainer.information > div > form > div:first-of-type input[type='email']{
+        clear: left; width: 100%; margin-bottom: 20px;
+    }
+    .checkoutContainer.information > div > form > div:last-of-type,
+    .checkoutContainer.payment > div > form div ul li{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    .checkoutContainer.information > div > form > div:last-of-type h2{
+        width: 100%;
+    }
+    .checkoutContainer.information > div > form input:not([type='checkbox']){
+        margin-bottom: 30px;
+    }
+    .checkoutContainer.information > div > form input[type='text']:not(.halfwh),
+    .checkoutContainer.payment > div > form div ul li input:not(.halfwh){
+        width: 100%;
+    }
+    .checkoutContainer.information > div > form input[type='text'].halfwh,
+    .checkoutContainer.payment > div > form div ul li input.halfwh{
+        width: 48.5%;
+    }
+    .checkoutContainer.information > div > form > div:last-of-type label{
+        color: #7f7f7f;
+    }
+    .checkoutContainer.shipping > div > form > ul li:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer.shipping > div > form > ul li input[type='radio']{
+        float: left; display: block; width: 7%; height: 26px; margin: 0;
+    }
+    .checkoutContainer.shipping > div > form > ul li label{
+        display: block; width: 90%; margin-left: 3%;
+        font-size: 18px; font-weight: 400; color: #2b2b2b;
+    }
+    .checkoutContainer.shipping > div > form > ul li label:after{
+        content: ''; display: block; clear: both;
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span{
+        display: block; float: left; 
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span:first-of-type{
+        width: 80%;
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span:first-of-type > span{
+        display: block; margin-top: 25px;
+    }
+    .checkoutContainer.shipping > div > form > ul li label > span:last-of-type{
+        width: 17%; margin-left: 3%; text-align: right;
+    }
+    .checkoutContainer.payment{
+        position: relative;
+    }
+    .checkoutContainer.payment > div > form div{
+        background-color: #f3f3f3; border-radius: 15px;
+    }
+    .checkoutContainer.payment > div > form div h3{
+        width: 100%; font-size: 25px; font-weight: 700; padding: 30px 3.5%; box-sizing: border-box;
+        background-color: #fff; 
+        border: 1px solid #d9d9d9; border-radius: 15px;
+    }
+    .checkoutContainer.payment > div > form div ul{
+        border-width: 0px; 
+    }
+    .checkoutContainer.payment > div > form div ul li input:not(.halfwh){
+        margin-bottom: 30px;
+    }
+    .checkoutContainer #paymentComplete{
+        position: absolute; width: 50%; left: 25%; top: 400px;
+        padding: 150px 5%; border: 1px solid #7f7f7f; background-color: #fff; box-sizing: border-box;
+        border-radius: 15px; text-align: center;
+    }
+    .checkoutContainer #paymentComplete h2{
+        font-size: 70px; font-weight: 500; color: #145930; margin-bottom: 60px;
+        padding-top: 150px; box-sizing: border-box;
+        background: url('../images/icon_check.svg') center top / 150px no-repeat;
+    }
+    .checkoutContainer #paymentComplete p{
+        font-size: 40px; font-weight: 400; color: #7f7f7f;
+        margin-bottom: 100px;
+    }
+    .checkoutContainer #paymentComplete a{
+        margin: 0 auto; background-color: #001b27; color: #fff;
+    }
+
+    .accountContainer{
+        background: url('../images/bg_02.png') left top / cover no-repeat;
+        margin-bottom: 150px; padding: 300px 0 150px; box-sizing: border-box;
+    }
+    .accountContainer > div{
+        width: 50%; margin: 0 auto; padding: 150px 7%; box-sizing: border-box;
+        background-color: #f3f3f3; text-align: center;
+    }
+    .accountContainer:not(.signIn) > div form fieldset{
+        margin-bottom: 60px;
+    }
+    .accountContainer.signIn > div form fieldset{
+        margin-bottom: 30px;
+    }
+    .accountContainer > div form fieldset legend{
+        font-size: 70px; font-weight: 500; color: #001b27; line-height: 80px;
+        margin-bottom: 60px; 
+    }
+    .accountContainer > div form fieldset input{
+        display: block; width: 100%; padding: 30px 3%; box-sizing: border-box;
+        font-size: 30px; border-radius: 15px;
+    }    
+    .accountContainer > div form fieldset input::placeholder{
+        color: #001b27;
+    }
+    .accountContainer > div form fieldset input:not([type='submit']){
+        background-color: #fff; margin-bottom: 30px;
+    }
+    .accountContainer > div form fieldset input[type='submit']{
+        background-color: #001b27; color: #fff; font-weight: 600;
+    }
+    .accountContainer > div a,
+    .accountContainer > div > div span{
+        font-weight: 400; color: #7f7f7f; display: block;
+    }
+    .accountContainer.signIn > div > a{
+        font-size: 20px; text-decoration: underline; margin-bottom: 60px;
+    }
+    .accountContainer > div > div{
+        width: 65%; margin: 0 auto;
+    }
+    .accountContainer > div > div:after{
+        content: ''; display: block; clear: both;
+    }
+    .accountContainer > div > div a,
+    .accountContainer > div > div span{
+        font-size: 30px; float: left; 
+    }
+    .accountContainer > div > div a{
+        width: 44%;
+    }
+    .accountContainer > div > div a:first-of-type{
+        text-align: right;
+    }
+    .accountContainer > div > div a:last-of-type{
+        text-align: left;
+    }
+    .accountContainer > div > div span{
+        width: 4%; margin: 0 4%;
+    }
+    .accountContainer.findPassword > div form fieldset p{
+        font-size: 20px; font-weight: 400; color: #001b27; margin-bottom: 60px;
+        line-height: 26px;
+    }
+
+    .mypageContainer{
+        margin-bottom: 150px;
+    }
+    .mypageContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .mypageContainer > h2{
+        padding: 300px 0 150px; box-sizing: border-box;
+        background: url('../images/bg_02.png') left -400px / cover no-repeat;
+        text-align: center; font-size: 150px; font-weight: 400; color: #001b27;
+        margin-bottom: 150px;
+    }
+    .mypageContainer aside,
+    .mypageContainer > div{
+        float: left;
+    }
+    .mypageContainer aside{
+        width: 26%; padding-left: 4%; box-sizing: border-box;
+    }
+    .mypageContainer aside ul li:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .mypageContainer aside ul li a{
+        display: block; font-size: 50px; font-weight: 400; color: #7f7f7f;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .mypageContainer aside ul li:hover a,
+    .mypageContainer aside ul li a.active{
+        color: #001b27; text-decoration: underline;
+    }
+    .mypageContainer > div{
+        width: 70%; margin-left: 4%; padding-right: 4%; box-sizing: border-box;
+    }
+    .mypageContainer > div h3{
+        font-size: 50px; font-weight: 500; color: #001b27;
+    }
+    .mypageContainer.myOrder > div h3{
+        margin-bottom: 30px;
+    }
+    .mypageContainer.myOrder > div ul{
+        border-top: 1px solid #d9d9d9; 
+    }
+    .mypageContainer.myOrder > div ul li{
+        display: flex; flex-flow: row nowrap;
+        text-align: center;
+        border-bottom: 1px solid #d9d9d9;
+        box-sizing: border-box;
+    }
+    .mypageContainer.myOrder > div ul li div{
+        box-sizing: border-box; border-left: 1px solid #d9d9d9;
+
+    }
+    .mypageContainer.myOrder > div ul li:first-of-type div{
+        font-size: 25px; font-weight: 700; line-height: 36px;
+        color: #001b27;
+    }
+    .mypageContainer.myOrder > div ul li div:first-of-type{
+        width: 22%; padding: 10px 3%;
+    }
+    .mypageContainer.myOrder > div ul li div:nth-of-type(2){
+        width: 38%; padding: 28px 3%;
+    }
+    .mypageContainer.myOrder > div ul li div:nth-of-type(3),
+    .mypageContainer.myOrder > div ul li div:last-of-type{
+        width: 20%; padding: 28px 3%;
+    }
+    .mypageContainer.myOrder > div ul li div:last-of-type{
+        border-right: 1px solid #d9d9d9;
+    }
+    .mypageContainer.myOrder > div ul li p{
+        font-size: 85px; font-weight: 500; color: #d9d9d9;
+        width: 100%; padding: 50px 0; box-sizing: border-box;
+    }
+    .mypageContainer:not(.myOrder) > div h3{
+        margin-bottom: 100px;
+    }
+    .mypageContainer:not(.myOrder, .editInfo) > div a{
+        font-size: 30px; font-weight: 600;
+        padding: 30px 3%; color: #fff; background-color: #001b27;
+    }
+    .mypageContainer:not(.myOrder) > div ul li{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    .mypageContainer.myAddress > div,
+    .mypageContainer.editInfo > div{
+        position: relative;
+    }
+    .mypageContainer.myAddress > div a,
+    .mypageContainer.editInfo > div a{
+        position: absolute; right: 6%; top: 0;
+    }
+    .mypageContainer.myAddress > div a{
+        width: 40%;
+    }
+    .mypageContainer.myAddress > div ul li{
+        border-width: 1px 0; border-style: solid; border-color: #d9d9d9;
+        padding: 30px 3%; box-sizing: border-box;
+    }
+    .mypageContainer.myAddress > div ul li div{
+        width: 49%; margin-bottom: 30px;
+    }
+    .mypageContainer.myAddress > div ul li div::after{
+        content: ''; display: block; clear: both;
+    }
+    .mypageContainer.myAddress > div ul li div h4{
+        float: left; width: 31%; font-size: 25px; font-weight: 700; color: #001b27;
+    }
+    .mypageContainer.myAddress > div ul li div p{
+        float: left; width: 67%; margin-left: 2%;
+        font-size: 20px; font-weight: 400;
+    }
+    .mypageContainer.myAddress > div ul li button{
+        font-size: 20px; font-weight: 400; color: #7f7f7f; text-decoration: underline;
+        font-family: inherit; background-color: transparent;
+    }
+    .mypageContainer.myAddress #addressDelete{
+        display: none;
+    }
+    .mypageContainer.myAddress #addressDelete.active{
+        position: absolute; width: 50%; left: 20%; top: 0; display: block;
+        padding: 100px 5%; border: 1px solid #7f7f7f; background-color: #fff; box-sizing: border-box;
+        border-radius: 15px; text-align: center; z-index: 100;
+    }
+    .mypageContainer.myAddress #addressDelete.active h2{
+        font-size: 50px; font-weight: 500; margin-bottom: 30px;
+        padding-top: 100px; box-sizing: border-box;
+        background: url('../images/icon_Delete.svg') center top / 100px no-repeat;
+    }
+    .mypageContainer.myAddress #addressDelete.active p{
+        font-size: 25px; font-weight: 400; color: #7f7f7f; line-height: 32px;
+        margin-bottom: 50px;
+    }
+    .mypageContainer.myAddress #addressDelete.active > div{
+        width: 80%; margin: 0 auto;
+        display: flex; flex-flow: row nowrap; justify-content: space-evenly;
+    }
+    .mypageContainer.myAddress #addressDelete.active > div button{
+        font-size: 25px; color: #fff; padding: 25px 5%; box-sizing: border-box;
+        width: 47%;
+    }
+    .mypageContainer.myAddress #addressDelete.active > div button.btnClose{
+        background-color: #001b27; 
+    }
+    .mypageContainer.myAddress #addressDelete.active > div button.deleteData{
+        background-color: #990000; 
+    }
+    .mypageContainer.myDetail > div:after{
+        content: ''; display: block; clear: both;
+    }
+    .mypageContainer.myDetail > div ul{
+        margin-bottom: 100px;
+    }
+    .mypageContainer.myDetail > div ul li:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+    .mypageContainer.myDetail > div ul li h4{
+        width: 30%; font-size: 30px; font-weight: 600; color: #7f7f7f;
+    }
+    .mypageContainer.myDetail > div ul li span{
+        width: 65%; font-size: 25px; font-weight: 500; color: #001b27;
+    }
+    .mypageContainer.myDetail > div a{
+        float: left; width: 47%; 
+    }
+    .mypageContainer.myDetail > div a:last-of-type{
+        margin-left: 6%;
+    }
+    .mypageContainer.editInfo > div a{
+        font-size: 25px; font-weight: 400; color: #000;
+        padding-left: 3%; box-sizing: border-box;
+        background: url('../images/icon_back.svg') left top no-repeat;
+    }
+    .mypageContainer.editInfo > div form fieldset{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    .mypageContainer.editInfo > div form fieldset legend{
+        font-size: 40px; font-weight: 400; color: #001b27;
+        width: 100%; margin-bottom: 60px;
+    }
+    .mypageContainer.editInfo > div form fieldset input[type='text']{
+        width: 49%; background-color: #f3f3f3; border-radius: 15px;
+        font-size: 30px; font-weight: 400;
+        padding: 30px 3%; box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    .mypageContainer.editInfo > div form fieldset input[type='submit']{
+        width: 100%; background-color: #001b27; color: #fff;
+        font-size: 30px; font-weight: 600;
+        padding: 30px 3%; box-sizing: border-box;
+    }
+
+    .AboutsideMenu,
+    .AboutsideMenu+div{
+        float: left;
+    }
+    .AboutsideMenu{
+        width: 43%;
+    }
+    .AboutsideMenu nav ul li:not(:last-child),
+    .policysideMenu nav ul li:not(:last-child){
+        margin-bottom: 100px;
+    }
+    .AboutsideMenu nav > ul li a:not(ol li a),
+    .AboutsideMenu nav > ul li span{
+        display: block; font-size: 85px; font-weight: 400; color: #7f7f7f;
+    }
+    .AboutsideMenu nav > ul li a:not(ol li a).active,
+    .AboutsideMenu nav > ul li span.active,
+    .policysideMenu nav > ul li a:hover,
+    .policysideMenu nav > ul li a.active{
+        color: #001b27; text-decoration: underline; font-weight: 500;
+    }    
+    .AboutsideMenu nav > ul li span{
+        margin-bottom: 70px;
+    }
+    .AboutsideMenu nav > ul li span+ol{
+        list-style: none; padding-left: 6%; box-sizing: border-box;
+    }
+    .AboutsideMenu nav > ul li span+ol li a{
+        display: block; width: 50%;
+        font-size: 40px; font-weight: 400; color: #7f7f7f;
+    }
+    .AboutsideMenu nav > ul li span+ol li a.active{
+        color: #001b27; font-weight: 500; padding-right: 5%; box-sizing: border-box;
+        background: url('../images/icon_asideArrow.svg') right top no-repeat;
+    }
+    .AboutsideMenu+div{
+        width: 55%; margin-left: 2%;
+    }
+    .contactUsContainer,
+    .faqsContainer,
+    .shippingPolicyContainer{
+        padding: 330px 0 150px;
+    }
+    .contactUsContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .contactUsContainer div h2,
+    .contactUsContainer div h3,
+    .shippingPolicyContainer div h2,
+    .shippingPolicyContainer div h3,
+    .faqsContainer div > ul li h2{
+        font-size: 40px; font-weight: 500; color: #001b27;
+    }
+    .contactUsContainer div h2,
+    .shippingPolicyContainer div h2,
+    .faqsContainer div > nav{
+        margin-bottom: 150px;
+    }
+    .contactUsContainer h3,
+    .contactUsContainer div ul,
+    .contactUsContainer div > p:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    .contactUsContainer div ul{
+        padding-left: 6%; box-sizing: border-box;
+    }
+    .contactUsContainer div ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .contactUsContainer div ul li p{
+        font-size: 18px; font-weight: 300; color: #2b2b2b;
+    }
+    .contactUsContainer div > p{
+        font-size: 20px; font-weight: 400; color: #2b2b2b; line-height: 30px;
+    }
+    .contactUsContainer div > p:last-of-type{
+        margin-bottom: 55px;
+    }
+    .contactUsContainer div > p a{
+        color: #2b2b2b; text-decoration: underline;
+    }
+    .contactUsContainer div form fieldset{
+        position: relative;
+    }
+    .contactUsContainer div form fieldset legend{
+        font-size: 40px; font-weight: 500; color: #001b27; margin-bottom: 30px;
+    }
+    .contactUsContainer div form fieldset label, 
+    .contactUsContainer div form fieldset > input{
+        margin-bottom: 20px; display: block;
+    }
+    .contactUsContainer div form fieldset label{
+        font-size: 25px; font-weight: 500; color: #2b2b2b;     
+    }
+    .contactUsContainer div form fieldset > input{
+        width: 100%; padding: 20px 3%;
+        font-size: 25px; font-weight: 400;
+        border: 2px solid #bdbdbd; box-sizing: border-box;
+    }
+    .contactUsContainer div form fieldset button{
+        font-size: 25px; color: #fff; background-color: #001b27;
+        padding: 20px 3%;
+    }
+    .contactUsContainer div form fieldset input+p{
+        font-size: 18px; font-weight: 300; color: #bdad5b; margin-bottom: 30px;
+        line-height: 24px;
+    }
+    .contactUsContainer div form fieldset select{
+        margin-bottom: 30px; font-size: 25px; font-weight: 400;
+        padding: 20px 3%; box-sizing: border-box;
+    }
+    .contactUsContainer div form fieldset textarea{
+        width: 100%; height: 400px; font-size: 25px; font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .contactUsContainer div form fieldset > #completePopup{
+        display: none;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active{
+        display: block;
+        position: absolute; width: 90%; left: 5%; bottom: 100px;
+        padding: 100px 5%; border: 1px solid #7f7f7f; background-color: #fff; box-sizing: border-box;
+        border-radius: 15px; text-align: center;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active h2{
+        font-size: 50px; font-weight: 500; margin-bottom: 30px; color: #145930;
+        padding-top: 100px; box-sizing: border-box;
+        background: url('../images/icon_check.svg') center top / 100px no-repeat;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active p{
+        font-size: 25px; font-weight: 400; color: #7f7f7f; line-height: 32px;
+        margin-bottom: 50px;
+    }
+    .contactUsContainer div form fieldset > #completePopup.active input[type='button']{
+        font-size: 25px; padding: 25px 5%;
+        width: 50%; border-radius: 15px; margin: 0 auto; background-color: #001b27; color: #fff;
+    }
+    .shippingPolicyContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .shippingPolicyContainer div > ul,
+    .faqsContainer div > ul{
+        border-top: 1px solid #bdbdbd; box-sizing: border-box;
+    }
+    .shippingPolicyContainer div > ul > li,
+    .faqsContainer div > ul > li{
+        display: block; padding: 50px 3% 0; box-sizing: border-box;
+        border-bottom: 1px solid #bdbdbd;
+    }
+    .shippingPolicyContainer div > ul li h3,
+    .faqsContainer div > ul li h2{
+        padding-right: 8%; box-sizing: border-box;
+        background: url('../images/btn_more.svg') right top no-repeat;
+        margin-bottom: 60px; line-height: 50px;
+    }
+    .shippingPolicyContainer div > ul li h3.active,
+    .faqsContainer div > ul li h2.active{
+        background-image: url('../images/btn_less.svg');
+    }
+    .shippingPolicyContainer div > ul li h3+ul,
+    .faqsContainer div > ul li h2+p,
+    .faqsContainer div > ul li h2+div{
+        font-size: 0; line-height: 0; padding: 0; opacity: 0;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul,
+    .faqsContainer div > ul li h2.active+p,
+    .faqsContainer div > ul li h2.active+div{
+        padding: 0 3% 60px; box-sizing: border-box; opacity: 1;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul li:not(:last-child),
+    .faqsContainer div > ul li h2.active+div p:first-of-type{
+        margin-bottom: 25px;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul li p,
+    .faqsContainer div > ul li h2.active+p,
+    .faqsContainer div > ul li h2.active+div p{
+        font-size: 18px; font-weight: 300; color: #2b2b2b; line-height: 26px;
+    }
+    .shippingPolicyContainer div > ul li h3.active+ul li p+span{
+        display: block; margin-top: 30px; color: #acacac;
+    }
+    .faqsContainer div > nav{
+        width: 55%;
+    }
+    .faqsContainer div > nav ol:after{
+        content: ''; display: block; clear: both;
+    }
+    .faqsContainer div > nav ol li{
+        float: left; display: block;
+        font-size: 2.08vw; font-weight: 500;
+    }
+    .faqsContainer div > nav ol li:first-child{
+        width: 20%; color: #7f7f7f; margin-right: 5%;
+    }
+    .faqsContainer div > nav ol li:not(:first-child):before{
+        content: '>'; padding-right: 5%;
+    }
+    .faqsContainer div > nav ol li:last-child{
+        width: 75%; color: #001b27;
+    }
+    .faqsContainer div > ul li h2.active+p span{
+        display: block; padding: 5px 0; box-sizing: border-box;
+    } 
+    .faqsContainer:after{
+        content: ''; display: block; clear: both;
+    }
+
+    .policyContainer{
+        padding: 330px 0 150px; box-sizing: border-box;
+        position: relative;
+    }
+    .policyContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .policyContainer .policysideMenu{
+        position: sticky; left: 0; top: 120px; width: 45%; float: left; margin-right: 5%;
+    }
+    .policysideMenu nav > ul li a{
+        display: block; font-size: 4.42vw; font-weight: 400; color: #7f7f7f;
+        transition-duration: 0.3s; transition-timing-function: ease-in-out;
+    }
+    .policyContainer > div{
+        width: 50%; float: left;
+    }
+    .policyContainer > div h2,
+    .policyContainer > div > div h3,
+    .policyContainer > div > ol > li h3{
+        font-size: 2.08vw; font-weight: 500; color: #001b27; line-height: 2.6vw;
+    }
+    .policyContainer > div h2{
+        margin-bottom: 145px;
+    }
+    .policyContainer > div p,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li h4{
+        font-size: 20px; font-weight: 400; color: #2b2b2b; line-height: 30px;
+    }
+    .policyContainer > div > p,
+    .policyContainer:not(.cookiePolicy) > div > div,
+    .policyContainer > div > ol > li,
+    .policyContainer.cookiePolicy > div > ul{
+        margin-bottom: 55px;
+    }
+    .policyContainer > div > div,
+    .policyContainer > div > ol,
+    .policyContainer > div > div > *:not(h3),
+    .policyContainer > div > ol > li > *:not(h3),
+    .policyContainer > div > ol > li div > p:not(:first-of-type),
+    .policyContainer.privacyPolicy > div > ol li > div > ul,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li p,
+    .policyContainer.termsService > div > ol > li > div > ul,
+    .policyContainer.termsService > div > ol > li > div > ul li p{
+        padding-left: 5%; box-sizing: border-box;
+    }
+    .policyContainer > div > div h3,
+    .policyContainer > div > div p:not(:last-of-type),
+    .policyContainer > div > ol li h3,
+    .policyContainer > div > ol li :not(:last-child),
+    .policyContainer > div > ol li div,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li,
+    .policyContainer.cookiePolicy > div > div{
+        margin-bottom: 25px;
+    }
+    .policyContainer > div > ol > li,
+    .policyContainer.privacyPolicy > div > ol li > div > ul li,
+    .policyContainer.termsService > div > ol > li > div > ul{
+        list-style: none;
+    }  
+    .policyContainer.privacyPolicy > div > ol li > div > ul li h4{
+        margin-bottom: 15px;
+    }
+    .policyContainer.cookiePolicy > div > ul{
+        border-width: 1px 1px 0; border-style: solid; border-color: #bdbdbd; box-sizing: border-box;
+    }
+    .policyContainer.cookiePolicy > div > ul > li{
+        border-bottom: 1px solid #bdbdbd; display: flex; flex-flow: row wrap; box-sizing: border-box;
+    }
+    .policyContainer.cookiePolicy > div > ul > li:first-of-type > span{
+        padding: 14px 2%; box-sizing: border-box; 
+        font-size: 20px; font-weight: 400; color: #2b2b2b; line-height: 26px;
+    }
+    .policyContainer.cookiePolicy > div > ul > li:not(:first-of-type) > span{
+        font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 24px;
+        padding: 15px 2%; box-sizing: border-box; word-break: break-all;
+    }
+    .policyContainer.cookiePolicy > div > ul > li > span:first-of-type{
+        width: 26%;
+    }
+    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(2){
+        width: 34%; border-left: 1px solid #bdbdbd;
+    }
+    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(3),
+    .policyContainer.cookiePolicy > div > ul > li > span:last-of-type{
+        width: 20%; border-left: 1px solid #bdbdbd;
+    }
+}
+/* desktop */

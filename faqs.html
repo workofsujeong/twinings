@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinings</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <div class="faqsContainer">
+        <aside class="AboutsideMenu">
+            <nav>
+                <ul>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                    <li>
+                        <span>FAQs</span>
+                        <ol>
+                            <li><a href="faqs.html" class="active">Delivery</a></li>
+                            <li><a href="faqs_Ordering.html">Ordering</a></li>
+                            <li><a href="faqs_orderReceived.html">Order Received</a></li>
+                            <li><a href="faqs_general.html">General FAQ's</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="shipping_policy.html">Shipping Policy</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div>
+            <nav>
+                <ol>
+                    <li>FAQs</li>
+                    <li>Delivery</li>
+                </ol>
+            </nav>
+            <ul>
+                <li>
+                    <h2>How much is delivery?</h2>
+                    <div>
+                        <p>Standard UK delivery costs £3.95 on orders under £35.
+                           <br> Express UK delivery costs £6.95.
+                           <br> Highlands & Islands Standard delivery costs £3.95 on orders under £35. 
+                           <br> Orders over 4kg delivery will cost £18.95.
+                           <br> Highlands & Islands Express delivery costs £21.95.
+                        </p>
+                        <p>International delivery costs vary depending on location, size and weight of the order. To get an idea of these costs add the products to your basket, proceed through the checkout and enter your delivery address. You will then be shown a delivery cost before payment.</p>
+                    </div>
+                </li>
+                <li>
+                    <h2>When can I expect my delivery?</h2>
+                    <p>Standard UK: 5-7 working* days from despatch.
+                       <br> Express UK: 2 working* days.
+                       <br> International: 15-20 working* days.
+                       <br> *Working days are Monday - Friday only.  Working days will also exclude public holidays.</p>
+                </li>
+                <li>
+                    <h2>Which courier do you use?</h2>
+                    <p>For standard UK deliveries we use Royal Mail, Evri or DX (IFS).
+                       <br> Express UK deliveries will be sent with DHL.
+                       <br> For international deliveries we use Royal Mail or DHL.</p>
+                </li>
+                <li>
+                    <h2>How can I track my order?</h2>
+                    <p>Once your order has been dispatched, you will receive a dispatch email from us containing a link to track your order. If you have created an account with us, the tracking information for your order will also show in your order history. Royal Mail International - tracking information will only show up to the point of leaving the UK and then again once it arrives into the destination country. We cannot provide tracking information for the movement between these two occurrences. In most instances, once the package arrives into the destination country, the tracking information will be transferred over to your local courier network for continued tracking.</p>
+                </li>
+                <li>
+                    <h2>Why does my tracking information show my order is in Northern Ireland?</h2>
+                    <p>Don't worry, our warehouse is located in Northern Ireland so your order has been despatched from there.</p>
+                </li>
+                <li>
+                    <h2>The courier said my order would be delivered today, but it hasn't arrived</h2>
+                    <p>Whilst our couriers may provide you with a delivery timeframe, it is their aim to deliver by this date/time but they can't guarantee it. As per our delivery timeframes, we would kindly ask that you allow 5-7 working days for standard UK delivery.</p>
+                </li>
+                <li>
+                    <h2>My order hasn’t been delivered</h2>
+                    <div>
+                        <p>Once your order has been dispatched, please allow the maximum amount of working days for delivery to receive your order (Standard UK: 7 working days, Express UK: 2 working days and International: 15-20 working days). If you haven’t received your order within these timescales you can contact our Consumer Service team either by email at twinings.direct@twinings.com or by telephone on 01264 313444 who will look into this further for you.</p>
+                        <p>For UK orders please contact us within 18 days of placing your order and for International orders please contact us within 30 days, as we are unable to look into it further or provide reimbursement/replacements after this time.</p>
+                    </div>
+                </li>
+                <li>
+                    <h2>Are there any restrictions on sending items to certain countries?</h2>
+                    <p>We’re not currently able to send orders to Belarus, Ukraine or Russia. We cannot send the Superblends Advent Calendar via our international Royal Mail delivery service. DHL shipping will apply. Due to strict customs regulations in Australia and New Zealand, we can’t dispatch any products to these countries which contain citrus peel. We’ll always try our best to inform you of this before shipping your order. We cannot send shipments to Turkey with a value of €150 (£120) or more due to limits imposed by customs. We cannot ship Options and Ovaltine products outside the UK.  If these products are on your order for international delivery, they will be cancelled and refunded.</p>
+                </li>
+                <li>
+                    <h2>Can I ship an order to a PO Box address?</h2>
+                    <p>UK PO Box Address: we can only ship orders to a UK PO Box address if the order is under 4kg. International PO Box Address: we can only ship orders to an international PO Box address if the order is under 2kg and you have selected the Royal Mail International standard delivery service.</p>
+                </li>
+                <li>
+                    <h2>I'm shipping my order internationally, will there be any extra charges?</h2>
+                    <p>When ordering goods from our site for delivery overseas you may be subject to additional import duties and taxes, which are levied once the order reaches the specified destination. Any additional charges for customs clearance must be borne by you. We have no control over these charges and cannot predict what they may be so we'd always recommend contacting your local customs for more information before placing an order. If these charges are unpaid or you refuse to pay them, your order may be returned to us and we will be unable to refund shipping costs. There may also be costs associated with the return to us, which will be deducted from any refund value. In certain situations, your order may be destroyed by customs if duties and taxes are not paid. In this instance, we cannot refund product or shipping costs for these reasons.</p>
+                </li>
+                <li>
+                    <h2>Following Brexit, will there be any extra shipping charges for deliveries in the EU?</h2>
+                    <p>It is possible that your local customs authority may request a payment for duties charges to clear your order through customs. The amount charged to you for duties and taxes is out of our control and is set by your local customs and must be borne by you.  Before placing an order with us we’d recommend contacting your local customs authority who will be able to advise you further.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

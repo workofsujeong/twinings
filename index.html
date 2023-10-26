@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinings</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header class="start">    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <main class="mainContainer">  
+        <h2>A Great Tomorrow Starts Tonight</h2>
+        <p>Our delicious range of benefit-led infusions and green teas, expertly blended to support your every day wellbeing</p>
+        <a href="list_teaAll.html" class="btnTwg shopnow">Shop Now</a> 
+        <p>
+            Twinings are pioneers of the tea trade
+            <strong>Twingings</strong>        
+        </p>
+        <div>
+            <h3>Our Best Sellers</h3>
+            <ul>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Earl Grey</dt>
+                                <dd>Our famous Earl Grey lemon and bergamot flavoured black tea.</dd>
+                            </dl>
+                            <a href="item_blacktea005.html" class="btnTwg bsPrice">Buy ￡<span>2.49</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Twinings Swiss Chocolate Drink</dt>
+                                <dd>Silky-smooth and made with real Swiss chocolate, each sip is a taste of heaven.</dd>
+                            </dl>
+                            <a href="item_hotchoc001.html" class="btnTwg bsPrice">Buy ￡<span>4.49</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Superblends Sleep</dt>
+                                <dd>A serene and warming blend, making it the perfect part of your bedtime routine.</dd>
+                            </dl>
+                            <a href="item_fruitandHerb002.html" class="btnTwg bsPrice">Buy ￡<span>3.49</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Cherry &amp; Cinnamon</dt>
+                                <dd>A delicious aroma of juicy ripe cherries with a touch of spicy cinnamon.</dd>
+                            </dl>
+                            <a href="item_fruitandHerb008.html" class="btnTwg bsPrice">Buy ￡<span>2.49</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Superblends Glow</dt>
+                                <dd>A delicious mix of refreshing green tea, strawberry, aloe vera and cucumber.</dd>
+                            </dl>
+                            <a href="item_fruitandHerb013.html" class="btnTwg bsPrice">Buy ￡<span>3.49</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Superblends Immune Support</dt>
+                                <dd>A juicy, sweet layered blend of forest fruits infused with a touch of sharpness from the hibiscus and uplifting woody notes from the echinacea.</dd>
+                            </dl>
+                            <a href="item_fruitandHerb003.html" class="btnTwg bsPrice">Buy ￡<span>3.49</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <figcaption>
+                            <dl>
+                                <dt>Full English</dt>
+                                <dd>Take a breather with this rich, bright and full-bodied blend before you go full throttle into the day.</dd>
+                            </dl>
+                            <a href="item_blacktea079.html" class="btnTwg bsPrice">Buy ￡<span>10.00</span></a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Featured Collections</h3>
+            <ul>
+                <li>
+                    <div>
+                        <h4>Black Tea</h4>
+                        <button type="button" data-accContent="blackTea">Learn more 
+                        </button>
+                    </div>
+                    <figure id="blackTea">
+                        <img src="images/Header_BlackTea.png" alt="Black tea image">
+                        <figcaption>
+                            <p>
+                                Strong, fragrant, and full-bodied, our black teas are full of flavour and sourced from the best tea gardens around the world. From blends such as strong English Breakfast and citrusy Earl Grey to fragrant Darjeeling and rich and malty Assam, there is a delicious black tea brew for every moment of the day.
+                            </p>
+                            <a href="list_blackTea.html" class="btnTwg shopnow">Shop Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <div>
+                        <h4>Fruit &amp; Herbal</h4>
+                        <button type="button" data-accContent="fruitandherb">Learn more
+                        </button>
+                    </div>
+                    <figure id="fruitandherb">
+                        <img src="images/Header_FruitandHerbal.webp" alt="Fruit and Herbal image">
+                        <figcaption>
+                            <p>
+                                Feeling fruity? Our fruit and herbal teas are packed full of colour and flavour. Delicious hot or cold, they're naturally sugar and caffeine-free. There's a beautiful brew just for you.
+                            </p>
+                            <a href="list_fruitandHerb.html" class="btnTwg shopnow">Shop Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <div>
+                        <h4>Green Tea</h4>
+                        <button type="button" data-accContent="greenTea">Learn more
+                        </button>
+                    </div>
+                    <figure id="greenTea">
+                        <img src="images/Header_greenTea.png" alt="Green tea image">
+                        <figcaption>
+                            <p>
+                                Delicate, fragrant, and oh-so-pure, our green teas provide the perfect boost. From fruity and floral to decadent blends with a hint of something sweet. Add a natural boosting brew to your day with our green tea bag selection.
+                            </p>
+                            <a href="list_greenTea.html" class="btnTwg shopnow">Shop Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <div>
+                        <h4>Decaffeinated Tea</h4>
+                        <button type="button" data-accContent="decaffeinatedTea">Learn more
+                        </button>
+                    </div>
+                    <figure id="decaffeinatedTea">
+                        <img src="images/Header_Decaffeinated.png" alt="Decaffeinated tea image">
+                        <figcaption>
+                            <p>
+                                Enjoy a perfect brew without the caffeine* and indulge in a cuppa at any time. From our Everyday tea to our All Day blend, it's always time for tea at Twinings with our decaf range. <br>*decaffeinated to 0.2% 
+                            </p>
+                            <a href="list_teaAll.html" class="btnTwg shopnow">Shop Now</a>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+        </div>
+    </main>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

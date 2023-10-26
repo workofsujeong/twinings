@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List_shopall</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <section class="listContainer teaAll">
+        <h2>Shop Twinings Tea</h2>
+        <p>Shop Twinings fantastic range of high-quality black teas, refreshing green teas and fruit & herbal infusions, expertly chosen by Twinings Master Blenders.</p>
+        <div>
+            <a href="list_teaAll.html">Shop All</a>
+            <a href="list_blackTea.html">Black Tea</a>
+            <a href="list_greenTea.html">Green Tea</a>
+            <a href="list_fruitandHerb.html">Fruit &amp; Herbal</a>
+            <a href="list_teaAll.html#listDecaffeinatedTea">Decaffeinated Tea</a>
+            <a href="list_teaAll.html#listHotchocoandMaltDrinks">Hot Chocolate &amp; Malt Drinks</a>
+        </div>        
+        <div>
+            <div>
+                <h3>Black Tea</h3>
+                <ul>
+                    <li>
+                        <a href="item_blacktea001.html">
+                            <img src="images/Item_BlackT001_001.png" alt="Spicy chai product image">
+                            <h4>Spicy Chai</h4>
+                            <p>40 Tea Bags</p>
+                            <p>Warming and aromatic blend of black tea, rooibos and fragrant spices.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_blacktea002.html">
+                            <img src="images/Item_BlackT002_001.png" alt="Earl Grey product image">
+                            <h4>Earl Grey</h4>
+                            <p>120 Tea Bags</p>
+                            <p>Our famous Earl Grey 
+                               <br>- lemon and bergamot flavoured black tea.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_blacktea003.html">
+                            <img src="images/Item_BlackT003_001.png" alt="Assam product image">
+                            <h4>Assam</h4>
+                            <p>125g Loose Tea</p>
+                            <p>A strong Indian tea with a rich malty character 
+                                - perfect at any time of the day</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_blacktea004.html">
+                            <img src="images/Item_BlackT004_001.png" alt="English Breakfast product image">
+                            <h4>English Breakfast</h4>
+                            <p>125g Loose Tea</p>
+                            <p>A light, golden and well-rounded tea 
+                                with a lot of body and depth.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_blacktea005.html">
+                            <img src="images/Item_BlackT005_001.png" alt="Earl Grey product image">
+                            <h4>Earl Grey</h4>
+                            <p>125g Loose Tea</p>
+                            <p>Our classic loose Earl Grey, a delicate tea 
+                                with a twist of citrusy bergamot.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="list_blackTea.html">
+                            <img src="images/icon_more.svg" alt="more Tea icon">
+                            <h4>More Tea</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Green Tea</h3>
+                <ul>
+                    <li>
+                        <a href="item_greentea001.html">
+                            <img src="images/Item_GreenT001_001.webp" alt="Superblends Wellbeing Collection product image">
+                            <h4>Superblends Wellbeing Collection</h4>
+                            <p>20 Envelopes</p>
+                            <p>This fabulous selection box contains five favourites 
+                                from our Superblends range.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_greentea002.html">
+                            <img src="images/Item_GreenT002_001.webp" alt="salted caramel Indulgence Green Tea product image">
+                            <h4>Salted Caramel Indulgence Green Tea</h4>
+                            <p>20 Envelopes</p>
+                            <p>This salted caramel green tea is sweet yet 
+                                slightly salty. An indulgent blend.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_greentea003.html">
+                            <img src="images/Item_GreenT003_001.webp" alt="Gingerbread Indulgence Green Tea product image">
+                            <h4>Gingerbread Indulgence Green Tea</h4>
+                            <p>20 Envelopes</p>
+                            <p>An indulgent and tangy tea with the warmth of 
+                                gingerbread, baked to perfection.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_greentea004.html">
+                            <img src="images/Item_GreenT004_001.webp" alt="Green Tea Apple and Pear product image">
+                            <h4>Green Tea, Apple &amp; Pear</h4>
+                            <p>20 Tea Bags</p>
+                            <p>A blend of two classically English flavours, 
+                                crisp apple and sweet pear.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_greentea005.html">
+                            <img src="images/Item_GreenT005_001.webp" alt="Green Tea Coconut and Mango product image">
+                            <h4>Green Tea, Coconut &amp; Mango</h4>
+                            <p>20 Tea Bags</p>
+                            <p>The exotic taste of coconut and the sweet juicy flavour 
+                                of ripe orange mangoes.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="list_greenTea.html">
+                            <img src="images/icon_more.svg" alt="More Tea icon">
+                            <h4>More Tea</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Fruit &amp; Herbal</h3>
+                <ul>
+                    <li>
+                        <a href="item_fruitandHerb001.html">
+                            <img src="images/Item_FruitandHerbT001_001.webp" alt="Buttermint product image">
+                            <h4>Buttermint</h4>
+                            <p>20 Tea Bags</p>
+                            <p>Twinings Buttermint has a loyal fan base who have 
+                                inundated us with requests to bring the product back, 
+                                so we have!</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_fruitandHerb002.html">
+                            <img src="images/Item_FruitandHerbT002_001.webp" alt="Superblends Sleep product image">
+                            <h4>Superblends Sleep</h4>
+                            <p>20 Envelopes</p>
+                            <p>A serene and warming blend, making it the perfect part of 
+                                your bedtime routine.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_fruitandHerb003.html">
+                            <img src="images/Item_FruitandHerbT003_001.webp" alt="Superblends Immune Support product image">
+                            <h4>Superblends Immune Support</h4>
+                            <p>20 Envelopes</p>
+                            <p>A juicy, sweet layered blend of forest fruits infused with a 
+                                touch of sharpness from the hibiscus and uplifting woody 
+                                notes from the echinacea.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_fruitandHerb004.html">
+                            <img src="images/Item_FruitandHerbT004_001.webp" alt="Superblends Sleep Valerian and Orange Blossom product image">
+                            <h4>Superblends Sleep 
+                                <br>Valerian &amp; Orange Blossom</h4>
+                            <p>20 Envelopes</p>
+                            <p>A light, golden and well-rounded tea 
+                                with a lot of body and depth.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_fruitandHerb005.html">
+                            <img src="images/Item_FruitandHerbT005_001.webp" alt="Mango and Strawberry product image">
+                            <h4>Mango &amp; Strawberry</h4>
+                            <p>20 Tea Bags</p>
+                            <p>An irresistible burst of tropical sunshine from exotic mango, 
+                                blended with the sweet taste of strawberry &amp; zesty lime.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="list_fruitandHerb.html">
+                            <img src="images/icon_more.svg" alt="More Tea icon">
+                            <h4>More Tea</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="listDecaffeinatedTea">
+                <h3>Decaffeinated Tea</h3>
+                <ul>
+                    <li>
+                        <a href="item_decaffeinatedT001.html">
+                            <img src="images/Item_DecaffeinT001_001.webp" alt="Earl Grey Decaffeinated product image">
+                            <h4>Earl Grey Decaffeinated</h4>
+                            <p>50 Tea Bags</p>
+                            <p>Our famous lemon and bergamot flavoured Earl Grey 
+                                but with less caffeine.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_decaffeinatedT002.html">
+                            <img src="images/Item_DecaffeinT002_001.webp" alt="English Breakfast Decaffeinated product image">
+                            <h4>English Breakfast Decaffeinated</h4>
+                            <p>20 Envelopes</p>
+                            <p>A golden tea with a lot of body, a light finish and 
+                                but with less caffeine.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_decaffeinatedT003.html">
+                            <img src="images/Item_DecaffeinT003_001.webp" alt="English Breakfast Decaffeinated product image">
+                            <h4>English Breakfast Decaffeinated</h4>
+                            <p>50 Tea Bags</p>
+                            <p>A golden tea with a lot of body, a light finish and 
+                                but with less caffeine.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_decaffeinatedT004.html">
+                            <img src="images/Item_DecaffeinT004_001.webp" alt="Everyday Decaffeinated product image">
+                            <h4>Everyday Decaffeinated</h4>
+                            <p>80 Tea Bags</p>
+                            <p>A golden tea with a lot of body, a light finish 
+                                and but with less caffeine.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_decaffeinatedT005.html">
+                            <img src="images/Item_DecaffeinT005_001.webp" alt="Pure Green Decaffeinated product image">
+                            <h4>Pure Green Decaffeinated</h4>
+                            <p>20 Tea Bags</p>
+                            <p>A clean and refreshing green tea with a distinctive punch 
+                                and less caffeine.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_decaffeinatedT006.html">
+                            <img src="images/Item_DecaffeinT006_001.webp" alt="All Day Decaf product image">
+                            <h4>All Day Decaf</h4>
+                            <p>15 Pyramid Bags(Individually Wrapped)</p>
+                            <p>A decaffeinated, well-rounded cup of tea, bold, brisk 
+                                and full of flavour.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_decaffeinatedT007.html">
+                            <img src="images/Item_DecaffeinT007.webp" alt="English Breakfast Decaf product image">
+                            <h4>English Breakfast Decaffeinated</h4>
+                            <p>Single Envelope</p>
+                            <p>A golden tea with a lot of body, a light finish and 
+                                but with less caffeine.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_decaffeinatedT008.html">
+                            <img src="images/Item_DecaffeinT008_001.webp" alt="All Day Decaf product image">
+                            <h4>All Day Decaf</h4>
+                            <p>40 Loose Pyramid Tea Bags</p>
+                            <p>A decaffeinated, well-rounded cup of tea, bold, brisk 
+                                and full of flavour.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_decaffeinatedT009.html">
+                            <img src="images/Item_DecaffeinT009_001.webp" alt="All Day Decaf Tea Loose Leaf Pyramid product image">
+                            <h4>All Day Decaf Tea Loose Leaf Pyramid</h4>
+                            <p>Single Envelope</p>
+                            <p>A decaffeinated, well-rounded cup of tea, bold, brisk 
+                                and full of flavour.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="listHotchocoandMaltDrinks">
+                <h3>Hot Chocolate &amp; Malt Drinks</h3>
+                <ul>
+                    <li>
+                        <a href="item_hotchoco001.html">
+                            <img src="images/Item_Hotchoc001_001.webp" alt="Twinings Swiss Chocolate Drink product image">
+                            <h4>Twinings Swiss Chocolate Drink</h4>
+                            <p>350g Tub</p>
+                            <p>Silky-smooth and made with real Swiss chocolate, 
+                                each sip is a taste of heaven.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_hotchoco002.html">
+                            <img src="images/Item_Hotchoc002.webp" alt="Options Belgian Choc product image">
+                            <h4>Options Belgian Choc</h4>
+                            <p>220g Jar</p>
+                            <p>Belgian chocolate flavoured instant hot drink 
+                                with sugars and sweeteners.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_hotchoco003.html">
+                            <img src="images/Item_Hotchoc003.webp" alt="Options Belgian Choc Orange product image">
+                            <h4>Options Belgian Choc Orange</h4>
+                            <p>220g Jar</p>
+                            <p>Orange flavoured instant hot chocolate drink 
+                                with sugars and sweeteners.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_hotchoco004.html">
+                            <img src="images/Item_Hotchoc004.webp" alt="Options White Choc product image">
+                            <h4>Options White Choc</h4>
+                            <p>220g Jar</p>
+                            <p>Delicious white chocolate flavoured instant hot drink 
+                                with sugar and sweetener.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_hotchoco005.html">
+                            <img src="images/Item_Hotchoc005.webp" alt="Options Belgian Choc Mint product image">
+                            <h4>Options Belgian Choc Mint</h4>
+                            <p>220g Jar</p>
+                            <p>Delicious mint chocolate flavoured instant hot drink 
+                                with sugars and sweetener.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_hotchoco006.html">
+                            <img src="images/Item_Hotchoc006_001.webp" alt="Options Vegan Belgian Choc product image">
+                            <h4>Options Vegan Belgian Choc</h4>
+                            <p>200g Jar</p>
+                            <p>Vegan Belgian chocolate flavoured instant hot drink 
+                                with sugars and sweetener.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_hotchoco007.html">
+                            <img src="images/Item_Hotchoc007_001.webp" alt="Ovaltine Original Add Water product image">
+                            <h4>Ovaltine Original Add Water</h4>
+                            <p>300g Jar</p>
+                            <p>Enjoy a deliciously soothing malty drink as you unwind, 
+                                any time of the day.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item_hotchoco008.html">
+                            <img src="images/Item_Hotchoc008.webp" alt="Ovaltine Chocolate Add Water product image">
+                            <h4>Ovaltine Chocolate Add Water</h4>
+                            <p>300g Jar</p>
+                            <p>An indulgent and soothing oaty chocolate drink to help 
+                                you relax and unwind.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

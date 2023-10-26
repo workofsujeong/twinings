@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>item_teaware012</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <div class="detailContainer teaWare">
+        <div>
+            <div>
+                <h2>TWININGS</h2>
+                <ul class="detailSlider">
+                    <li><img src="images/Item_Teaware012.webp" alt="Matcha Bamboo Spoon product image"></li>
+                </ul>
+            </div>
+            <aside>
+                <h2>
+                    Matcha Bamboo Spoon
+                    <span>SKU TPMBS1122</span>
+                </h2>
+                <p>matcha is used both in these traditional ceremonies, and as an everyday drink or flavouring. Scoop out the perfect amount of matcha powder with this handmade spoon made from white hard bamboo.</p>
+                <div>
+                    <input type="radio" name="pricegroup" id="singlePrice">
+                    <label for="singlePrice">Bamboo Spoon <strong>£3.50</strong></label>
+                    <input type="radio" name="pricegroup" id="bundlePrice" disabled>
+                    <label for="bundlePrice">None <strong>£00.00</strong></label>
+                </div>
+                <button type="button" data-panel="cartpanel">ADD TO CART</button>
+            </aside>
+        </div>
+        <div>    
+            <h3>Delivery Information</h3>
+            <ul>
+                <li>
+                    Free Standard Delivery on UK Orders Over £35
+                </li>
+                <li>
+                    UK Standard (5-7 working days) £3.95
+                </li>
+                <li>
+                    UK Express (1-2 working days) £6.95
+                </li>
+                <li>
+                    Highlands, Islands and International postage is calculated at checkout.
+                </li>
+                <li>
+                    <a href="shipping_policy.html">Click here</a>  for Delivery Information
+                </li>
+            </ul>
+        </div>        
+        <ul>
+            <li>
+                <h3>Material</h3>
+                <b>Bamboo</b>
+            </li>
+            <li>
+                <h3>Dimensions</h3>
+                <p>Height = 17.5cm / 
+                    Width = 1cm</p>
+            </li>
+            <li>
+                <h3>Care Instructions</h3>
+                <p>Handwash Only. Not Microwave Safe</p>
+            </li>
+            <li>
+                <h3>Doing Good</h3>
+                <p>Improving the quality of life in communities where we source our products. Everyone has the right to a decent quality of life, be able to provide for themselves. Twinings already aims to buy from the best tea estates, both in terms of quality and ethics.</p>
+            </li>
+        </ul>
+        <figure>
+            <img src="images/detail_tea.png" alt="Twining tea image">
+            <figcaption>
+                <h2>Experience More With Twinings</h2>
+                <p>Fuelled by a sense of curiosity about the world, we believe that days are better lived with our senses turned up and fully engaged in each and every moment. We travel the world in search of the finest teas and our blends reflect the diversity of cultures, regions, tastes and experiences.</p>
+            </figcaption>
+        </figure>
+        <div>
+            <h3>How To Taste Tea?</h3>
+            <img src="images/detail_looseTea.png" alt="loose leaf tea image">
+            <ul>
+                <li>
+                    <h4>Appearance</h4>
+                    <div>
+                        <h5>Colour</h5>
+                        <p>We are looking for a bright, jewel-like colour.</p>
+                    </div>
+                    <div>
+                        <h5>Physical Appearance</h5>
+                        <p>we are looking for shiny, slightly oily and bright</p>
+                    </div>
+                    <div>
+                        <h5>Clarity</h5>
+                        <p>We're looking for a great colour. And to see that the leaves have become plump and whole again.</p>
+                    </div>
+                </li>
+                <li>
+                    <h4>Aroma</h4>
+                    <div>
+                        <h5>Dog Action</h5>
+                        <p>a quick, shallow inhalation through your nose</p>
+                    </div>
+                    <div>
+                        <h5>Deep Inhalations</h5>
+                        <p>Hold the coffee close to nose and take a deep breath</p>
+                    </div>
+                </li>
+                <li>
+                    <h4>Flavour</h4>
+                    <div>
+                        <h5>Head notes</h5>
+                        <p>the ones that give you the initial impression</p>
+                    </div>
+                    <div>
+                        <h5>body notes</h5>
+                        <p>These give you the overall lasting impression and character</p>
+                    </div>
+                    <div>
+                        <h5>tail notes</h5>
+                        <p>the ones that linger and stay with you after the liquid has passed from your mouth </p>
+                    </div>
+                </li>
+                <li>
+                    <h4>Mouth Feel</h4>
+                    <p>Mouth feel is all about the sensations you feel in your mouth when you taste tea. And of course, different teas trigger different sensations.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>The Little Things</h3>
+            <p>A cup of tea can inspire your imagination. Grab every opportunity and take time to savour them.</p>
+        </div>
+
+        <figure>
+            <img src="images/detail_madeTea01.png" alt="tea leaf image">
+            <figcaption>
+                <h3>How Is Tea Made?</h3>
+                <ul>
+                    <li>
+                        <h4>Plucking Tea</h4>
+                        <p>Different places in the world have different seasons for plucking tea, when the tea leaves are at their finest and most flavoursome. These harvests are known as 'flushes'. Once the tea leaves have been plucked, they are taken to be processed at a tea factory</p>
+                    </li>
+                    <li>
+                        <h4>Sorting Tea</h4>
+                        <p>Before they leave the tea factory, all the teas - black, green, white and Oolong - are graded and sorted.</p>
+                    </li>
+                    <li>
+                        <h4>The Tea Process</h4>
+                        <p>Did you know that black, green and white teas all start off pretty much the same? It's the magic that happens during the tea production process that transforms them. Black tea is the most common tea used and there are two ways of making it</p>
+                        <button type="button" data-panel="teaProcessText">Learn More</button>
+                    </li>
+                </ul>          
+                <div id="teaProcessText">
+                    <input type="button" value="Close" class="btnClose">
+                    <ul>
+                        <li>
+                            <h4>The Orthodox Method</h4>
+                            <p>The orthodox tea making method is the most commonly used. In this process, the tea leaves go through four stages: withering, rolling, oxidation and drying.</p>
+                        </li>
+                        <li>
+                            <h4>The CTC Method</h4>
+                            <p>As with the orthodox method, the leaves are first withered but after this, they are put through a series of rollers, covered in hundreds of small, sharp teeth. </p>
+                        </li>
+                    </ul>
+                </div>
+            </figcaption>
+        </figure>
+
+        <div>
+            <h3>Turn Up Your Senses</h3>
+            <p>Let the multi-sensorial experience of Twinings tea 
+                awaken your senses to the best each day has to offer.
+            </p>
+        </div>
+        
+        <ul>
+            <li>
+                <h3>Crafted With Passion</h3>
+                <div>
+                    <p>Twinings has become one of the world’s most loved tea companies over its 300-year history because we never stop learning, never stop experimenting and never stop inventing.</p>
+                    <p>Our expert blenders are constantly perfecting their craft and have years of combined experience and unrivalled expertise. Perfectionists, they pay attention to the details that matter from sourcing and selection to blending.</p>
+                </div>
+            </li>
+            <li>
+                <h3>Sourced with Care</h3>
+                <div>
+                    <p>In 2016, Twinings launched Sourced with Care, its responsible sourcing programme, which aims to improve the lives of the communities who grow its tea and herbs. Together with NGOs, supply chain partners, industry associations, workers and farmers, the brand supports the empowerment of women and young people, and work towards enabling access to water and sanitation, protecting workers’ rights and improving incomes.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

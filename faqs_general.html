@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinings</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <div class="faqsContainer">
+        <aside class="AboutsideMenu">
+            <nav>
+                <ul>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                    <li>
+                        <span>FAQs</span>
+                        <ol>
+                            <li><a href="faqs.html">Delivery</a></li>
+                            <li><a href="faqs_Ordering.html">Ordering</a></li>
+                            <li><a href="faqs_orderReceived.html">Order Received</a></li>
+                            <li><a href="faqs_general.html" class="active">General FAQ's</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="shipping_policy.html">Shipping Policy</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div>
+            <nav>
+                <ol>
+                    <li>FAQs</li>
+                    <li>General FAQ's</li>
+                </ol>
+            </nav>
+            <ul>
+                <li>
+                    <h2>Can I get a VAT receipt for my order?</h2>
+                    <p>There is a link to download your VAT invoice on the email confirmation we sent to you after placing your order.</p>
+                </li>
+                <li>
+                    <h2>I’ve selected my order as a gift, will the delivery note include any pricing?</h2>
+                    <p>No, we remove all pricing from our delivery notes.</p>
+                </li>
+                <li>
+                    <h2>My order is a gift &#45; can I add a gift message?</h2>
+                    <p>You can add a free gift card to any order by providing a message in the Gifting box in the checkout. Once you've typed out your message, make sure you click 'Add Note' to save the message to your order.</p>
+                </li>
+                <li>
+                    <h2>My billing address has changed to the shipping address. Will this be a problem?</h2>
+                    <p>We don’t send any receipts or invoices to the billing address so this won’t be a problem. The billing address is simply used to verify payment during the checkout process, however if you have received your email confirmation, there’s nothing to worry about.</p>
+                </li>
+                <li>
+                    <h2>How long does a refund take to show in your account?</h2>
+                    <p>A refund will generally show back into your original payment account within 2-3 working days. It's worthwhile noting that this can vary by provider, so in case of any queries, we'd advise contacting your provider directly.</p>
+                </li>
+                <li>
+                    <h2>I received a Tea Masterclass voucher, how do I book a session?</h2>
+                    <p>To book a Tea Masterclass session please call our Strand Shop team on 0207 353 3511 (option 3) who will be able to advise you on availability.</p>
+                </li>
+                <li>
+                    <h2>What kind of expiry date will the product you send me have?</h2>
+                    <p>We do not guarantee a minimum shelf-life for our products, so this can be anything between 1 to 24 months depending on our current stock-holding. As we send out a large volume of orders daily, it is not possible for us to provide you with a best before date for a specific product as this can change throughout the day.</p>
+                </li>
+                <li>
+                    <h2>How much caffeine is in tea?</h2>
+                    <p>We haven’t analysed the exact caffeine content for each product we make, however, a cup of black, green, white or oolong tea will typically contain between 30-50mg of caffeine per 200ml brewed cup.</p>
+                </li>
+                <li>
+                    <h2>Does green tea contain caffeine?</h2>
+                    <p>It absolutely does! Just like black, white and oolong tea, green tea does contain naturally occurring caffeine. If you are looking to avoid caffeine, we offer a great range of fruit and herbal infusions which are naturally caffeine free. We also have a range of decaffeinated green and black teas which will contain far less caffeine than your usual cup.</p>
+                </li>
+                <li>
+                    <h2>What method do you use to decaffeinate your tea?</h2>
+                    <p>We decaffeinate our teas using methylene chloride (MC). The process of decaffeination is to extract the caffeine from the tea leaves as gently as possible and to leave the maximum of the valuable and healthy components within the decaffeinated tea; this is why we have opted for the MC method. This solvent is widely used in the food industry, especially for the decaffeination of tea and coffee.  It is among other things also used for the extraction of spices and hops.  MC extraction produces the best possible quality of decaffeinated tea, which is much superior to the other available methods.  In the UK, 99% of the decaffeinated tea consumed is decaffeinated with MC. In our decaf teas there is &#60;0.1% caffeine content in the dry tea leaves versus 2-5% caffeine in ‘normal’ black tea.  In a typical decaffeinated teabag, this would equate to 3mg of caffeine compared to the average 50mg/cup of standard black tea.</p>
+                </li>
+                <li>
+                    <h2>Do your teas and infusions contain any allergens?</h2>
+                    <p>We do not permit the use of any allergens that require declaring under the EU allergen labelling regulations. These would include:
+                        <span>Wheat</span> 
+                        <span>Gluten</span>
+                        <span>Egg</span>
+                        <span>Milk</span>
+                        <span>Crustacean</span>
+                        <span>Fish</span>
+                        <span>Mollusc</span>
+                        <span>Nuts</span>
+                        <span>Sesame seeds</span>
+                        <span>Soya</span>
+                        <span>Mustard</span>
+                        <span>Celery</span>
+                        <span>Sulphur dioxide</span>
+                        <span>Lupin</span>
+                        All our teas and infusions are free from these components and their derivatives.
+                    </p>
+                </li>
+                <li>
+                    <h2>Are your products suitable for vegans?</h2>
+                    <p>We do not permit ingredients to be formulated with meat, fish, eggs or any of their derivatives, so almost all our teas and infusions are suitable for vegans except a very small number where the flavourings contain honey. 
+                        Please see below a full list of our current teas and infusions that are NOT suitable for vegans:
+                        <span>Camomile & Honey</span>
+                        <span>Pomegranate Green Tea</span>
+                        <span>Mango & Coconut Green Tea</span>
+                        <span>Rooibos & Honey</span>
+                        <span>Inner Peace Sweet Fig and Rooibos Tea with Ashwaganda</span>
+                        <span>Inner Strength Sweet Honey Chai Rooibos Tea with Maca</span>
+                        <span>BioBlends Gentle Camomile & Linden with a hint of Citrus</span>
+                        <span>Superblends Heartea</span>
+                        <span>Superblends Immune Support</span>
+                        <span>Superblends Digest Ginger & Turmeric</span>
+                        <span>Honey & Rooibos</span>
+                        Should you need to query if any new blends we produce are suitable for vegans, please contact our Consumer Services team either by phone on 01264 313444 or by email at twinings.direct@twinings.com as this list provided is only relevant to our range sold from March 2023.
+                    </p>
+                </li>
+                <li>
+                    <h2>What material are your teabags made from?</h2>
+                    <p>Our teabags are biodegradable, plant-based teabags and will break down within 6 months if placed into a local authority compost caddy, though it may not compost as quickly if left in garden compost (as typically these are not sufficiently hot).</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

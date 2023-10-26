@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinings</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <div class="contactUsContainer">
+        <aside class="AboutsideMenu">
+            <nav>
+                <ul>
+                    <li><a href="contact_us.html" class="active">Contact Us</a></li>
+                    <li>
+                        <span>FAQs</span>
+                        <ol>
+                            <li><a href="faqs.html">Delivery</a></li>
+                            <li><a href="faqs_Ordering.html">Ordering</a></li>
+                            <li><a href="faqs_orderReceived.html">Order Received</a></li>
+                            <li><a href="faqs_general.html">General FAQ's</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="shipping_policy.html">Shipping Policy</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div>
+            <h2>Contact Us</h2>
+            <h3>Got a Question? Get In Touch with Us at Twinings</h3>
+            <ul>
+                <li>
+                    <p>For UK standard deliveries, please allow 5-7 working days* to receive your order.</p>
+                </li>
+                <li>
+                    <p>For UK express deliveries, please allow 2 working days* to receive your order.</p>
+                </li>
+                <li>
+                    <p>For international deliveries, please allow 25 working days* to receive your order.</p>
+                </li>
+            </ul>
+            <p>We'd ask that you only contact us if you have not received your order after the timeframes mentioned above.</p>
+            <p>*Working days are Monday - Friday only. Working days will also exclude public holidays.</p>
+            <p>PLEASE BROWSE OUR <a href="faqs.html">FAQ'S</a> AND <a href="shipping_policy.html">SHIPPING POLICY</a> TO FIND ANSWERS TO COMMON QUESTIONS.</p> 
+            <p>If you can't find what you're looking for, get in touch with us either by telephone on 01264 313444 between the hours of 9am- 5pm, Monday to Friday or by using the Contact Us form below. We aim to answer all enquiries sent via the contact form within 2 working days. If your enquiry is urgent or in relation to the cancellation/amendment of an order, please contact us by telephone to ensure this is carried out before your order is dispatched</p>
+            <form>
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="contactUsName">Contact Name *</label>
+                    <input type="text" id="contactUsName" placeholder="Your name">
+                    <label for="contactUsEmail">Email *</label>
+                    <input type="email" id="contactUsEmail" placeholder="yourname@emailaddress.co.uk">
+                    <label for="contactUsAddress">Full Address</label>
+                    <input type="text" id="contactUsAddress" placeholder="123 Road Name…">
+                    <p>Please only provide your address for Product Quality Issues. Addresses are not used for marketing purposes and will not be passed on to third parties.</p>
+                    <label for="contactUsSelect">Reason for Contact</label>
+                    <select id="contactUsSelect">
+                        <option>Please choose</option>
+                        <option>Online Order Enquiry</option>
+                        <option>General Enquiry</option>
+                        <option>Product Quality Issue</option>
+                    </select>
+                    <label for="contactUsmessag">Message *</label>
+                    <textarea id="contactUsmessag"></textarea>
+                    <label for="contactUsProductname">Product Name</label>
+                    <input type="text" id="contactUsProductname">
+                    <p>Please provide details if you have selected Product Quality Issues</p>
+                    <label for="contactUsNumberteabag">Number of Teabags</label>
+                    <input type="text" id="contactUsNumberteabag">
+                    <p>Please provide details if you have selected Product Quality Issues</p>
+                    <label for="contactUsBargode">Barcode</label>
+                    <input type="number" id="contactUsBargode" placeholder="e.g. 70177 12345">
+                    <p>Please provide details if you have selected Product Quality Issues</p>
+                    <label for="contactUsBestbefore">Best Before End Code</label>
+                    <input type="text" id="contactUsBestbefore" placeholder="e.g. Jan 2021">
+                    <p>Please provide details if you have selected Product Quality Issues</p>
+                    <label for="contactUsLotcode">Lot Code</label>
+                    <input type="text" id="contactUsLotcode" placeholder="e.g. 0000123456">
+                    <p>Please provide details if you have selected Product Quality Issues</p>
+                    <label for="contactUsTimecode">Time Code</label>
+                    <input type="number" id="contactUsTimecode" placeholder="e.g. UK 123 01:34 4">
+                    <p>Please provide details if you have selected Product Quality Issues</p>
+                    <button type="button" class="btnTwg" data-panel="completePopup">Submit Message</button>
+                    <div id="completePopup">
+                        <h2>
+                            You've been registered.
+                        </h2>
+                        <p>The person in charge will check and transfer it to the email you entered.</p>
+                        <input type="button" value="Close" class="btnClose">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

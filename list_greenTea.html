@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list_greenTea</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <h2>
+            Cart
+        </h2>
+        <input type="button" value="Close" class="btnClose">
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty 
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong> </div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <section class="listContainer greenTea">
+        <h2>Shop Twinings Tea</h2>
+        <p>Shop Twinings fantastic range of high-quality black teas, refreshing green teas and fruit & herbal infusions, expertly chosen by Twinings Master Blenders.</p>
+        <div>
+            <a href="list_teaAll.html">Shop All</a>
+            <a href="list_blackTea.html">Black Tea</a>
+            <a href="list_greenTea.html">Green Tea</a>
+            <a href="list_fruitandHerb.html">Fruit &amp; Herbal</a>
+            <a href="list_teaAll.html#listDecaffeinatedTea">Decaffeinated Tea</a>
+            <a href="list_teaAll.html#listHotchocoandMaltDrinks">Hot Chocolate &amp; Malt Drinks</a>
+        </div>        
+        <div>
+            <h3>Green Tea</h3>
+            <ul>
+                <li>
+                    <a href="item_greentea001.html">
+                        <img src="images/Item_GreenT001_001.webp" alt="Superblends Wellbeing Collection product image">
+                        <h4>Superblends Wellbeing Collection</h4>
+                        <p>20 Envelopes</p>
+                        <p>This fabulous selection box contains five favourites 
+                            from our Superblends range.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea002.html">
+                        <img src="images/Item_GreenT002_001.webp" alt="salted caramel Indulgence Green Tea product image">
+                        <h4>Salted Caramel Indulgence Green Tea</h4>
+                        <p>20 Envelopes</p>
+                        <p>This salted caramel green tea is sweet yet 
+                            slightly salty. An indulgent blend.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea003.html">
+                        <img src="images/Item_GreenT003_001.webp" alt="Gingerbread Indulgence Green Tea product image">
+                        <h4>Gingerbread Indulgence Green Tea</h4>
+                        <p>20 Envelopes</p>
+                        <p>An indulgent and tangy tea with the warmth of 
+                            gingerbread, baked to perfection.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea004.html">
+                        <img src="images/Item_GreenT004_001.webp" alt="Green Tea Apple and Pear product image">
+                        <h4>Green Tea, Apple &amp; Pear</h4>
+                        <p>20 Tea Bags</p>
+                        <p>A blend of two classically English flavours, 
+                            crisp apple and sweet pear.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea005.html">
+                        <img src="images/Item_GreenT005_001.webp" alt="Green Tea Coconut and Mango product image">
+                        <h4>Green Tea, Coconut &amp; Mango</h4>
+                        <p>20 Tea Bags</p>
+                        <p>The exotic taste of coconut and the sweet juicy flavour 
+                            of ripe orange mangoes.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea006.html">
+                        <img src="images/Item_GreenT006_001.webp" alt="Green Tea, Mango and Lychee product image">
+                        <h4>Green Tea, Mango &amp; Lychee</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Sweet and ripe mango and lychee 
+                            with delicate green tea. For a tropical taste.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea007.html">
+                        <img src="images/Item_GreenT007_001.webp" alt="Green Tea, Orange and Lotus Flower product image">
+                        <h4>Green Tea, Orange &amp; Lotus Flower</h4>
+                        <p>20 Tea Bags</p>
+                        <p>We've blended hints of the delicate lotus flower 
+                            with a zesty orange flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea008.html">
+                        <img src="images/Item_GreenT008_001.webp" alt="Superblends Matcha product image">
+                        <h4>Superblends Matcha</h4>
+                        <p>20 Envelopes</p>
+                        <p>We’ve combined Matcha 
+                            with pan-fired Chinese green tea for a fresh taste.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea009.html">
+                        <img src="images/Item_GreenT009_001.webp" alt="Green Tea and Pomegranate product image">
+                        <h4>Green Tea &amp; Pomegranate</h4>
+                        <p>20 Tea Bags</p>
+                        <p>The sharp yet sweet flavour of pomegranate blends 
+                            perfectly with green tea.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea010.html">
+                        <img src="images/Item_GreenT010_001.webp" alt="Green Tea and Ginger product image">
+                        <h4>Green Tea &amp; Ginger</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Soothing and just a little bit spicy, 
+                            this is the perfect tea to relax with.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea011.html">
+                        <img src="images/Item_GreenT011_001.webp" alt="Green Tea Blend product image">
+                        <h4>Green Tea Blend</h4>
+                        <p>80 Tea Bags</p>
+                        <p>Green or black? 
+                            With our Green tea blend, you don't have to choose.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea012.html">
+                        <img src="images/Item_GreenT012_001.webp" alt="Pure Green Tea product image">
+                        <h4>Pure Green Tea</h4>
+                        <p>80 Tea Bags</p>
+                        <p>Our light and refreshing green tea is made from 
+                            only the highest-quality leaves.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea013.html">
+                        <img src="images/Item_GreenT013_001.webp" alt="Green Tea and Lemon product image">
+                        <h4>Green Tea &amp; Lemon</h4>
+                        <p>80 Tea Bags</p>
+                        <p>We've blended the delicate taste of green tea 
+                            with a sunshine lemon flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea014.html">
+                        <img src="images/Item_GreenT014_001.webp" alt="Green Tea and Jasmine product image">
+                        <h4>Green Tea &amp; Jasmine</h4>
+                        <p>80 Tea Bags</p>
+                        <p>This blend is pure elegance; 
+                            smooth and floral with a refreshing taste.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea015.html">
+                        <img src="images/Item_GreenT015_001.webp" alt="Green Tea and Mint product image">
+                        <h4>Green Tea &amp; Mint</h4>
+                        <p>20 Tea Bags</p>
+                        <p>We've blended the delicate taste of green tea 
+                            with this refreshing mint flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea016.html">
+                        <img src="images/Item_GreenT016_001.webp" alt="Twinings Discovery Exotic Mango and Ginger Green Tea product image">
+                        <h4>Twinings Discovery Exotic Mango &amp; Ginger Green Tea</h4>
+                        <p>100g Loose Tea</p>
+                        <p>The full flavour of mango green tea 
+                            with a gingery twist - in a pretty gift tin.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea017.html">
+                        <img src="images/Item_GreenT017.webp" alt="Boost product image">
+                        <h4>Boost</h4>
+                        <p>Single Envelope</p>
+                        <p>This green tea is a lively combination of 
+                            slightly tart and tangy fruit.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea018.html">
+                        <img src="images/Item_GreenT018_001.webp" alt="Green Tea and Jasmine product image">
+                        <h4>Green Tea &amp; Jasmine</h4>
+                        <p>20 Tea Bags</p>
+                        <p>This blend is pure elegance; 
+                            smooth and floral with a refreshing taste.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea019.html">
+                        <img src="images/Item_GreenT019_001.webp" alt="Cold Infuse 'Replenish' Lime, Mint and Green Tea product image">
+                        <h4>Cold Infuse "Replenish" 
+                            Lime, Mint &amp; Green Tea</h4>
+                        <p>12 Infusers</p>
+                        <p>Lime and mint flavoured cold water infusion 
+                            with green tea and added magnesium.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea020.html">
+                        <img src="images/Item_GreenT020_001.webp" alt="Matcha product image">
+                        <h4>Matcha</h4>
+                        <p>Single Envelope</p>
+                        <p>We’ve combined Matcha 
+                            with pan-fired Chinese green tea for a fresh taste.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea021.html">
+                        <img src="images/Item_GreenT021_001.webp" alt="Jacksons of Piccadilly Fairtrade Sencha Green product image">
+                        <h4>Jacksons of Piccadilly Fairtrade Sencha Green</h4>
+                        <p>20 Envelopes</p>
+                        <p>A smooth tasting tea, fresh and sweet with little bitterness.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea022.html">
+                        <img src="images/Item_GreenT022.webp" alt="Salted Caramel Indulgence Green Tea product image">
+                        <h4>Salted Caramel Indulgence Green Tea</h4>
+                        <p>Single Envelope</p>
+                        <p>This salted caramel green tea is sweet 
+                            yet slightly salty. An indulgent blend.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea023.html">
+                        <img src="images/Item_GreenT023_001.webp" alt="Green Tea and Lemon product image">
+                        <h4>Green Tea &amp; Lemon</h4>
+                        <p>20 Tea Bags</p>
+                        <p>We've blended the delicate taste of green tea 
+                            with a sunshine lemon flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea024.html">
+                        <img src="images/Item_GreenT024_001.webp" alt="Pure Green Tea product image">
+                        <h4>Pure Green Tea</h4>
+                        <p>20 Tea Bags</p>
+                        <p>Our light and refreshing green tea is made from 
+                            only the highest-quality leaves.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea025.html">
+                        <img src="images/Item_GreenT025_001.webp" alt="Gunpowder Green product image">
+                        <h4>Gunpowder Green</h4>
+                        <p>175g Loose Leaf Tea</p>
+                        <p>Tightly rolled pellets of fine green tea. 
+                            A honeyed and slightly smoky flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea026.html">
+                        <img src="images/Item_GreenT026_001.webp" alt="Moroccan Mint with Rose Flavour Green product image">
+                        <h4>Moroccan Mint with Rose Flavour Green</h4>
+                        <p>100g Loose Leaf Tea</p>
+                        <p>A light green tea with the taste of spearmint 
+                            and subtle rose flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea027.html">
+                        <img src="images/Item_GreenT027_001.webp" alt="Jin Zhan Mo Li product image">
+                        <h4>Jin Zhan Mo Li</h4>
+                        <p>120g Loose Leaf Tea</p>
+                        <p>Beautiful hand-sewn globes of green tea. 
+                            Light, sweet and slightly floral.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea028.html">
+                        <img src="images/Item_GreenT028.webp" alt="Pure Green product image">
+                        <h4>Pure Green</h4>
+                        <p>Single Envelope</p>
+                        <p>Our light and refreshing green tea is made 
+                            from only the highest-quality leaves.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea029.html">
+                        <img src="images/Item_GreenT029_001.webp" alt="Simply Sencha product image">
+                        <h4>Simply Sencha</h4>
+                        <p>15 Pyramid Bags (Individually Wrapped)</p>
+                        <p>A wonderfully mellow and slightly sweet green tea 
+                            that makes for easy drinking.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea030.html">
+                        <img src="images/Item_GreenT030_001.webp" alt="Discovery Collection Pure Sencha Green product image">
+                        <h4>Discovery Collection Pure Sencha Green</h4>
+                        <p>100g Loose Tea</p>
+                        <p>This blend is made from gently steamed 
+                            leaves of Chinese green tea.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea031.html">
+                        <img src="images/Item_GreenT031_001.webp" alt="China Green product image">
+                        <h4>China Green</h4>
+                        <p>125g Loose Leaf Tea</p>
+                        <p>Mellow and refreshing Sencha style green tea. 
+                            Refreshing grassy notes.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea032.html">
+                        <img src="images/Item_GreenT032_001.webp" alt="Jasmine Pearls product image">
+                        <h4>Jasmine Pearls</h4>
+                        <p>125g Loose Leaf Tea</p>
+                        <p>Hand-rolled pearls of jasmine scented green tea. 
+                            A sweet and delicate tea.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea033.html">
+                        <img src="images/Item_GreenT033_001.webp" alt="Chinese Jasmine Green product image">
+                        <h4>Chinese Jasmine Green</h4>
+                        <p>125g Loose Leaf Tea</p>
+                        <p>An exquisite and floral green tea, 
+                            delicately scented with jasmine flowers.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea034.html">
+                        <img src="images/Item_GreenT034_001.webp" alt="Jasmine Jade Butterfly product image">
+                        <h4>Jasmine Jade Butterfly</h4>
+                        <p>75g Loose Leaf Tea</p>
+                        <p>Rare, fragrant bows of jasmine scented green tea 
+                            with a delicate flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea035.html">
+                        <img src="images/Item_GreenT035_001.webp" alt="Fujian Jasmine Green product image">
+                        <h4>Fujian Jasmine Green</h4>
+                        <p>125g Loose Leaf Tea</p>
+                        <p>Green tea delicately scented with jasmine flowers. 
+                            A delicately perfumed tea.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea036.html">
+                        <img src="images/Item_GreenT036_001.webp" alt="High Grown Ceylon Green product image">
+                        <h4>High Grown Ceylon Green</h4>
+                        <p>100g Loose Leaf Tea</p>
+                        <p>A sweet, vibrant and refreshing green tea 
+                            with hints of tropical fruit.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea037.html">
+                        <img src="images/Item_GreenT037_001.webp" alt="Gunpowder Green and Mint product image">
+                        <h4>Gunpowder Green &amp; Mint</h4>
+                        <p>175g Loose Leaf Tea</p>
+                        <p>Tightly rolled pellets of green tea, 
+                            infused with mint for a refreshing taste.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea038.html">
+                        <img src="images/Item_GreenT038_001.webp" alt="Long Jing product image">
+                        <h4>Long Jing</h4>
+                        <p>100g Loose Leaf Tea</p>
+                        <p>A complex blend with sweet, 
+                            followed by a slightly savoury popcorn flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea039.html">
+                        <img src="images/Item_GreenT039_001.webp" alt="Osmanthus Green product image">
+                        <h4>Osmanthus Green</h4>
+                        <p>120g Loose Leaf Tea</p>
+                        <p>Fine shoots of green tea rolled into small pellets 
+                            with fresh osmanthus flowers.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea040.html">
+                        <img src="images/Item_GreenT040_001.webp" alt="Simply Sencha product image">
+                        <h4>Simply Sencha</h4>
+                        <p>40 Loose Pyramid Tea Bags</p>
+                        <p>A wonderfully mellow and slightly sweet green tea 
+                            that makes for easy drinking.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea041.html">
+                        <img src="images/Item_GreenT041_001.webp" alt="Simply Sencha Green Tea Loose Leaf Pyramid product image">
+                        <h4>Simply Sencha Green Tea Loose Leaf Pyramid</h4>
+                        <p>Single Envelope</p>
+                        <p>A wonderfully mellow and slightly sweet green tea 
+                            that makes for easy drinking.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea042.html">
+                        <img src="images/Item_GreenT042.webp" alt="Jasmine Bloom Green Tea product image">
+                        <h4>Jasmine Bloom Green Tea</h4>
+                        <p>40 Loose Pyramid Tea Bags</p>
+                        <p>An elegant green tea with smooth, 
+                            floral notes and scented with white jasmine.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea043.html">
+                        <img src="images/Item_GreenT043_001.webp" alt="Strawberry Green Tea product image">
+                        <h4>Strawberry Green Tea</h4>
+                        <p>40 Loose Pyramid Tea Bags</p>
+                        <p>Strawberry Flavoured Green Tea.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea044.html">
+                        <img src="images/Item_GreenT044_001.webp" alt="Strawberry Green Tea product image">
+                        <h4>Strawberry Green Tea</h4>
+                        <p>15 Pyramid Bags(Individually Wrapped)</p>
+                        <p>Taste the roasted notes of pan-fried green tea 
+                            followed by an explosion of fruitiness from sweet 
+                            strawberries. It's a super light, zinger of a drink.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea045.html">
+                        <img src="images/Item_GreenT045_001.webp" alt="Strawberry Green Tea Loose Leaf Pyramid product image">
+                        <h4>Strawberry Green Tea Loose Leaf Pyramid</h4>
+                        <p>Single Envelope</p>
+                        <p>Taste the roasted notes of pan-fried green tea 
+                            followed by an explosion of fruitiness from sweet 
+                            strawberries. It's a super light, zinger of a drink.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea046.html">
+                        <img src="images/Item_GreenT046_001.webp" alt="Superblends Super Green Matcha product image">
+                        <h4>Superblends Super Green Matcha</h4>
+                        <p>20 Envelopes</p>
+                        <p>This Matcha blend with a pleasant subtle savoury 
+                            note is combined with Chinese green tea 
+                            for a refreshingly light flavour.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="item_greentea047.html">
+                        <img src="images/Item_GreenT047_001.webp" alt="Superblends Super Green Matcha product image">
+                        <h4>Superblends Super Green Matcha</h4>
+                        <p>Single Envelope</p>
+                        <p>This Matcha blend with a pleasant subtle savoury 
+                            note is combined with Chinese green tea 
+                            for a refreshingly light flavour.</p>
+                    </a>
+                </li>
+            </ul>
+        </div>        
+    </section>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

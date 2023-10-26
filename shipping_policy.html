@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinings</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <div class="shippingPolicyContainer">
+        <aside class="AboutsideMenu">
+            <nav>
+                <ul>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                    <li>
+                        <span>FAQs</span>
+                        <ol>
+                            <li><a href="faqs.html">Delivery</a></li>
+                            <li><a href="faqs_Ordering.html">Ordering</a></li>
+                            <li><a href="faqs_orderReceived.html">Order Received</a></li>
+                            <li><a href="faqs_general.html">General FAQ's</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="shipping_policy.html" class="active">Shipping Policy</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div>
+            <h2>Shipping Policy</h2>
+            <ul>
+                <li>
+                    <h3>UK Deliveries</h3>
+                    <ul>
+                        <li>
+                            <p>For UK standard deliveries, please allow up to 7 working days* from the date of despatch to receive your order.  We'd ask that you only contact us if you have not received your order after 7 working days.</p>
+                        </li>
+                        <li>
+                            <p>For UK express deliveries, please allow 2 working days* to receive your order.</p>
+                        </li>
+                        <li>
+                            <p>We use Royal Mail, DHL, DX and Evri for UK deliveries.</p>
+                        </li>
+                        <li>
+                            <p>For Standard delivery £3.95 [including free postage deliveries], our aim is to prepare your order and despatch it within 2 working days [Monday to Friday excl. bank holidays], which means that you receive your order within 5 to 7 working days from the date it was despatched. This may not always be possible depending on the volume of orders on our system.</p>
+                        </li>
+                        <li>
+                            <p>For Express deliveries £6.95 [UK only], orders received before 2.00pm (Mon - Thurs) will be processed and despatched on a priority basis to ensure it reaches you within 2 working days. Please make sure you are at the delivery address within these 2 working days to accept the order as a signature will be required. Our shipping department is open Monday to Friday (excl. bank holidays), meaning an express order placed after 2.00pm on a Thursday but before 2.00pm on a Friday, will be scheduled for delivery the following Monday (excl. bank holidays). Our express service is handled by DHL; we aim for you to receive your order within 2 working days (Mon-Fri). DHL will contact you by email to help you track your order once it has been despatched. Our express delivery service DOES NOT guarantee your order for next day delivery, even if it was placed before 2.00pm (Mon - Thurs).</p>
+                        </li>
+                        <li>
+                            <p>We will use all reasonable endeavours to ensure these times are met, but cannot be held responsible for despatched parcels delayed by third parties, for example due to poor weather conditions.</p>
+                        </li>
+                        <li>
+                            <p>If you do not receive your order within 10 working days from the date of despatch, please contact our Customer Services on 01264 313444 or email us at twinings.direct@twinings.com. We would request that you contact as soon as possible and within 18 days of placing your order. If you contact us outside of this time frame, we are unable to track your order or provide any reimbursement.</p>
+                        </li>
+                        <li>
+                            <p>We will replace lost or damaged orders free of charge, so long as the other conditions within our Shipping Policy are met and investigations by our carriers show justification or are inconclusive.</p>
+                        </li>
+                        <li>
+                            <p>If your order is returned to us due to several failed delivery attempts, non-collection or an insufficient/incorrect address, we cannot refund any shipping costs.</p>
+                        </li>
+                        <li>
+                            <p>Highlands and Islands orders will be subject to additional shipping charges if they weigh over 4kg. If these charges are not applied at the time of placing your order, this will be discussed with you prior to your order being dispatched.</p>
+                        </li>
+                        <li>
+                            <p>Large volume orders may be subject to additional shipping charges. This will be discussed with you prior to your order being dispatched.</p>
+                        </li>
+                        <li>
+                            <p>We cannot ship orders over 4kg to PO Box addresses.</p>
+                        </li>
+                        <li>
+                            <p>Deliveries to BFPO addresses are charged at our UK Standard delivery rate of £3.95.</p>
+                        </li>
+                        <li>
+                            <p>We cannot ship orders to BFPO addresses on our Express delivery service (£6.95). If your order is returned to us following your selection of this delivery method, we are unable to refund the express postage charge.</p>
+                        </li>
+                        <li>
+                            <p>Orders shipped to BFPO addresses must weigh less than 2kg. If your order is returned to us because it exceeds this weight, we cannot refund your postage charge. If your order qualified for our free UK Standard delivery rate, we reserve the right to make a £3.95 deduction to cover this cost.</p>
+                        </li>
+                        <li>
+                            <p>We cannot be held liable for any delays, loss or returns of orders sent to BFPO addresses, that do not satisfy the requirements of 1.14- 1.15</p>
+                            <span>* Working days are Monday - Friday only. Working days will also exclude public holidays.</span>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>International Deliveries</h3>
+                    <ul>
+                        <li>
+                            <p>For international deliveries, please allow 15-20 working days* to receive your order. This timeframe is subject to the satisfactory clearance of your order through customs by you. We cannot be held liable for any delays in delivery as a result of ongoing clearance by your local customs authority or delays caused by the recipient not providing the relevant paperwork or payment for clearance on time.</p>
+                        </li>
+                        <li>
+                            <p>We are not currently able to ship orders to Belarus, Canary Islands, Ukraine and Russia due to strict customs regulations.</p>
+                        </li>
+                        <li>
+                            <p>We cannot send shipments to Turkey with a value of €150 (£120) or more due to limits imposed by customs.</p>
+                        </li>
+                        <li>
+                            <p>We cannot ship Options and Ovaltine products outside the UK.  If these products are on your order for international delivery, they will be cancelled and refunded.</p>
+                        </li>
+                        <li>
+                            <p>We cannot ship the Superblends Advent Calendar on our Royal Mail delivery service.</p>
+                        </li>
+                        <li>
+                            <p>We currently use Royal Mail and DHL for international deliveries.</p>
+                        </li>
+                        <li>
+                            <p>If the items on your order are less than 2kg in weight and/or less than £100.00 in value, we will send your order via Royal Mail on a standard tracked, signed for or tracked and signed for service (exclusions apply). A signature will be required for the signed for and tracked and signed for services on receipt.</p>
+                        </li>
+                        <li>
+                            <p>If your order is more than 2kg in weight and/or more than £100.00 in value, then we will use a tracked service via DHL. A signature will be required on receipt.</p>
+                        </li>
+                        <li>
+                            <p>We pass on to our customers only the exact courier cost to us, which is calculated based upon product weight only [we ignore the weight of the outer packaging] and the destination country.</p>
+                        </li>
+                        <li>
+                            <p>Once your order has been sent via Royal Mail or DHL, you will receive a tracking email to show the progress of the order.</p>
+                        </li>
+                        <li>
+                            <p>When ordering goods from our site for delivery overseas you may be subject to additional import duties and taxes, which are levied once the order reaches the specified destination. Any additional charges for customs clearance must be borne by you.  We have no control over these charges and cannot predict what they may be. Contact your local customs office for further information. If these charges are unpaid, your order may be returned to us and we will be unable to refund shipping costs.  There may also be costs associated with the return to us, which will be deducted from any refund value. In certain situations your order may be destroyed by customs if duties and taxes are not paid. In this instance, we cannot refund product or shipping costs for these reasons.</p>
+                        </li>
+                        <li>
+                            <p>Please be aware that there may be limitations on what can be sent to you with regards to specific items and order value. You may also need to provide specific documentation for clearance of your order, once it arrives in your destination country. This may vary from country to country and we ask that you contact your local customs office for additional information before placing an order. We cannot refund any shipping costs should your order be returned for any of these reasons. In certain situations your order may be destroyed by customs if you are unable to provide clearance for the order; in this instance we cannot refund product or shipping costs for these reasons.</p>
+                        </li>
+                        <li>
+                            <p>Within our fees there is a Fuel Surcharge. This surcharge may vary from month to month therefore all international postage charges will change slightly month to month.</p>
+                        </li>
+                        <li>
+                            <p>If you do not receive your order within 20 working days, please contact Customer Services on 01264 313444 or email us at twinings.direct@twinings.com. We would request that you contact us as soon as possible and within 30 days of placing your order. If you contact us outside of this time frame, we are unable to track your order or provide any reimbursement.</p>
+                        </li>
+                        <li>
+                            <p>We will replace lost or damaged orders free of charge, so long as the other conditions within our Shipping Policy are met and investigations by our carriers show justification or are inconclusive.</p>
+                        </li>
+                        <li>
+                            <p>If your order is returned to us due to several failed delivery attempts, non-collection or an insufficient/incorrect address, we cannot refund any shipping costs.</p>
+                        </li>
+                        <li>
+                            <p>Our third party carriers may not be able to deliver to certain countries at particular times for reasons of politics, government, natural disaster or operational crises. In such circumstances your shipment will be returned to our mail centre and held till such a time that they are able to deliver to you. In these circumstances you may ask for the order to be refunded.</p>
+                        </li>
+                        <li>
+                            <p>Due to strict Customs Regulations in Australia and New Zealand we cannot send any products which contain Citrus Peel or Wood to these countries. It is the customers responsibility to ensure the products being ordered are free from these components before selecting shipping to Australia or New Zealand. Twinings will not be held liable for any loss or damage to shipments refused by customs for these purposes.</p>
+                        </li>
+                        <li>
+                            <p>Large volume orders may be subject to additional shipping charges. This will be discussed with you prior to your order being dispatched.</p>
+                        </li>
+                        <li>
+                            <p>We are not currently able to ship orders to PO Box addresses.</p>
+                        </li>
+                        <li>
+                            <p>We cannot ship orders to APO addresses via DHL. If your order is returned to us following your selection of this delivery method, we are unable to refund the postage charge you paid.</p>
+                        </li>
+                        <li>
+                            <p>Orders shipped to APO addresses must weigh less than 2kg. If your order is returned to us because it exceeds this weight, we cannot refund your postage charge.</p>
+                        </li>
+                        <li>
+                            <p>We cannot be held liable for any delays, loss or returns of orders sent to APO addresses, that do not satisfy the requirements of 2.19 and 2.20.</p>
+                            <span>* Working days are Monday - Friday only. Working days will also exclude public holidays.</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

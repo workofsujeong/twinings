@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinings</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/twinings.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="cartpanel">
+        <div>
+            <h2>
+                Cart
+            </h2>
+            <input type="button" value="Close" class="btnClose">
+        </div>
+        <form action="cart.html">
+            <ul>
+                <li>
+                    Your cart is empty
+                </li>
+                <li>
+                    <img src="images/Item_BlackT040_001.webp" alt="product image">
+                    <dl>
+                        <dt>Twinings Discovery Golden Tipped English Breakfast</dt>
+                        <dd>Size : 100g Loose</dd>
+                    </dl>
+                    <div class="countnumb">
+                        <button>-</button>
+                        <input type="number" min="1" max="10" step="1" value="1">
+                        <button>+</button>
+                    </div>
+                    <div>
+                        <strong>£10.50</strong>
+                        <input type="button" value="Delete" class="btnDelete">
+                    </div>
+                </li>
+            </ul>
+            <div><span>Subtotal</span> <strong>£10.50</strong></div>
+            <input type="submit" value="Checkout">
+        </form>
+    </div>
+    <header>    
+        <h1><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h1>
+        <nav>
+            <ul>
+                <li><a href="list_teaAll.html">Tea</a></li>
+                <li><a href="list_teaware.html">Teaware</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="signIn.html">Sign in</a>
+            <a href="signIn.html" class="material-icons muiIcon">login</a>
+            <button type="button" data-panel="cartpanel">
+                CART <span>0</span>
+            </button>
+        </div>
+    </header>
+    <div class="faqsContainer">
+        <aside class="AboutsideMenu">
+            <nav>
+                <ul>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+                    <li>
+                        <span>FAQs</span>
+                        <ol>
+                            <li><a href="faqs.html">Delivery</a></li>
+                            <li><a href="faqs_Ordering.html" class="active">Ordering</a></li>
+                            <li><a href="faqs_orderReceived.html">Order Received</a></li>
+                            <li><a href="faqs_general.html">General FAQ's</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="shipping_policy.html">Shipping Policy</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div>
+            <nav>
+                <ol>
+                    <li>FAQs</li>
+                    <li>Ordering</li>
+                </ol>
+            </nav>
+            <ul>
+                <li>
+                    <h2>I can’t place an order myself</h2>
+                    <p>No problem; give our team a call on 01264 313444 (Mon &#45; Fri, 9am &#45; 5pm) and they can place an order over the phone for you. Make sure you have your card details handy to make payment.</p>
+                </li>
+                <li>
+                    <h2>Can I amend or cancel my order?</h2>
+                    <div>
+                        <p>If your order has the status “unfulfilled” we will try our best to amend or cancel it before dispatch, but we would advise calling us straight away on 01264 313444 (Mon - Fri, 9am-5pm). We are not able to amend or cancel any orders that have been assigned for packing or have been dispatched.</p>
+                        <p>If you have received your order, you can still cancel it by returning it to us for a refund. This must be done within 30 days of receiving your goods and the products must not have been opened, tampered or consumed. Our return address is Twinings, Unit 13, 15 Trench Road, Mallusk, BT36 4TY. We can’t accept returns of personalised items and confectionery.</p>
+                    </div>
+                </li>
+                <li>
+                    <h2>Can I change my delivery address?</h2>
+                    <p>If your order has the status "unfulfilled" we can change the delivery address, so please contact us by telephone straight away on 01264 313444. We are not able to change the delivery address on any orders that have been assigned for packing or have been dispatched.</p>
+                </li>
+                <li>
+                    <h2>How do I apply a promotional code to my order?</h2>
+                    <p>In the basket stage, add the promotional code to the ‘Discount Code’ box and click ‘Apply.’</p>
+                </li>
+                <li>
+                    <h2>Why isn’t my promotional code working?</h2>
+                    <div>
+                        <p>Check the items in your basket are part of the promotional code discount and you have entered the code exactly as it looks. Double check the terms and conditions of the promotional code as it may have expired or there may be a conditional spend threshold. You can view these in our Promotion Terms & Conditions page.</p>
+                        <p>It’s also worth noting that only one promotion code can be applied per order and it will not apply if you have ordered already discounted items. If you are still experiencing issues, please contact our Consumer Service team either by email at twinings.direct@twinings.com or by telephone on 01264 313444.</p>
+                    </div>
+                </li>
+                <li>
+                    <h2>How can I pay for my order?</h2>
+                    <p>We accept payment online by Visa, MasterCard, Amex, Maestro and PayPal. We only accept payment in GBP. Please note that we cannot accept payment by PayPal when placing orders by telephone.</p>
+                </li>
+                <li>
+                    <h2>The product I want to order is out of stock. When will it be available?</h2>
+                    <p>It can take between 10-14 working days for stock of an item to be replenished. Our speciality loose teas and crockery can take a little longer to come back in stock, but to be notified as soon as stock becomes available, you can click into the product page and enter your email address into the ‘Notify me when back in stock’ box to receive an automated email as soon as it’s available.</p>
+                </li>
+                <li>
+                    <h2>I won’t be at home to accept the order, what should I do?</h2>
+                    <p>We would advise having your order delivered to an address with someone there to accept it. If there is no one at the address to accept the order, our couriers should leave a note to inform you of their attempted delivery and provide instructions to arrange redelivery or collection. You can also add delivery instructions to your order during the checkout if you would like it left with a neighbour or in a safe location.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <h2><a href="index.html"><img src="images/Logo.png" alt="Twinings"></a></h2>
+        <div>
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="shipping_policy.html">Shipping Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Terms &amp; Policies</h3>
+            <ul>
+                <li><a href="terms_service.html">Terms of Service</a></li>
+                <li><a href="refund_policy.html">Refund policy</a></li>
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="cookie_policy.html">Cookie Policy</a></li>
+                <li><a href="promotion_terms_conitions.html">Promotion Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/twiningsuk/">Instagram</a></li>
+                <li><a href="https://twitter.com/twiningsuk">twitter</a></li>
+                <li><a href="https://www.facebook.com/twiningsuk/">facebook</a></li>
+                <li><a href="https://www.youtube.com/user/twiningsteauk">youtube</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign Up for our Tea-mail</h3>
+            <p>To be the first to hear about our latest offers, competitions and news, sign up here. 
+                <br> You can change your mind at any time by contacting us or using the unsubscribe option on emails we send you.</p>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <div>
+            <img src="images/icon_queen.png" alt="A Royal Warrant of Appointment icon">
+            <img src="images/icon_wales.png" alt="A Royal Warrant of Appointment icon">
+            <p>© 2021 R. Twining and Company Limited Site by Propeller</p>
+        </div>
+    </footer>
+</body>
+</html>

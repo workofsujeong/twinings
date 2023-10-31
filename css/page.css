@@ -47,7 +47,7 @@
     }
     .mainContainer > div:nth-of-type(2) ul li{
         background-position: center -30px; background-repeat: no-repeat; background-size: contain;
-        display: block; padding-top: 300px;
+        display: block; padding-top: 330px;
     }
     .mainContainer > div:nth-of-type(2) ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
     .mainContainer > div:nth-of-type(2) ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}
@@ -1434,28 +1434,27 @@
 /* mobile */
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    .mainContainer{
-        background: url('../images/bg_01.webp') center top / 1279px no-repeat;
-        padding-top: 200px;
+    .mainContainer > div:first-of-type{
+        background: url('../images/bg_01.webp') center top / cover no-repeat;
+        padding-top: 200px 2% 100px; box-sizing: border-box;
     }
-    .mainContainer > h2{
+    .mainContainer > div:first-of-type h2{
         font-size: 65px; line-height: 80px; font-weight: 500; color: #fff;
-        margin: 0 0 45px 2%; max-width: 740px;
+        margin-bottom: 45px; max-width: 740px;
     }
-    .mainContainer > p:first-of-type{
+    .mainContainer > div:first-of-type p{
         font-size: 30px; line-height: 40px; font-weight: 400; color: #fff;
-        margin: 0 0 60px 2%; max-width: 835px;
+        margin-bottom: 60px; max-width: 835px;
     }
-    .mainContainer > a.btnTwg{
+    .mainContainer > div:first-of-type a.btnTwg{
         color: #001b27; background-color: #fff;
-        margin: 0 0 250px 2%; 
     }
 
-    .mainContainer > p:nth-of-type(2){
+    .mainContainer > p{
         text-align: center; font-size: 50px; font-weight: 500; 
         color: #001b27; padding: 0 2%; box-sizing: border-box;
     }
-    .mainContainer > p:nth-of-type(2) strong{
+    .mainContainer > p strong{
         display: block; margin-top: 150px; font-size: 200px; overflow: hidden;
     }
 
@@ -1465,50 +1464,50 @@
     .mainContainer > div ul{
         padding: 0 2%; box-sizing: border-box;
     }
-    .mainContainer > div:first-of-type{
+    .mainContainer > div:nth-of-type(2){
         background: url('../images/bg_02.png') left top / cover no-repeat;
         padding-top: 100px; 
     }
-    .mainContainer > div:first-of-type h3{
+    .mainContainer > div:nth-of-type(2) h3{
         font-size: 80px; font-weight: 500; color: #001b27;
         text-align: center; 
     }
-    .mainContainer > div:first-of-type h3, .mainContainer > div:first-of-type ul li:not(:last-child){
+    .mainContainer > div:nth-of-type(2) h3, .mainContainer > div:nth-of-type(2) ul li:not(:last-child){
         margin-bottom: 100px;
     }
-    .mainContainer > div:first-of-type ul li{
+    .mainContainer > div:nth-of-type(2) ul li{
         background-position: center -30px; background-repeat: no-repeat; background-size: contain;
         min-height: 300px; display: block;
     }
-    .mainContainer > div:first-of-type ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
-    .mainContainer > div:first-of-type ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(3){background-image: url('../images/Item_FruitandHerbT002_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(4){background-image: url('../images/Item_FruitandHerbT008_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(5){background-image: url('../images/Item_FruitandHerbT013_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(6){background-image: url('../images/Item_FruitandHerbT003_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(7){background-image: url('../images/Item_BlackT079_001.webp');}
-    .mainContainer > div:first-of-type ul li figure{
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(3){background-image: url('../images/Item_FruitandHerbT002_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(4){background-image: url('../images/Item_FruitandHerbT008_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(5){background-image: url('../images/Item_FruitandHerbT013_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(6){background-image: url('../images/Item_FruitandHerbT003_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(7){background-image: url('../images/Item_BlackT079_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li figure{
         width: 58%; box-sizing: border-box;
     }    
-    .mainContainer > div:first-of-type ul li:nth-child(2n+1) figure{
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(2n+1) figure{
         margin-left: auto; padding-left: 180px;
     }
-    .mainContainer > div:first-of-type ul li:nth-child(2n) figure{
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(2n) figure{
         text-align: right; padding-right: 180px;
     }
-    .mainContainer > div:first-of-type ul li figure figcaption dl dt{
+    .mainContainer > div:nth-of-type(2) ul li figure figcaption dl dt{
         font-size: 30px; font-weight: 700; color: #001b27; margin-bottom: 20px;
     }
-    .mainContainer > div:first-of-type ul li figure figcaption dl dd{
+    .mainContainer > div:nth-of-type(2) ul li figure figcaption dl dd{
         font-size: 20px; line-height: 25px; font-weight: 500; color: #001b27;
         margin-bottom: 35px;
     }
-    .mainContainer > div:first-of-type ul li figure figcaption a{
+    .mainContainer > div:nth-of-type(2) ul li figure figcaption a{
         font-size: 20px;  
         background-color: #001b27; color: #fff;
         padding: 15px 20px; max-width: 170px;
     }
-    .mainContainer > div:first-of-type ul li:nth-child(2n) figure figcaption a{
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(2n) figure figcaption a{
         margin-left: auto;
     }
     .mainContainer > div:last-of-type h3{
@@ -2999,31 +2998,29 @@
 /* tablet */
 
 @media screen and (min-width: 1280px) {
-    .mainContainer{
-        background: url('../images/bg_01.webp') center top / 1920px no-repeat;
-        padding-top: 300px;
+    .mainContainer > div:first-of-type{
+        background: url('../images/bg_01.webp') center top / cover no-repeat;
+        padding-top: 300px 4% 200px; box-sizing: border-box;
     }
-    .mainContainer > h2{
+    .mainContainer > div:first-of-type h2{
         font-size: 85px; line-height: 95px; font-weight: 500; color: #fff;
-        margin: 0 0 45px 4%; max-width: 740px;
+        margin-bottom: 45px; max-width: 740px;
     }
-    .mainContainer > p:first-of-type{
+    .mainContainer > div:first-of-type p{
         font-size: 40px; line-height: 50px; font-weight: 400; color: #fff;
-        margin: 0 0 80px 4%; max-width: 835px;
+        margin-bottom: 80px; max-width: 835px;
     }
-    .mainContainer > a.btnTwg{
+    .mainContainer > div:first-of-type a.btnTwg{
         color: #001b27; background-color: #fff;
-        margin: 0 0 350px 4%; 
     }
-    .mainContainer > a.btnTwg:hover{
+    .mainContainer > div:first-of-type a.btnTwg:hover{
         background-color: #001b27; color: #fff;
     }
-
-    .mainContainer > p:nth-of-type(2){
+    .mainContainer > p{
         text-align: center; font-size: 70px; font-weight: 500; 
         color: #001b27;
     }
-    .mainContainer > p:nth-of-type(2) strong{
+    .mainContainer > p strong{
         display: block; margin-top: 150px; font-size: 300px; overflow: hidden;
     }
 
@@ -3033,50 +3030,50 @@
     .mainContainer > div ul{
         max-width: 1250px; margin: 0 auto;
     }
-    .mainContainer > div:first-of-type{
+    .mainContainer > div:nth-of-type(2){
         background: url('../images/bg_02.png') left top / cover no-repeat;
-        padding-top: 100px; 
+        padding-top: 100px; box-sizing: border-box;
     }
-    .mainContainer > div:first-of-type h3{
+    .mainContainer > div:nth-of-type(2) h3{
         font-size: 100px; font-weight: 500; color: #001b27;
         text-align: center; 
     }
-    .mainContainer > div:first-of-type h3, .mainContainer > div:first-of-type ul li:not(:last-child){
+    .mainContainer > div:nth-of-type(2) h3, .mainContainer > div:nth-of-type(2) ul li:not(:last-child){
         margin-bottom: 100px;
     }
-    .mainContainer > div:first-of-type ul li{
+    .mainContainer > div:nth-of-type(2) ul li{
         background-position: center -30px; background-repeat: no-repeat; background-size: contain;
         min-height: 330px; display: block;
     }
-    .mainContainer > div:first-of-type ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
-    .mainContainer > div:first-of-type ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(3){background-image: url('../images/Item_FruitandHerbT002_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(4){background-image: url('../images/Item_FruitandHerbT008_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(5){background-image: url('../images/Item_FruitandHerbT013_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(6){background-image: url('../images/Item_FruitandHerbT003_001.webp');}
-    .mainContainer > div:first-of-type ul li:nth-child(7){background-image: url('../images/Item_BlackT079_001.webp');}
-    .mainContainer > div:first-of-type ul li figure{
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(3){background-image: url('../images/Item_FruitandHerbT002_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(4){background-image: url('../images/Item_FruitandHerbT008_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(5){background-image: url('../images/Item_FruitandHerbT013_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(6){background-image: url('../images/Item_FruitandHerbT003_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(7){background-image: url('../images/Item_BlackT079_001.webp');}
+    .mainContainer > div:nth-of-type(2) ul li figure{
         width: 58%; box-sizing: border-box;
     }    
-    .mainContainer > div:first-of-type ul li:nth-child(2n+1) figure{
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(2n+1) figure{
         margin-left: auto; padding-left: 220px;
     }
-    .mainContainer > div:first-of-type ul li:nth-child(2n) figure{
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(2n) figure{
         text-align: right; padding-right: 220px;
     }
-    .mainContainer > div:first-of-type ul li figure figcaption dl dt{
+    .mainContainer > div:nth-of-type(2) ul li figure figcaption dl dt{
         font-size: 40px; font-weight: 700; color: #001b27; margin-bottom: 20px;
     }
-    .mainContainer > div:first-of-type ul li figure figcaption dl dd{
+    .mainContainer > div:nth-of-type(2) ul li figure figcaption dl dd{
         font-size: 25px; line-height: 35px; font-weight: 500; color: #001b27;
         margin-bottom: 35px;
     }
-    .mainContainer > div:first-of-type ul li figure figcaption a{
+    .mainContainer > div:nth-of-type(2) ul li figure figcaption a{
         font-size: 20px;
         background-color: #001b27; color: #fff;
         padding: 15px 25px; max-width: 170px;
     }
-    .mainContainer > div:first-of-type ul li:nth-child(2n) figure figcaption a{
+    .mainContainer > div:nth-of-type(2) ul li:nth-child(2n) figure figcaption a{
         margin-left: auto;
     }
     .mainContainer > div:last-of-type h3{

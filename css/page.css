@@ -47,7 +47,7 @@
     }
     .mainContainer > div:nth-of-type(2) ul li{
         background-position: center -30px; background-repeat: no-repeat; background-size: contain;
-        display: block; padding-top: 330px;
+        display: block; padding-top: 89vw;
     }
     .mainContainer > div:nth-of-type(2) ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
     .mainContainer > div:nth-of-type(2) ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}

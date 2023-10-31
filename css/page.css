@@ -6,19 +6,18 @@
 @media screen and (max-width: 767px) {
     .mainContainer > div:first-of-type{
         background: url('../images/bg_01.webp') center top / cover no-repeat;
-        padding-top: 130px;
+        padding: 130px 2% 100px; box-sizing: border-box;
     }
     .mainContainer > div:first-of-type h2{
         font-size: 30px; line-height: 40px; font-weight: 500; color: #fff;
-        margin: 0 0 20px 2%; max-width: 300px;
+        margin-bottom: 20px; max-width: 300px;
     }
     .mainContainer > div:first-of-type p{
         font-size: 18px; line-height: 24px; font-weight: 400; color: #fff;
-        margin: 0 0 20px 2%; max-width: 500px;
+        margin-bottom: 20px; max-width: 500px;
     }
     .mainContainer > div:first-of-type a.btnTwg{
         color: #001b27; background-color: #fff;
-        margin: 0 0 100px 2%; 
     }
 
     .mainContainer > p:first-of-type{
@@ -30,7 +29,7 @@
     }
 
     .mainContainer > div{
-        margin-bottom: 150px;
+        margin-bottom: 100px;
     }
     .mainContainer > div ul{
         padding: 0 2%; box-sizing: border-box;
@@ -48,7 +47,7 @@
     }
     .mainContainer > div:nth-of-type(2) ul li{
         background-position: center -30px; background-repeat: no-repeat; background-size: contain;
-        display: block; padding-top: 230px;
+        display: block; padding-top: 300px;
     }
     .mainContainer > div:nth-of-type(2) ul li:nth-child(1){background-image: url('../images/Item_BlackT005_001.png');}
     .mainContainer > div:nth-of-type(2) ul li:nth-child(2){background-image: url('../images/Item_Hotchoc001_001.webp');}

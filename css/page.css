@@ -1436,7 +1436,7 @@
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .mainContainer > div:first-of-type{
         background: url('../images/bg_01.webp') center top / cover no-repeat;
-        padding-top: 200px 2% 100px; box-sizing: border-box;
+        padding: 200px 2% 100px; box-sizing: border-box;
     }
     .mainContainer > div:first-of-type h2{
         font-size: 65px; line-height: 80px; font-weight: 500; color: #fff;
@@ -3000,7 +3000,7 @@
 @media screen and (min-width: 1280px) {
     .mainContainer > div:first-of-type{
         background: url('../images/bg_01.webp') center top / cover no-repeat;
-        padding-top: 300px 4% 200px; box-sizing: border-box;
+        padding: 300px 4% 200px; box-sizing: border-box;
     }
     .mainContainer > div:first-of-type h2{
         font-size: 85px; line-height: 95px; font-weight: 500; color: #fff;

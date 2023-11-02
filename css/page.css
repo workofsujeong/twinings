@@ -3860,9 +3860,9 @@
         float: left;
     }
     .checkoutContainer > div > form > a{
-        display: block; width: 58%; padding: 0.78vw 0 0.78vw 4.23vw; box-sizing: border-box;
+        display: block; width: 58%; padding: 0.78vw 0 0.78vw 2vw; box-sizing: border-box;
         font-size: 1.56vw; font-weight: 600; 
-        color: #000; background: url('../images/icon_back.svg') left top / contain no-repeat;
+        color: #000; background: url('../images/icon_back.svg') left center / 1.56vw no-repeat;
     }
     .checkoutContainer input[type='submit']{
         background-color: #001b27; color: #fff;
@@ -4262,7 +4262,7 @@
     }
     .mypageContainer.editInfo > div a{
         font-size: 25px; font-weight: 400; color: #000;
-        padding-left: 3%; box-sizing: border-box;
+        padding-left: 5%; box-sizing: border-box;
         background: url('../images/icon_back.svg') left top no-repeat;
     }
     .mypageContainer.editInfo > div form fieldset{
@@ -4436,7 +4436,7 @@
     .shippingPolicyContainer div > ul li h3,
     .faqsContainer div > ul li h2{
         padding-right: 8%; box-sizing: border-box;
-        background: url('../images/btn_more.svg') right top no-repeat;
+        background: url('../images/btn_more.svg') right center / 40px no-repeat;
         margin-bottom: 60px; line-height: 50px;
     }
     .shippingPolicyContainer div > ul li h3.active,

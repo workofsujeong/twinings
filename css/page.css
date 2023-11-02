@@ -3165,7 +3165,7 @@
     }
     .listContainer > div:first-of-type a::after{
         content: ' '; width: 30px; height: 40px;
-        background: url('../images/icon_rightArrow.svg') center / cover no-repeat; display: inline-block; margin-left: 10px;
+        background: url('../images/icon_rightArrow.svg') center / contain no-repeat; display: inline-block; margin-left: 10px;
         vertical-align: bottom;
         transition-duration: 0.3s; transition-timing-function: ease-in-out;
     }

@@ -1160,7 +1160,7 @@
         color: #001b27; text-decoration: underline; font-weight: 500;
     }
     .AboutsideMenu nav > ul li span{
-        background: url('../images/btn_more.svg') right center / contain no-repeat;
+        background: url('../images/btn_more.svg') right center / 30px no-repeat;
     }
     .AboutsideMenu nav > ul li span.active{
         margin-bottom: 15px; background-image: url('../images/btn_less.svg');

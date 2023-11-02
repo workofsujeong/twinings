@@ -112,8 +112,6 @@
     .mainContainer > div:last-of-type ul li figure figcaption a.btnTwg{
         border: 2px solid #001b27; color: #001b27;
     }
-
-    
     .listContainer{
         padding-top: 150px;
     }
@@ -216,25 +214,22 @@
     .listContainer.teaAll > div:last-of-type > div:not(#listDecaffeinatedTea, #listHotchocoandMaltDrinks) ul li:last-of-type h4{
         font-size: 30px; font-weight: 500; color: #fff; text-align: center;
     }
-
-    
     .detailContainer .bx-wrapper{background-color: transparent; border: none; box-shadow: none;}
     .detailContainer .bx-wrapper .bx-pager{
         padding-top: 50px; bottom: -60px;
     }
     .detailContainer .bx-wrapper .bx-controls-direction a {
-        top: 121%;
+        top: 115%;
         width: 30px;
         height: 20px;
         z-index: 1;
+        background-position: left center; background-repeat: no-repeat; background-size: contain;
     }
     .detailContainer .bx-wrapper .bx-next{
-        right: 10%;
-        background: url("../images/btn_bxnext.svg") left top / contain no-repeat;
+        right: 10%; background-image: url("../images/btn_bxnext.svg");
     }
     .detailContainer .bx-wrapper .bx-prev{
-        left: 10%;
-        background: url("../images/btn_bxprev.svg") left top / contain no-repeat;
+        left: 10%; background-image: url("../images/btn_bxprev.svg");
     }
     .detailContainer .bx-wrapper .bx-next:hover, .bx-wrapper .bx-next:focus {
         background-position: left 0;
@@ -254,7 +249,6 @@
     .detailContainer > figure{
         margin-bottom: 100px;
     }
-
     .detailContainer > div:first-of-type > div{
         padding: 150px 0; box-sizing: border-box;
         position: relative; background-size: cover; background-repeat: no-repeat; background-position: left top;
@@ -582,7 +576,6 @@
     .detailContainer > ul:last-of-type li:first-child h3.active+div p:first-of-type{
         margin-bottom: 30px;
     }
-    
     .cartContainer > h2{
         text-align: center; font-size: 35px; font-weight: 500; color: #001b27;
         background: url("../images/bg_02.png") left top / cover no-repeat;
@@ -744,9 +737,9 @@
         font-size: 16px; font-weight: 400;
     }
     .checkoutContainer > div > form > a{
-        display: block; padding: 3.5vw 0 3.5vw 13.5vw; box-sizing: border-box;
+        display: block; padding: 3.5vw 0 3.5vw 10vw; box-sizing: border-box;
         font-size: 7.14vw; font-weight: 600; 
-        color: #000; background: url('../images/icon_back.svg') left top / contain no-repeat;
+        color: #000; background: url('../images/icon_back.svg') left center / 7.14vw no-repeat;
         margin-bottom: 20px;
     }
     .checkoutContainer > div > form > input[type='submit']{
@@ -1128,7 +1121,7 @@
     }
     .mypageContainer.editInfo > div a{
         font-size: 16px; font-weight: 400; color: #000;
-        width: 40%; padding-left: 8%; box-sizing: border-box;
+        width: 40%; padding-left: 12%; box-sizing: border-box;
         background: url('../images/icon_back.svg') left top no-repeat;
     }
     .mypageContainer.editInfo > div form fieldset legend{
@@ -1167,7 +1160,7 @@
         color: #001b27; text-decoration: underline; font-weight: 500;
     }
     .AboutsideMenu nav > ul li span{
-        background: url('../images/btn_more.svg') right top no-repeat;
+        background: url('../images/btn_more.svg') right center / contain no-repeat;
     }
     .AboutsideMenu nav > ul li span.active{
         margin-bottom: 15px; background-image: url('../images/btn_less.svg');
@@ -1294,7 +1287,7 @@
     .faqsContainer div > ul li h2{
         font-size: 22px; font-weight: 500; color: #001b27;
         padding-right: 17%; box-sizing: border-box;
-        background: url('../images/btn_more.svg') right top no-repeat;
+        background: url('../images/btn_more.svg') right center / 22px no-repeat;
         margin-bottom: 30px; line-height: 30px;
     }
     .shippingPolicyContainer div > ul li h3.active,
@@ -1698,16 +1691,15 @@
     }
     .detailContainer .bx-wrapper .bx-controls-direction a {
         top: 112%;
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
+        background-position: left center; background-repeat: no-repeat; background-size: contain;
     }
     .detailContainer .bx-wrapper .bx-next{
-        right: 25%;
-        background: url("../images/btn_bxnext.svg") left top / cover no-repeat;
+        right: 25%; background-image: url("../images/btn_bxnext.svg");
     }
     .detailContainer .bx-wrapper .bx-prev{
-        left: 25%;
-        background: url("../images/btn_bxprev.svg") left top / cover no-repeat;
+        left: 25%; background-image: url("../images/btn_bxprev.svg");
     }
     .detailContainer .bx-wrapper .bx-next:hover, .bx-wrapper .bx-next:focus {
         background-position: left 0;
@@ -2281,9 +2273,9 @@
         font-size: 16px; font-weight: 400;
     }
     .checkoutContainer > div > form > a{
-        display: block; width: 80%; padding: 0.78vw 0 0.78vw 4.23vw; box-sizing: border-box;
+        display: block; width: 80%; padding: 0.78vw 0 0.78vw 2vw; box-sizing: border-box;
         font-size: 3.25vw; font-weight: 600; 
-        color: #000; background: url('../images/icon_back.svg') left top / contain no-repeat;
+        color: #000; background: url('../images/icon_back.svg') left center / 3.25vw no-repeat;
         margin-bottom: 20px;
     }
     .checkoutContainer > div > form > input[type='submit']{
@@ -2672,7 +2664,7 @@
     }
     .mypageContainer.editInfo > div a{
         font-size: 20px; font-weight: 400; color: #000;
-        padding-left: 6%; box-sizing: border-box;
+        padding-left: 8%; box-sizing: border-box;
         background: url('../images/icon_back.svg') left top no-repeat;
     }
     .mypageContainer.editInfo > div form fieldset{
@@ -2729,7 +2721,7 @@
     }
     .AboutsideMenu nav > ul li span+ol li a.active{
         color: #001b27; font-weight: 500; padding-right: 5%; box-sizing: border-box;
-        background: url('../images/icon_asideArrow.svg') right -10px no-repeat;
+        background: url('../images/icon_asideArrow.svg') right center no-repeat;
     }
     .AboutsideMenu+div{
         width: 55%; margin-left: 2%;
@@ -2848,7 +2840,7 @@
     .faqsContainer div > ul li h2{
         font-size: 2.94vw; font-weight: 500; color: #001b27;
         padding-right: 12%; box-sizing: border-box;
-        background: url('../images/btn_more.svg') right top no-repeat;
+        background: url('../images/btn_more.svg') right center / 2.94vw no-repeat;
         margin-bottom: 60px; line-height: 3.9vw;
     }
     .shippingPolicyContainer div > ul li h3.active,
@@ -3269,16 +3261,15 @@
     }
     .detailContainer .bx-wrapper .bx-controls-direction a {
         top: 109%;
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
+        background-position: left center; background-repeat: no-repeat; background-size: contain;
     }
     .detailContainer .bx-wrapper .bx-next{
-        right: 30%;
-        background: url("../images/btn_bxnext.svg") left top / cover no-repeat;
+        right: 30%; background-image: url("../images/btn_bxnext.svg");
     }
     .detailContainer .bx-wrapper .bx-prev{
-        left: 30%;
-        background: url("../images/btn_bxprev.svg") left top / cover no-repeat;
+        left: 30%; background-image: url("../images/btn_bxprev.svg");
     }
     .detailContainer .bx-wrapper .bx-next:hover, .bx-wrapper .bx-next:focus {
         background-position: left 0;

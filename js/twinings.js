@@ -11,7 +11,7 @@ $(document).ready(function(){
     panalControl(".contactUsContainer div form fieldset button");
     accDivControl("main > div:last-of-type ul li div button");
     headerScroll("header");
-    customSlider(".detailSlider");
+    customSlider(".detailSlider",1,1,1);
 })
 
 function accControl(accBtn){
@@ -48,11 +48,11 @@ function headerScroll(){
     })
 }
 
-function customSlider(target){
+function customSlider(target, moveCount, minCount, maxCount){
     $(target).bxSlider({
-        moveSlides: 1,
-        minSlides: 1,
-        maxSlides: 1
+        moveSlides: moveCount,
+        minSlides: minCount,
+        maxSlides: maxCount
     });
 }
 

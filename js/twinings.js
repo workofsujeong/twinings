@@ -50,6 +50,7 @@ function headerScroll(){
 
 function customSlider(target, itemsw){
     $(target).bxSlider({
+        startSlide: 0,
         adaptiveHeight: itemsw,
         moveSlides: 1
     });

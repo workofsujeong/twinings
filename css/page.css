@@ -4547,16 +4547,17 @@
         margin-bottom: 15px;
     }
     .policyContainer.cookiePolicy > div ul{
-        border-width: 1px 0px 1px; border-style: solid; border-color: #bdbdbd; box-sizing: border-box;
+        border-top: 1px solid #bdbdbd; box-sizing: border-box;
         float: left; 
     }
-    .policyContainer.cookiePolicy > div ul:first-of-type{
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1){
         width: 60%;
     }
-    .policyContainer.cookiePolicy > div ul:last-of-type{
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n){
         width: 40%; border-right: 1px solid #bdbdbd;
     }
     .policyContainer.cookiePolicy > div ul > li{
+        border-bottom: 1px solid #bdbdbd; box-sizing: border-box;
         display: flex; flex-flow: row wrap;
     }
     .policyContainer.cookiePolicy > div ul > li:first-of-type > span{
@@ -4567,13 +4568,13 @@
         font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 24px;
         padding: 15px 2%; border-left: 1px solid #bdbdbd; box-sizing: border-box; word-break: break-all;
     }
-    .policyContainer.cookiePolicy > div ul:first-of-type > li > span:first-of-type{
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li > span:first-of-type{
         width: 46%; 
     }
-    .policyContainer.cookiePolicy > div ul:first-of-type > li > span:nth-of-type(2){
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li > span:nth-of-type(2){
         width: 54%; 
     }
-    .policyContainer.cookiePolicy > div ul:nth-of-type(2) > li > span{
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n) > li > span{
         width: 50%;
     }
     .policyContainer.cookiePolicy > div > div{

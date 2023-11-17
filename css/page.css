@@ -4518,9 +4518,8 @@
     .policyContainer.cookiePolicy > div > ul{
         margin-bottom: 55px;
     }
-    .policyContainer > div > div,
     .policyContainer > div > ol,
-    .policyContainer > div > div > *:not(h3),
+    .policyContainer > div > div > h3,
     .policyContainer > div > ol > li > *:not(h3),
     .policyContainer > div > ol > li div > p:not(:first-of-type),
     .policyContainer.privacyPolicy > div > ol li > div > ul,
@@ -4528,6 +4527,9 @@
     .policyContainer.termsService > div > ol > li > div > ul,
     .policyContainer.termsService > div > ol > li > div > ul li p{
         padding-left: 5%; box-sizing: border-box;
+    }
+    .policyContainer > div > div > p{
+        padding-left: 10%; box-sizing: border-box;
     }
     .policyContainer > div > div h3,
     .policyContainer > div > div p:not(:last-of-type),
@@ -4546,39 +4548,43 @@
     .policyContainer.privacyPolicy > div > ol li > div > ul li h4{
         margin-bottom: 15px;
     }
-    .policyContainer.cookiePolicy > div ul{
-        border-top: 1px solid #bdbdbd; box-sizing: border-box;
-        float: left; 
+    .policyContainer.cookiePolicy > div > div{
+        display: flex; flex-flow: row wrap;
     }
-    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1){
+    .policyContainer.cookiePolicy > div > div h3,
+    .policyContainer.cookiePolicy > div > div p{
+        width: 100%;
+    }
+    .policyContainer.cookiePolicy > div > div ul{
+        border-top: 1px solid #bdbdbd; box-sizing: border-box;
+    }
+    .policyContainer.cookiePolicy > div > div ul:first-of-type{
         width: 60%;
     }
-    .policyContainer.cookiePolicy > div ul:nth-of-type(2n){
+    .policyContainer.cookiePolicy > div > div ul:last-of-type{
         width: 40%; border-right: 1px solid #bdbdbd;
     }
-    .policyContainer.cookiePolicy > div ul > li{
+    .policyContainer.cookiePolicy > div > div ul > li{
         border-bottom: 1px solid #bdbdbd; box-sizing: border-box;
         display: flex; flex-flow: row wrap;
     }
-    .policyContainer.cookiePolicy > div ul > li:first-of-type > span{
+    .policyContainer.cookiePolicy > div > div ul > li:first-of-type > span{
         padding: 14px 2%; border-left: 1px solid #bdbdbd; box-sizing: border-box; 
         font-size: 20px; font-weight: 400; color: #2b2b2b; line-height: 26px;
     }
-    .policyContainer.cookiePolicy > div ul > li:not(:first-of-type) > span{
+    .policyContainer.cookiePolicy > div > div ul > li:not(:first-of-type) > span{
         font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 24px;
         padding: 15px 2%; border-left: 1px solid #bdbdbd; box-sizing: border-box; word-break: break-all;
     }
-    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li > span:first-of-type{
+    .policyContainer.cookiePolicy > div > div ul:first-of-type > li > span:first-of-type{
         width: 46%; 
     }
-    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li > span:nth-of-type(2){
+    .policyContainer.cookiePolicy > div > div ul:first-of-type > li > span:nth-of-type(2){
         width: 54%; 
     }
-    .policyContainer.cookiePolicy > div ul:nth-of-type(2n) > li > span{
+    .policyContainer.cookiePolicy > div > div ul:last-of-type > li > span{
         width: 50%;
     }
-    .policyContainer.cookiePolicy > div > div{
-        clear: both;
-    }
+    
 }
 /* desktop */

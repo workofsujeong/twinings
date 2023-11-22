@@ -4568,14 +4568,14 @@
         font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 24px;
         padding: 15px 2%; border-left: 1px solid #bdbdbd; box-sizing: border-box; word-break: break-all;
     }
-    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li > span:first-of-type{
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li > span{
+        width: 50%;
+    }
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n) > li > span:first-of-type{
         width: 46%; 
     }
-    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li > span:nth-of-type(2){
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n) > li > span:nth-of-type(2){
         width: 54%; 
-    }
-    .policyContainer.cookiePolicy > div ul:nth-of-type(2n) > li > span{
-        width: 50%;
     }
     .policyContainer.cookiePolicy > div > div{
         clear: both;

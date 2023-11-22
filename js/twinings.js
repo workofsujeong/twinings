@@ -12,6 +12,7 @@ $(document).ready(function(){
     accDivControl("main > div:last-of-type ul li div button");
     headerScroll("header");
     customSlider(".detailSlider",false,true);
+    quantityComponent(".countnumb input[type='number']", ".countnumb button:first-of-type", ".countnumb button:last-of-type");
 })
 
 function accControl(accBtn){
@@ -55,18 +56,15 @@ function customSlider(target, loopSlide, loopControl){
     });
 }
 
-function quantityComponent(target, minus, plus, price){
+function quantityComponent(target, minus, plus){
     var cartField = $(target);
     var cartCount = $(cartField).val();
-    var productPrice = Number($(price).val());
-    var totalPrice = $(price);
     $(minus).click(function(){
         cartCount --;
         if(cartCount <= 1){
             cartCount = 1;
         }
         cartField.val(cartCount);
-        $(totalPrice).val(productPrice * cartCount);
     });
     $(plus).click(function(){
         cartCount ++;
@@ -74,7 +72,6 @@ function quantityComponent(target, minus, plus, price){
             cartCount = 99;
         }
         cartField.val(cartCount);
-        $(totalPrice).val(productPrice * cartCount);
     });
 }
 

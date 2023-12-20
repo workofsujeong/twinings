@@ -4550,14 +4550,14 @@
         border-left: 1px solid #bdbdbd; border-right: 1px solid #bdbdbd; box-sizing: border-box;
     }
     .policyContainer.cookiePolicy > div ul > li{
-        display: flex; flex-flow: row wrap;
+        border-bottom: 1px solid #bdbdbd; box-sizing: border-box; display: flex; flex-flow: row wrap;
     }
-    .policyContainer.cookiePolicy > div ul > li:not(:last-of-type){
-        border-bottom: 1px solid #bdbdbd; box-sizing: border-box;
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li:first-of-type{
+        border-top: 1px solid #bdbdbd;
     }
     .policyContainer.cookiePolicy > div ul > li:first-of-type > span{
-        padding: 14px 2%; border-top: 1px solid #bdbdbd; box-sizing: border-box; 
-        font-size: 20px; font-weight: 400; color: #2b2b2b; line-height: 26px; background-color: #fce779;
+        padding: 14px 2%; box-sizing: border-box; 
+        font-size: 20px; font-weight: 400; color: #2b2b2b; line-height: 26px; background-color: rgba(252,231,121,0.5);
     }
     .policyContainer.cookiePolicy > div ul > li:not(:first-of-type) > span{
         font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 24px;

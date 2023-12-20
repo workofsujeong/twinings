@@ -1368,7 +1368,7 @@
     .policyContainer > div > p,
     .policyContainer:not(.cookiePolicy) > div > div,
     .policyContainer > div > ol > li,
-    .policyContainer.cookiePolicy > div > ul{
+    .policyContainer.cookiePolicy > div > ul:nth-of-type(2n){
         margin-bottom: 25px;
     }
     .policyContainer > div > div,
@@ -1399,29 +1399,28 @@
     .policyContainer.privacyPolicy > div > ol li > div > ul li h4{
         margin-bottom: 15px;
     }
-    .policyContainer.cookiePolicy > div > ul{
-        border-width: 1px 1px 0; border-style: solid; border-color: #bdbdbd; box-sizing: border-box;
+    .policyContainer.cookiePolicy > div ul{
+        border-left: 1px solid #bdbdbd; border-right: 1px solid #bdbdbd; box-sizing: border-box;
     }
-    .policyContainer.cookiePolicy > div > ul > li{
-        border-bottom: 1px solid #bdbdbd; display: flex; flex-flow: row wrap; box-sizing: border-box; word-break: break-all;
+    .policyContainer.cookiePolicy > div ul > li{
+        border-bottom: 1px solid #bdbdbd; box-sizing: border-box; display: flex; flex-flow: row wrap;
     }
-    .policyContainer.cookiePolicy > div > ul > li:first-of-type > span{
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li:first-of-type{
+        border-top: 1px solid #bdbdbd;
+    }
+    .policyContainer.cookiePolicy > div ul > li:first-of-type > span{
         padding: 14px 2%; box-sizing: border-box; 
-        font-size: 16px; font-weight: 400; color: #2b2b2b; line-height: 26px;
+        font-size: 16px; font-weight: 400; color: #2b2b2b; line-height: 26px; background-color: rgba(252,231,121,0.5);
     }
-    .policyContainer.cookiePolicy > div > ul > li:not(:first-of-type) > span{
+    .policyContainer.cookiePolicy > div ul > li:not(:first-of-type) > span{
         font-size: 14px; font-weight: 400; color: #2b2b2b; line-height: 24px;
-        padding: 15px 2%; box-sizing: border-box; 
+        padding: 15px 2%; box-sizing: border-box; word-break: break-all;
     }
-    .policyContainer.cookiePolicy > div > ul > li > span:first-of-type{
-        width: 26%;
+    .policyContainer.cookiePolicy > div ul > li > span:first-of-type{
+        width: 40%; 
     }
-    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(2){
-        width: 34%; border-left: 1px solid #bdbdbd;
-    }
-    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(3),
-    .policyContainer.cookiePolicy > div > ul > li > span:last-of-type{
-        width: 20%; border-left: 1px solid #bdbdbd;
+    .policyContainer.cookiePolicy > div ul > li > span:last-of-type{
+        width: 60%; border-left: 1px solid #bdbdbd;
     }
 }
 /* mobile */
@@ -2931,7 +2930,7 @@
     .policyContainer > div > p,
     .policyContainer:not(.cookiePolicy) > div > div,
     .policyContainer > div > ol > li,
-    .policyContainer.cookiePolicy > div > ul{
+    .policyContainer.cookiePolicy > div > ul:nth-of-type(2n){
         margin-bottom: 55px;
     }
     .policyContainer > div > div,
@@ -2962,29 +2961,28 @@
     .policyContainer.privacyPolicy > div > ol li > div > ul li h4{
         margin-bottom: 15px;
     }
-    .policyContainer.cookiePolicy > div > ul{
-        border-width: 1px 1px 0; border-style: solid; border-color: #bdbdbd; box-sizing: border-box;
+    .policyContainer.cookiePolicy > div ul{
+        border-left: 1px solid #bdbdbd; border-right: 1px solid #bdbdbd; box-sizing: border-box;
     }
-    .policyContainer.cookiePolicy > div > ul > li{
-        border-bottom: 1px solid #bdbdbd; display: flex; flex-flow: row wrap; box-sizing: border-box; word-break: break-all;
+    .policyContainer.cookiePolicy > div ul > li{
+        border-bottom: 1px solid #bdbdbd; box-sizing: border-box; display: flex; flex-flow: row wrap;
     }
-    .policyContainer.cookiePolicy > div > ul > li:first-of-type > span{
+    .policyContainer.cookiePolicy > div ul:nth-of-type(2n+1) > li:first-of-type{
+        border-top: 1px solid #bdbdbd;
+    }
+    .policyContainer.cookiePolicy > div ul > li:first-of-type > span{
         padding: 14px 2%; box-sizing: border-box; 
-        font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 26px;
+        font-size: 18px; font-weight: 400; color: #2b2b2b; line-height: 26px; background-color: rgba(252,231,121,0.5);
     }
-    .policyContainer.cookiePolicy > div > ul > li:not(:first-of-type) > span{
+    .policyContainer.cookiePolicy > div ul > li:not(:first-of-type) > span{
         font-size: 16px; font-weight: 400; color: #2b2b2b; line-height: 24px;
-        padding: 15px 2%; box-sizing: border-box; 
+        padding: 15px 2%; box-sizing: border-box; word-break: break-all;
     }
-    .policyContainer.cookiePolicy > div > ul > li > span:first-of-type{
-        width: 26%;
+    .policyContainer.cookiePolicy > div ul > li > span:first-of-type{
+        width: 40%; 
     }
-    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(2){
-        width: 34%; border-left: 1px solid #bdbdbd;
-    }
-    .policyContainer.cookiePolicy > div > ul > li > span:nth-of-type(3),
-    .policyContainer.cookiePolicy > div > ul > li > span:last-of-type{
-        width: 20%; border-left: 1px solid #bdbdbd;
+    .policyContainer.cookiePolicy > div ul > li > span:last-of-type{
+        width: 60%; border-left: 1px solid #bdbdbd;
     }
 }
 /* tablet */
